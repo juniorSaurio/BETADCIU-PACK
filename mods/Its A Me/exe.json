@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Its a me", "marioex2", [71, 15, 15]]
+	],
+
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"bf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "when she exeing",
+	"weekBefore": "tutorial",
+	"weekName": "Mario's Madness Story Mode",
+	"difficulties": "",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}
