@@ -1,0 +1,181 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "idle2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				-7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "attackleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-26
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "attackdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				2
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "attackup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-19
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "attackright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-17
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "blockleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-17
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "blockdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-5
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "blockup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-4
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "blockright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				127,
+				-12
+			],
+			"anim": "parryDown",
+			"fps": 24,
+			"name": "parrydown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				128,
+				-7
+			],
+			"anim": "parryUp",
+			"fps": 24,
+			"name": "parryup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				245,
+				50
+			],
+			"anim": "attack1",
+			"fps": 24,
+			"name": "Matt Attack FistThrow",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "idle0",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Wiik3Matt",
+	"position": [
+		370,
+		260
+	],
+	"healthicon": "Wiik3VoiidMatt",
+	"flip_x": false,
+	"healthbar_colors": [
+		34,
+		34,
+		34
+	],
+	"camera_position": [
+		265,
+		5
+	],
+	"sing_duration": 6.1,
+	"scale": 1.5
+}

@@ -1,0 +1,27 @@
+{
+	"storyName": "",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"I Hate You",
+			"luigiH2",
+			[
+				20,
+				180,
+				0
+			],
+			75
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "I Hate You"
+}

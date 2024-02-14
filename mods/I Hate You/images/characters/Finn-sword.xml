@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Finn-sword.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Down0000" x="2" y="2" width="1022" height="517" frameX="-10" frameY="-25" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0001" x="1026" y="2" width="1044" height="550" frameX="0" frameY="-45" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0002" x="2072" y="2" width="1043" height="571" frameX="-4" frameY="-45" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0003" x="2072" y="2" width="1043" height="571" frameX="-4" frameY="-45" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0004" x="3117" y="2" width="1038" height="585" frameX="-10" frameY="-39" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0005" x="3117" y="2" width="1038" height="585" frameX="-10" frameY="-39" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0006" x="4157" y="2" width="1017" height="561" frameX="-23" frameY="-30" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0007" x="4157" y="2" width="1017" height="561" frameX="-23" frameY="-30" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0008" x="5176" y="2" width="1001" height="530" frameX="-25" frameY="0" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0009" x="5176" y="2" width="1001" height="530" frameX="-25" frameY="0" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0010" x="6179" y="2" width="1004" height="522" frameX="-25" frameY="-6" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0011" x="6179" y="2" width="1004" height="522" frameX="-25" frameY="-6" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0012" x="7185" y="2" width="1005" height="523" frameX="-25" frameY="-6" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Down0013" x="7185" y="2" width="1005" height="523" frameX="-25" frameY="-6" frameWidth="1048" frameHeight="624"/>
+	<SubTexture name="Idle0000" x="2" y="589" width="759" height="712" frameX="-13" frameY="0" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0001" x="2" y="589" width="759" height="712" frameX="-13" frameY="0" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0002" x="763" y="589" width="770" height="705" frameX="-4" frameY="-7" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0003" x="763" y="589" width="770" height="705" frameX="-4" frameY="-7" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0004" x="1535" y="589" width="773" height="690" frameX="-2" frameY="-22" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0005" x="1535" y="589" width="773" height="690" frameX="-2" frameY="-22" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0006" x="2310" y="589" width="776" height="687" frameX="0" frameY="-25" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0007" x="2310" y="589" width="776" height="687" frameX="0" frameY="-25" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0008" x="3088" y="589" width="772" height="686" frameX="-4" frameY="-26" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0009" x="3088" y="589" width="772" height="686" frameX="-4" frameY="-26" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0010" x="3862" y="589" width="767" height="685" frameX="-9" frameY="-27" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0011" x="3862" y="589" width="767" height="685" frameX="-9" frameY="-27" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0012" x="4631" y="589" width="760" height="684" frameX="-14" frameY="-28" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0013" x="4631" y="589" width="760" height="684" frameX="-14" frameY="-28" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle0014" x="5393" y="589" width="760" height="685" frameX="-16" frameY="-27" frameWidth="776" frameHeight="712"/>
+	<SubTexture name="Idle<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="Microsoft-Windows-EditionSpecific-ProfessionalN-Package" version="10.0.22621.2792" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="Microsoft-Windows-EditionSpecific-ProfessionalN-en-US" releaseType="Language Pack">
+    <parent disposition="detect">
+      <assemblyIdentity name="Microsoft-Windows-EditionSpecific-ProfessionalN-Package" version="10.0.22621.2792" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" />
+    </parent>
+    <update name="91ceefb0e98321cb0e14104b63ed9a50">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Client-License-Platform-Upgrade-SubscriptionN-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="f10669f6fd64a60b5408fc4b1debbb88">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Onecore-Identity-TenantRestrictions-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="b987a9fe080b7346569d9798c526d49f">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OSClient-Layer-Data-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="076bcf60261054e75b566361ff0dcc78">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Desktop-BCDTemplate-Client-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="2e86f880561e47de0582e30b2c813cf0">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-FlipGridPWA-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="1f803e1de1888a0aa1f43a2b0b8a64c1">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Internet-Browser-Package" version="10.0.22621.2506" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="9a13522e5166aa275e5c376163cd94ab">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Management-SecureAssessment-Package" version="10.0.22621.2506" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="95760cd2ed25f6c4ad9d3deedfb9b0f4">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-NewTabPageHost-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="046cdc8759e00ce655d4e6d912467a43">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-OutlookPWA-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="61f5042264854e69dd2ca2b8a1e83a9a">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SenseClient-Package" version="10.0.22621.2792" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="b49c4bf0dfa62ae86554f89fc3b19da5">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-TabShellExperience-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="0a196252e08042ca4617cfb9aca1ff45">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Networking-MPSSVC-Rules-EnterpriseNEdition-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="d27e327583b24a5a4b33aee18fa58b9c">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="UserExperience-Desktop-Package" version="10.0.22621.1" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+  </package>
+</assembly>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

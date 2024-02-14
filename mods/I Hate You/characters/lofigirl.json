@@ -1,0 +1,138 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-34,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-39,
+				-33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-30,
+				41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				85,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-19,
+				-33
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"indices": [
+				13,
+				14,
+				14
+			],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				78,
+				19
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				13,
+				14,
+				14
+			],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-29,
+				41
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [
+				13,
+				14,
+				14
+			],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-34,
+				-9
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [
+				13,
+				14,
+				14
+			],
+			"name": "left"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/PartyLofiGirl",
+	"position": [
+		90,
+		130
+	],
+	"healthicon": "lofigirl",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		179,
+		126
+	],
+	"camera_position": [
+		-40,
+		-90
+	],
+	"sing_duration": 4.50000000000001,
+	"scale": 1.4
+}

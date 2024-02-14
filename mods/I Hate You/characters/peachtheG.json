@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				95,
+				-270
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "PeachDown"
+		},
+		{
+			"offsets": [
+				550,
+				-250
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "PeachLeft"
+		},
+		{
+			"offsets": [
+				267,
+				192
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "PeachUp"
+		},
+		{
+			"offsets": [
+				132,
+				-231
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "PeachRight"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				56,
+				96
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "PeachIdle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Coronation_Peach_GLITCH",
+	"position": [
+		350,
+		-300
+	],
+	"healthicon": "peach",
+	"flip_x": false,
+	"healthbar_colors": [
+		133,
+		63,
+		48
+	],
+	"camera_position": [
+		-150,
+		-220
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

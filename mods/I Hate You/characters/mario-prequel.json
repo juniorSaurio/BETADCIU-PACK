@@ -1,0 +1,161 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "MarioIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-50
+			],
+			"anim": "singDOWN",
+			"fps": 30,
+			"name": "MarioDown0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-22
+			],
+			"anim": "singDOWNmiss",
+			"fps": 30,
+			"name": "MarioDownMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				47
+			],
+			"anim": "singUPmiss",
+			"fps": 30,
+			"name": "MarioUpMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				8
+			],
+			"anim": "singLEFTmiss",
+			"fps": 30,
+			"name": "MarioLeftMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				6
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 30,
+			"name": "MarioRightMiss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				51,
+				5
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"name": "MarioRight0"
+		},
+		{
+			"offsets": [
+				-9,
+				44
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"name": "MarioUp0"
+		},
+		{
+			"offsets": [
+				115,
+				-2
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"name": "MarioLeft0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Mario_OHGODNO_Assets",
+	"position": [
+		530,
+		-100
+	],
+	"healthicon": "marioP",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		59
+	],
+	"camera_position": [
+		-30,
+		-60
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				14
+			],
+			"anim": "singUP",
+			"fps": 13,
+			"name": "dawn cover up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 13,
+			"name": "dawn cover left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-1
+			],
+			"anim": "singRIGHT",
+			"fps": 13,
+			"name": "dawn cover right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				-21
+			],
+			"anim": "singDOWN",
+			"fps": 13,
+			"name": "dawn cover down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 36,
+			"name": "dawn cover idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "coverup",
+			"indices": [],
+			"name": "dawn cover coverup"
+		},
+		{
+			"offsets": [
+				2,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "morph",
+			"indices": [],
+			"name": "dawn cover morph"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dawn cover",
+	"position": [
+		-690,
+		360
+	],
+	"healthicon": "dawn",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-500,
+		-70
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.9
+}
