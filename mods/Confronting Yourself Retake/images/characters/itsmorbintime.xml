@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="itsmorbintime.png">
+<SubTexture name="itsmorbintime part20000" x="3352" y="2270" width="301" height="538" frameX="0" frameY="-17" frameWidth="363" frameHeight="555" />
+<SubTexture name="itsmorbintime part20001" x="0" y="3287" width="363" height="518" frameX="0" frameY="-37" frameWidth="363" frameHeight="555" />
+<SubTexture name="itsmorbintime part20002" x="1236" y="3287" width="342" height="436" frameX="0" frameY="-119" frameWidth="363" frameHeight="555" />
+<SubTexture name="itsmorbintime part20003" x="3653" y="1721" width="223" height="540" frameX="-12" frameY="-15" frameWidth="363" frameHeight="555" />
+<SubTexture name="itsmorbintime part20004" x="3352" y="1721" width="301" height="549" frameX="0" frameY="-6" frameWidth="363" frameHeight="555" />
+<SubTexture name="itsmorbintime part20005" x="3653" y="2270" width="230" height="529" frameX="-106" frameY="-26" frameWidth="363" frameHeight="555" />
+<SubTexture name="itsmorbintime part10000" x="3352" y="2808" width="276" height="476" frameX="-23" frameY="-9" frameWidth="299" frameHeight="485" />
+<SubTexture name="itsmorbintime part10001" x="3069" y="1873" width="283" height="485" frameX="-16" frameY="0" frameWidth="299" frameHeight="485" />
+<SubTexture name="itsmorbintime part10002" x="658" y="3287" width="279" height="481" frameX="-20" frameY="-4" frameWidth="299" frameHeight="485" />
+<SubTexture name="itsmorbintime part10003" x="363" y="3287" width="295" height="482" frameX="-4" frameY="-3" frameWidth="299" frameHeight="485" />
+<SubTexture name="itsmorbintime part10004" x="937" y="3287" width="299" height="457" frameX="0" frameY="-28" frameWidth="299" frameHeight="485" />
+<SubTexture name="itsmorbintime part30000" x="2521" y="2675" width="416" height="594" frameX="-89" frameY="-231" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30001" x="510" y="2675" width="468" height="603" frameX="-66" frameY="-227" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30002" x="3352" y="584" width="455" height="583" frameX="-78" frameY="-253" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30003" x="0" y="2675" width="510" height="612" frameX="-63" frameY="-222" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30004" x="3352" y="1167" width="479" height="554" frameX="-77" frameY="-281" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30005" x="1666" y="2675" width="541" height="600" frameX="-64" frameY="-240" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30006" x="2751" y="626" width="560" height="625" frameX="-73" frameY="-239" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30007" x="2751" y="0" width="601" height="626" frameX="-73" frameY="-238" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30008" x="2751" y="1251" width="394" height="622" frameX="-84" frameY="-216" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30009" x="2937" y="2675" width="394" height="584" frameX="-79" frameY="-254" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30010" x="1858" y="1351" width="371" height="644" frameX="-89" frameY="-192" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30011" x="2207" y="2675" width="314" height="595" frameX="-108" frameY="-251" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30012" x="2751" y="1873" width="318" height="618" frameX="-110" frameY="-228" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30013" x="2325" y="2015" width="316" height="616" frameX="-114" frameY="-228" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30014" x="978" y="2675" width="318" height="602" frameX="-112" frameY="-243" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30015" x="2229" y="1351" width="340" height="634" frameX="-111" frameY="-212" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30016" x="1296" y="2675" width="370" height="602" frameX="-75" frameY="-243" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part30017" x="1846" y="2015" width="479" height="629" frameX="0" frameY="-224" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part40000" x="3352" y="0" width="559" height="584" frameX="-77" frameY="-246" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part40001" x="613" y="683" width="608" height="666" frameX="-45" frameY="-164" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part40002" x="1219" y="0" width="636" height="680" frameX="-10" frameY="-152" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part40003" x="607" y="0" width="612" height="682" frameX="-18" frameY="-148" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part40004" x="0" y="683" width="613" height="668" frameX="-16" frameY="-161" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part40005" x="0" y="0" width="607" height="683" frameX="-21" frameY="-146" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part40006" x="1221" y="683" width="435" height="652" frameX="-197" frameY="-183" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part50000" x="1855" y="664" width="775" height="658" frameX="-219" frameY="-180" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part50001" x="1855" y="0" width="896" height="664" frameX="-224" frameY="-171" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part50002" x="0" y="1351" width="939" height="664" frameX="-225" frameY="-174" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part50003" x="939" y="1351" width="919" height="660" frameX="-224" frameY="-180" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part50004" x="0" y="2015" width="941" height="660" frameX="-224" frameY="-181" frameWidth="1174" frameHeight="864" />
+<SubTexture name="itsmorbintime part50005" x="941" y="2015" width="905" height="635" frameX="-233" frameY="-206" frameWidth="1174" frameHeight="864" />
+</TextureAtlas>

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Eggman IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				36
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Eggman RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-21
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Eggman DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-42,
+				335
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Eggman UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				67
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Eggman LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				173
+			],
+			"anim": "Laugh",
+			"fps": 30,
+			"name": "Eggman LAUGH",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ScrambledEgg",
+	"position": [
+		360,
+		190
+	],
+	"healthicon": "egg",
+	"flip_x": false,
+	"healthbar_colors": [
+		153,
+		102,
+		0
+	],
+	"camera_position": [
+		750,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

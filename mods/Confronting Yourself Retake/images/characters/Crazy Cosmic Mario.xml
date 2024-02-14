@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Crazy Cosmic Mario.png">
+<SubTexture name="Crazy Cosmic Mario final0000" x="273" y="1418" width="293" height="324" frameX="0" frameY="-28" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0001" x="1109" y="0" width="274" height="332" frameX="-21" frameY="-18" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0002" x="0" y="1090" width="267" height="328" frameX="-21" frameY="-22" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0003" x="1911" y="0" width="276" height="323" frameX="-12" frameY="-27" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0004" x="267" y="1090" width="274" height="328" frameX="-14" frameY="-22" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0005" x="1911" y="323" width="271" height="323" frameX="-14" frameY="-27" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0006" x="1109" y="332" width="274" height="332" frameX="-21" frameY="-18" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0007" x="219" y="2381" width="296" height="312" frameX="-14" frameY="-31" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0008" x="837" y="2381" width="327" height="311" frameX="-12" frameY="-33" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0009" x="3003" y="3002" width="305" height="293" frameX="-16" frameY="-28" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0010" x="2070" y="2694" width="305" height="302" frameX="-11" frameY="-19" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0011" x="933" y="3002" width="299" height="300" frameX="-23" frameY="-21" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0012" x="2510" y="2381" width="300" height="308" frameX="-22" frameY="-13" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0013" x="1895" y="2381" width="307" height="309" frameX="-14" frameY="-12" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0014" x="1232" y="3002" width="308" height="299" frameX="-16" frameY="-22" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0015" x="2375" y="2694" width="305" height="302" frameX="-8" frameY="-19" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0016" x="2894" y="921" width="300" height="304" frameX="-18" frameY="-17" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0017" x="2894" y="0" width="302" height="308" frameX="-20" frameY="-13" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0018" x="2202" y="2381" width="308" height="309" frameX="-14" frameY="-12" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0019" x="1761" y="2694" width="309" height="303" frameX="-18" frameY="-18" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0020" x="299" y="3002" width="305" height="301" frameX="-11" frameY="-20" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0021" x="0" y="3002" width="299" height="301" frameX="-18" frameY="-20" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0022" x="2894" y="1831" width="301" height="302" frameX="-22" frameY="-19" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0023" x="374" y="2694" width="329" height="307" frameX="-15" frameY="-30" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0024" x="0" y="1743" width="358" height="322" frameX="-15" frameY="-30" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0025" x="1911" y="646" width="261" height="322" frameX="-15" frameY="-28" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0026" x="2187" y="0" width="280" height="317" frameX="-4" frameY="-17" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0027" x="473" y="2065" width="273" height="315" frameX="-10" frameY="-23" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0028" x="2187" y="1268" width="262" height="316" frameX="-23" frameY="-24" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0029" x="1468" y="1743" width="271" height="318" frameX="-9" frameY="-23" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0030" x="2187" y="1584" width="261" height="316" frameX="-18" frameY="-26" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0031" x="2187" y="317" width="257" height="317" frameX="-18" frameY="-27" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0032" x="0" y="2065" width="261" height="316" frameX="-9" frameY="-27" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0033" x="2187" y="634" width="257" height="317" frameX="-14" frameY="-28" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0034" x="2187" y="951" width="251" height="317" frameX="-19" frameY="-29" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0035" x="1467" y="2065" width="261" height="313" frameX="-13" frameY="-39" frameWidth="373" frameHeight="355" />
+<SubTexture name="Crazy Cosmic Mario final0036" x="3477" y="879" width="257" height="292" frameX="-10" frameY="-35" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0037" x="338" y="3596" width="254" height="283" frameX="-10" frameY="-44" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0038" x="3799" y="1433" width="332" height="285" frameX="-13" frameY="-31" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0039" x="1363" y="3303" width="348" height="289" frameX="-12" frameY="-27" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0040" x="2443" y="3883" width="345" height="274" frameX="-12" frameY="-42" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0041" x="2788" y="3883" width="349" height="274" frameX="-12" frameY="-42" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0042" x="3799" y="2573" width="329" height="284" frameX="-11" frameY="-37" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0043" x="3477" y="0" width="322" height="293" frameX="-10" frameY="-33" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0044" x="1447" y="2694" width="314" height="305" frameX="-6" frameY="-16" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0045" x="3196" y="302" width="196" height="300" frameX="-6" frameY="-21" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0046" x="3477" y="2628" width="196" height="289" frameX="-6" frameY="-32" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0047" x="4132" y="838" width="196" height="277" frameX="-6" frameY="-44" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0048" x="4405" y="269" width="196" height="267" frameX="-6" frameY="-54" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0049" x="3196" y="1794" width="226" height="295" frameX="-6" frameY="-26" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0050" x="2680" y="313" width="208" height="310" frameX="-7" frameY="-21" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0051" x="569" y="750" width="215" height="336" frameX="-1" frameY="-10" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0052" x="635" y="399" width="213" height="341" frameX="-1" frameY="-6" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0053" x="902" y="0" width="207" height="340" frameX="0" frameY="-7" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0054" x="902" y="0" width="207" height="340" frameX="0" frameY="-7" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0055" x="1641" y="975" width="213" height="324" frameX="-2" frameY="-14" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0056" x="1739" y="1743" width="182" height="318" frameX="-27" frameY="-20" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0057" x="3196" y="1201" width="264" height="297" frameX="-21" frameY="-36" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0058" x="3466" y="3303" width="322" height="287" frameX="-6" frameY="-35" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0059" x="1711" y="3303" width="331" height="289" frameX="-6" frameY="-30" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0060" x="3799" y="0" width="333" height="287" frameX="-6" frameY="-32" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0061" x="0" y="3596" width="338" height="287" frameX="-6" frameY="-32" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0062" x="691" y="3303" width="334" height="291" frameX="-5" frameY="-33" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0063" x="1885" y="3002" width="316" height="296" frameX="-5" frameY="-32" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0064" x="1164" y="2381" width="298" height="311" frameX="-5" frameY="-31" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0065" x="3196" y="2679" width="203" height="294" frameX="-14" frameY="-27" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0066" x="4132" y="3585" width="216" height="270" frameX="-6" frameY="-51" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0067" x="2680" y="623" width="212" height="269" frameX="-5" frameY="-56" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0068" x="2680" y="892" width="212" height="269" frameX="-5" frameY="-56" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0069" x="4132" y="2767" width="211" height="274" frameX="-5" frameY="-51" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0070" x="4132" y="3041" width="213" height="272" frameX="-6" frameY="-50" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0071" x="4405" y="1070" width="213" height="266" frameX="-6" frameY="-56" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0072" x="4132" y="3313" width="213" height="272" frameX="-6" frameY="-50" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0073" x="4132" y="1392" width="210" height="275" frameX="-5" frameY="-51" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0074" x="4132" y="1667" width="213" height="275" frameX="-5" frameY="-51" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0075" x="4132" y="1942" width="211" height="275" frameX="-5" frameY="-51" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0076" x="4132" y="1115" width="211" height="277" frameX="-5" frameY="-49" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario final0077" x="3799" y="1718" width="197" height="285" frameX="-6" frameY="-48" frameWidth="373" frameHeight="353" />
+<SubTexture name="Crazy Cosmic Mario down0000" x="2894" y="2133" width="299" height="302" frameX="-16" frameY="-1" frameWidth="316" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario down0001" x="617" y="3883" width="305" height="278" frameX="-11" frameY="0" frameWidth="316" frameHeight="278" />
+<SubTexture name="Crazy Cosmic Mario down0002" x="922" y="3883" width="296" height="278" frameX="-19" frameY="-4" frameWidth="319" frameHeight="291" />
+<SubTexture name="Crazy Cosmic Mario down0003" x="2534" y="3596" width="295" height="281" frameX="-24" frameY="0" frameWidth="326" frameHeight="288" />
+<SubTexture name="Crazy Cosmic Mario down0004" x="3685" y="3596" width="306" height="280" frameX="-13" frameY="-4" frameWidth="328" frameHeight="289" />
+<SubTexture name="Crazy Cosmic Mario down0005" x="2829" y="3596" width="306" height="281" frameX="-12" frameY="-4" frameWidth="329" frameHeight="290" />
+<SubTexture name="Crazy Cosmic Mario down0006" x="592" y="3596" width="299" height="283" frameX="-20" frameY="-3" frameWidth="330" frameHeight="291" />
+<SubTexture name="Crazy Cosmic Mario down0007" x="891" y="3596" width="294" height="283" frameX="-23" frameY="-4" frameWidth="328" frameHeight="292" />
+<SubTexture name="Crazy Cosmic Mario down0008" x="1185" y="3596" width="299" height="283" frameX="-10" frameY="-4" frameWidth="320" frameHeight="292" />
+<SubTexture name="Crazy Cosmic Mario idle0000" x="2042" y="3303" width="272" height="288" frameX="-23" frameY="0" frameWidth="295" frameHeight="288" />
+<SubTexture name="Crazy Cosmic Mario idle0001" x="3799" y="287" width="268" height="287" frameX="-26" frameY="-1" frameWidth="295" frameHeight="290" />
+<SubTexture name="Crazy Cosmic Mario idle0002" x="3799" y="861" width="273" height="286" frameX="-18" frameY="0" frameWidth="295" frameHeight="288" />
+<SubTexture name="Crazy Cosmic Mario idle0003" x="2314" y="3303" width="274" height="288" frameX="-14" frameY="-3" frameWidth="295" frameHeight="293" />
+<SubTexture name="Crazy Cosmic Mario idle0004" x="2588" y="3303" width="272" height="288" frameX="-22" frameY="-5" frameWidth="295" frameHeight="294" />
+<SubTexture name="Crazy Cosmic Mario idle0005" x="3477" y="1171" width="262" height="292" frameX="-33" frameY="-2" frameWidth="295" frameHeight="294" />
+<SubTexture name="Crazy Cosmic Mario idle0006" x="3477" y="293" width="268" height="293" frameX="-27" frameY="0" frameWidth="295" frameHeight="293" />
+<SubTexture name="Crazy Cosmic Mario idle0007" x="3477" y="2047" width="274" height="291" frameX="-21" frameY="0" frameWidth="295" frameHeight="291" />
+<SubTexture name="Crazy Cosmic Mario left0000" x="1540" y="3002" width="345" height="297" frameX="-1" frameY="0" frameWidth="347" frameHeight="317" />
+<SubTexture name="Crazy Cosmic Mario left0001" x="2860" y="3303" width="327" height="288" frameX="-7" frameY="-4" frameWidth="346" frameHeight="311" />
+<SubTexture name="Crazy Cosmic Mario left0002" x="285" y="3883" width="332" height="279" frameX="0" frameY="-1" frameWidth="337" frameHeight="299" />
+<SubTexture name="Crazy Cosmic Mario left0003" x="3137" y="3883" width="327" height="273" frameX="-3" frameY="-5" frameWidth="340" frameHeight="296" />
+<SubTexture name="Crazy Cosmic Mario left0004" x="0" y="4163" width="331" height="266" frameX="-8" frameY="-6" frameWidth="348" frameHeight="290" />
+<SubTexture name="Crazy Cosmic Mario left0005" x="1657" y="4163" width="323" height="260" frameX="-16" frameY="-11" frameWidth="347" frameHeight="289" />
+<SubTexture name="Crazy Cosmic Mario left0006" x="1980" y="4163" width="321" height="260" frameX="-19" frameY="-9" frameWidth="349" frameHeight="285" />
+<SubTexture name="Crazy Cosmic Mario left0007" x="1007" y="4163" width="328" height="262" frameX="-11" frameY="-6" frameWidth="348" frameHeight="284" />
+<SubTexture name="Crazy Cosmic Mario left0008" x="1335" y="4163" width="322" height="262" frameX="-8" frameY="-6" frameWidth="339" frameHeight="284" />
+<SubTexture name="Crazy Cosmic Mario right0000" x="1218" y="3883" width="385" height="277" frameX="-7" frameY="-8" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario right0001" x="1484" y="3596" width="386" height="283" frameX="-15" frameY="-2" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario right0002" x="1870" y="3596" width="390" height="282" frameX="-7" frameY="-3" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario right0003" x="3464" y="3883" width="394" height="272" frameX="-3" frameY="-13" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario right0004" x="331" y="4163" width="392" height="266" frameX="-13" frameY="-25" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario right0005" x="2301" y="4163" width="387" height="260" frameX="-16" frameY="-34" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario right0006" x="0" y="4429" width="389" height="258" frameX="-12" frameY="-36" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario right0007" x="3537" y="4163" width="393" height="259" frameX="-8" frameY="-35" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario right0008" x="3930" y="4163" width="390" height="259" frameX="-5" frameY="-35" frameWidth="415" frameHeight="303" />
+<SubTexture name="Crazy Cosmic Mario up0000" x="1728" y="2065" width="185" height="313" frameX="-131" frameY="-39" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario up0001" x="1383" y="0" width="258" height="329" frameX="-108" frameY="-22" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario up0002" x="541" y="1090" width="291" height="327" frameX="-111" frameY="-23" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario up0003" x="1641" y="0" width="270" height="325" frameX="-123" frameY="-26" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario up0004" x="331" y="750" width="238" height="337" frameX="-122" frameY="-14" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario up0005" x="1383" y="329" width="188" height="327" frameX="-120" frameY="-23" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario up0006" x="1911" y="968" width="220" height="321" frameX="-89" frameY="-30" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario up0007" x="1911" y="1289" width="240" height="321" frameX="-72" frameY="-30" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario up0008" x="358" y="1743" width="291" height="321" frameX="-13" frameY="-30" frameWidth="410" frameHeight="352" />
+<SubTexture name="Crazy Cosmic Mario you cant0000" x="3135" y="3596" width="280" height="281" frameX="0" frameY="-59" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0001" x="3477" y="1463" width="264" height="292" frameX="-24" frameY="-47" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0002" x="2894" y="308" width="270" height="308" frameX="-17" frameY="-24" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0003" x="566" y="1418" width="270" height="324" frameX="-13" frameY="-15" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0004" x="0" y="1418" width="273" height="325" frameX="-14" frameY="-14" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0005" x="836" y="1418" width="267" height="324" frameX="-9" frameY="-15" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0006" x="1641" y="325" width="265" height="325" frameX="-22" frameY="-14" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0007" x="1103" y="1418" width="273" height="324" frameX="-14" frameY="-15" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0008" x="649" y="1743" width="269" height="321" frameX="-16" frameY="-17" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0009" x="784" y="750" width="271" height="335" frameX="-10" frameY="-3" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0010" x="1376" y="1418" width="268" height="324" frameX="-18" frameY="-15" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0011" x="1913" y="2065" width="275" height="313" frameX="-24" frameY="-11" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0012" x="4132" y="0" width="273" height="280" frameX="-2" frameY="-20" frameWidth="312" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0013" x="4405" y="2894" width="262" height="252" frameX="-11" frameY="-38" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0014" x="2894" y="2435" width="287" height="256" frameX="-16" frameY="-39" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0015" x="972" y="4429" width="287" height="248" frameX="-16" frameY="-47" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0016" x="4320" y="4163" width="284" height="256" frameX="-16" frameY="-39" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0017" x="389" y="4429" width="293" height="256" frameX="-16" frameY="-39" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0018" x="682" y="4429" width="290" height="249" frameX="-16" frameY="-46" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0019" x="1259" y="4429" width="284" height="235" frameX="-16" frameY="-60" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario you cant0020" x="4405" y="3146" width="281" height="230" frameX="-16" frameY="-65" frameWidth="313" frameHeight="340" />
+<SubTexture name="Crazy Cosmic Mario not bad0000" x="1462" y="2381" width="215" height="311" frameX="-130" frameY="-92" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0001" x="746" y="2065" width="209" height="315" frameX="-141" frameY="-89" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0002" x="261" y="2065" width="212" height="316" frameX="-141" frameY="-88" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0003" x="1921" y="1743" width="216" height="318" frameX="-135" frameY="-86" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0004" x="2188" y="2065" width="219" height="313" frameX="-129" frameY="-87" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0005" x="1677" y="2381" width="218" height="310" frameX="-121" frameY="-85" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0006" x="2467" y="0" width="213" height="313" frameX="-142" frameY="-82" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0007" x="2680" y="0" width="214" height="313" frameX="-135" frameY="-82" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0008" x="0" y="2381" width="219" height="313" frameX="-133" frameY="-82" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0009" x="902" y="340" width="207" height="320" frameX="-134" frameY="-85" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0010" x="1189" y="1743" width="279" height="319" frameX="-104" frameY="-88" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0011" x="832" y="1090" width="313" height="326" frameX="-95" frameY="-82" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0012" x="1145" y="1090" width="336" height="326" frameX="-41" frameY="-82" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0013" x="0" y="399" width="299" height="351" frameX="-73" frameY="-57" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0014" x="292" y="0" width="287" height="380" frameX="-82" frameY="-28" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0015" x="0" y="0" width="292" height="399" frameX="-81" frameY="-9" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0016" x="579" y="0" width="323" height="376" frameX="-85" frameY="-32" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0017" x="703" y="2694" width="370" height="307" frameX="-80" frameY="-85" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0018" x="0" y="2694" width="374" height="308" frameX="-93" frameY="-82" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0019" x="1073" y="2694" width="374" height="306" frameX="-93" frameY="-84" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0020" x="2680" y="2694" width="353" height="302" frameX="-85" frameY="-88" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0021" x="0" y="750" width="331" height="340" frameX="-86" frameY="-55" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0022" x="299" y="399" width="336" height="345" frameX="-86" frameY="-51" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0023" x="2201" y="3002" width="340" height="296" frameX="-91" frameY="-85" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0024" x="0" y="3303" width="349" height="293" frameX="-73" frameY="-86" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0025" x="4405" y="536" width="278" height="267" frameX="-104" frameY="-132" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0026" x="4405" y="2127" width="278" height="257" frameX="-108" frameY="-140" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0027" x="4405" y="1865" width="280" height="262" frameX="-94" frameY="-135" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0028" x="723" y="4163" width="284" height="263" frameX="-87" frameY="-134" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0029" x="2688" y="4163" width="283" height="260" frameX="-90" frameY="-137" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0030" x="2971" y="4163" width="283" height="260" frameX="-93" frameY="-137" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario not bad0031" x="3254" y="4163" width="283" height="260" frameX="-93" frameY="-137" frameWidth="480" frameHeight="408" />
+<SubTexture name="Crazy Cosmic Mario my power0000" x="3196" y="2089" width="230" height="295" frameX="-50" frameY="-53" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0001" x="2541" y="3002" width="229" height="294" frameX="-51" frameY="-54" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0002" x="3477" y="1755" width="231" height="292" frameX="-49" frameY="-56" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0003" x="2770" y="3002" width="233" height="294" frameX="-43" frameY="-54" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0004" x="3477" y="586" width="232" height="293" frameX="-47" frameY="-55" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0005" x="3196" y="2384" width="230" height="295" frameX="-50" frameY="-53" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0006" x="3799" y="574" width="230" height="287" frameX="-50" frameY="-61" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0007" x="4132" y="280" width="233" height="279" frameX="-52" frameY="-69" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0008" x="4139" y="3883" width="249" height="269" frameX="-34" frameY="-79" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0009" x="4405" y="1336" width="274" height="266" frameX="-11" frameY="-83" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0010" x="4405" y="2384" width="279" height="257" frameX="-19" frameY="-92" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0011" x="4405" y="2641" width="278" height="253" frameX="-15" frameY="-95" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0012" x="4405" y="803" width="282" height="267" frameX="-16" frameY="-82" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0013" x="4405" y="0" width="282" height="269" frameX="-16" frameY="-63" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0014" x="3799" y="2003" width="283" height="285" frameX="-16" frameY="-46" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0015" x="3799" y="1147" width="288" height="286" frameX="-10" frameY="-45" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0016" x="0" y="3883" width="285" height="280" frameX="-11" frameY="-51" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0017" x="3196" y="0" width="281" height="302" frameX="-10" frameY="-29" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0018" x="1603" y="3883" width="285" height="277" frameX="-6" frameY="-54" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0019" x="3858" y="3883" width="281" height="272" frameX="-10" frameY="-59" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0020" x="4405" y="1602" width="280" height="263" frameX="-17" frameY="-68" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0021" x="3477" y="2338" width="267" height="290" frameX="-20" frameY="-40" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0022" x="1220" y="2065" width="247" height="314" frameX="-4" frameY="-35" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0023" x="1644" y="1418" width="252" height="320" frameX="-4" frameY="-25" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0024" x="1641" y="650" width="245" height="325" frameX="-15" frameY="-19" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0025" x="1109" y="664" width="242" height="331" frameX="-6" frameY="-14" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0026" x="1383" y="656" width="240" height="321" frameX="-6" frameY="-24" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0027" x="918" y="1743" width="271" height="320" frameX="-4" frameY="-26" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0028" x="604" y="3002" width="329" height="301" frameX="-14" frameY="-34" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0029" x="349" y="3303" width="342" height="292" frameX="-7" frameY="-41" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0030" x="1025" y="3303" width="338" height="290" frameX="-8" frameY="-41" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0031" x="515" y="2381" width="322" height="312" frameX="-21" frameY="-26" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0032" x="3477" y="2917" width="282" height="289" frameX="-13" frameY="-41" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0033" x="2894" y="1225" width="271" height="303" frameX="-13" frameY="-27" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0034" x="2894" y="1528" width="270" height="303" frameX="-4" frameY="-27" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0035" x="955" y="2065" width="265" height="315" frameX="-7" frameY="-15" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0036" x="2894" y="616" width="266" height="305" frameX="-5" frameY="-24" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0037" x="3196" y="602" width="271" height="300" frameX="-5" frameY="-30" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0038" x="3196" y="1498" width="273" height="296" frameX="-4" frameY="-53" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0039" x="1888" y="3883" width="276" height="276" frameX="-3" frameY="-70" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0040" x="3799" y="2288" width="271" height="285" frameX="-15" frameY="-65" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0041" x="3196" y="902" width="273" height="299" frameX="-15" frameY="-48" frameWidth="360" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0042" x="3187" y="3303" width="279" height="288" frameX="-14" frameY="-58" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0043" x="2260" y="3596" width="274" height="282" frameX="-11" frameY="-65" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0044" x="3415" y="3596" width="270" height="281" frameX="-17" frameY="-67" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0045" x="3799" y="2857" width="279" height="284" frameX="-13" frameY="-64" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0046" x="3799" y="3141" width="271" height="284" frameX="-17" frameY="-64" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0047" x="4132" y="559" width="267" height="279" frameX="-25" frameY="-69" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0048" x="4132" y="2217" width="271" height="275" frameX="-21" frameY="-73" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0049" x="2164" y="3883" width="279" height="275" frameX="-15" frameY="-73" frameWidth="370" frameHeight="350" />
+<SubTexture name="Crazy Cosmic Mario my power0050" x="4132" y="2492" width="273" height="275" frameX="-23" frameY="-73" frameWidth="370" frameHeight="350" />
+</TextureAtlas>

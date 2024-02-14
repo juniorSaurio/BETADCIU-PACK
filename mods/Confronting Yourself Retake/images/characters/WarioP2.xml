@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="WarioP2.png">
+<SubTexture name="WarioP2 right0000" x="1609" y="291" width="280" height="290" frameX="0" frameY="-4" frameWidth="366" frameHeight="294" />
+<SubTexture name="WarioP2 right0001" x="669" y="1436" width="338" height="287" frameX="0" frameY="-7" frameWidth="366" frameHeight="294" />
+<SubTexture name="WarioP2 right0002" x="337" y="1436" width="332" height="289" frameX="0" frameY="-5" frameWidth="366" frameHeight="294" />
+<SubTexture name="WarioP2 right0003" x="1609" y="0" width="327" height="291" frameX="0" frameY="-3" frameWidth="366" frameHeight="294" />
+<SubTexture name="WarioP2 right0004" x="0" y="1436" width="337" height="291" frameX="0" frameY="-3" frameWidth="366" frameHeight="294" />
+<SubTexture name="WarioP2 down0000" x="0" y="403" width="195" height="363" frameX="0" frameY="0" frameWidth="241" frameHeight="363" />
+<SubTexture name="WarioP2 down0001" x="959" y="0" width="209" height="353" frameX="0" frameY="-10" frameWidth="241" frameHeight="363" />
+<SubTexture name="WarioP2 down0002" x="599" y="403" width="223" height="356" frameX="0" frameY="-7" frameWidth="241" frameHeight="363" />
+<SubTexture name="WarioP2 down0003" x="397" y="403" width="202" height="359" frameX="0" frameY="-4" frameWidth="241" frameHeight="363" />
+<SubTexture name="WarioP2 down0004" x="195" y="403" width="202" height="362" frameX="0" frameY="-1" frameWidth="241" frameHeight="363" />
+<SubTexture name="WarioP2 left0000" x="0" y="1110" width="435" height="326" frameX="-65" frameY="-61" frameWidth="507" frameHeight="393" />
+<SubTexture name="WarioP2 left0001" x="1168" y="0" width="441" height="328" frameX="-56" frameY="-55" frameWidth="507" frameHeight="393" />
+<SubTexture name="WarioP2 left0002" x="1168" y="328" width="440" height="327" frameX="-58" frameY="-59" frameWidth="507" frameHeight="393" />
+<SubTexture name="WarioP2 left0003" x="1168" y="655" width="436" height="327" frameX="-62" frameY="-59" frameWidth="507" frameHeight="393" />
+<SubTexture name="WarioP2 left0004" x="0" y="766" width="437" height="344" frameX="-61" frameY="-42" frameWidth="507" frameHeight="393" />
+<SubTexture name="WarioP2 up0000" x="764" y="766" width="328" height="329" frameX="0" frameY="-89" frameWidth="328" frameHeight="418" />
+<SubTexture name="WarioP2 up0001" x="0" y="0" width="316" height="403" frameX="0" frameY="-15" frameWidth="328" frameHeight="418" />
+<SubTexture name="WarioP2 up0002" x="639" y="0" width="320" height="366" frameX="0" frameY="-52" frameWidth="328" frameHeight="418" />
+<SubTexture name="WarioP2 up0003" x="316" y="0" width="323" height="368" frameX="0" frameY="-50" frameWidth="328" frameHeight="418" />
+<SubTexture name="WarioP2 up0004" x="437" y="766" width="327" height="333" frameX="0" frameY="-85" frameWidth="328" frameHeight="418" />
+<SubTexture name="WarioP2 idle0000" x="677" y="1110" width="217" height="299" frameX="-11" frameY="-16" frameWidth="275" frameHeight="315" />
+<SubTexture name="WarioP2 idle0001" x="894" y="1110" width="222" height="297" frameX="-6" frameY="-18" frameWidth="270" frameHeight="315" />
+<SubTexture name="WarioP2 idle0002" x="435" y="1110" width="242" height="301" frameX="-2" frameY="-12" frameWidth="264" frameHeight="315" />
+<SubTexture name="WarioP2 idle0003" x="1116" y="1110" width="222" height="296" frameX="-7" frameY="-18" frameWidth="270" frameHeight="315" />
+<SubTexture name="WarioP2 idle0004" x="1338" y="1110" width="194" height="294" frameX="-7" frameY="-20" frameWidth="270" frameHeight="315" />
+<SubTexture name="WarioP2 idle0005" x="959" y="353" width="207" height="309" frameX="-10" frameY="-6" frameWidth="274" frameHeight="315" />
+</TextureAtlas>

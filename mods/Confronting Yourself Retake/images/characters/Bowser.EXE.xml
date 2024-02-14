@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Bowser.EXE.png">
+<SubTexture name="Bowser.EXE down0000" x="574" y="1437" width="271" height="270" frameX="0" frameY="0" frameWidth="277" frameHeight="272" />
+<SubTexture name="Bowser.EXE down0001" x="1116" y="1437" width="275" height="265" frameX="0" frameY="0" frameWidth="281" frameHeight="271" />
+<SubTexture name="Bowser.EXE down0002" x="845" y="1437" width="271" height="270" frameX="0" frameY="0" frameWidth="278" frameHeight="274" />
+<SubTexture name="Bowser.EXE down0003" x="1585" y="635" width="270" height="273" frameX="0" frameY="0" frameWidth="276" frameHeight="276" />
+<SubTexture name="Bowser.EXE down0004" x="1585" y="908" width="270" height="273" frameX="0" frameY="0" frameWidth="276" frameHeight="276" />
+<SubTexture name="Bowser.EXE laff0000" x="0" y="756" width="214" height="341" frameX="0" frameY="0" frameWidth="223" frameHeight="341" />
+<SubTexture name="Bowser.EXE laff0001" x="214" y="756" width="214" height="341" frameX="0" frameY="0" frameWidth="223" frameHeight="341" />
+<SubTexture name="Bowser.EXE laff0002" x="0" y="1097" width="212" height="340" frameX="0" frameY="-1" frameWidth="221" frameHeight="342" />
+<SubTexture name="Bowser.EXE laff0003" x="428" y="756" width="211" height="341" frameX="0" frameY="0" frameWidth="220" frameHeight="341" />
+<SubTexture name="Bowser.EXE laff0004" x="639" y="756" width="210" height="341" frameX="0" frameY="0" frameWidth="211" frameHeight="341" />
+<SubTexture name="Bowser.EXE laff0005" x="849" y="756" width="216" height="341" frameX="0" frameY="0" frameWidth="218" frameHeight="341" />
+<SubTexture name="Bowser.EXE laff0006" x="1065" y="756" width="215" height="341" frameX="0" frameY="0" frameWidth="216" frameHeight="341" />
+<SubTexture name="Bowser.EXE laff0007" x="1370" y="0" width="215" height="341" frameX="0" frameY="0" frameWidth="216" frameHeight="341" />
+<SubTexture name="Bowser.EXE idle0000" x="1370" y="341" width="211" height="341" frameX="0" frameY="0" frameWidth="211" frameHeight="341" />
+<SubTexture name="Bowser.EXE idle0001" x="212" y="1097" width="214" height="339" frameX="-1" frameY="-2" frameWidth="221" frameHeight="344" />
+<SubTexture name="Bowser.EXE idle0002" x="637" y="1097" width="217" height="335" frameX="-3" frameY="-7" frameWidth="224" frameHeight="350" />
+<SubTexture name="Bowser.EXE idle0003" x="854" y="1097" width="218" height="334" frameX="-3" frameY="-8" frameWidth="223" frameHeight="351" />
+<SubTexture name="Bowser.EXE idle0004" x="1066" y="359" width="211" height="343" frameX="0" frameY="0" frameWidth="211" frameHeight="343" />
+<SubTexture name="Bowser.EXE idle0005" x="426" y="1097" width="211" height="339" frameX="-1" frameY="-2" frameWidth="212" frameHeight="343" />
+<SubTexture name="Bowser.EXE idle0006" x="1370" y="682" width="211" height="341" frameX="0" frameY="0" frameWidth="212" frameHeight="341" />
+<SubTexture name="Bowser.EXE left0000" x="192" y="382" width="247" height="360" frameX="-14" frameY="-2" frameWidth="261" frameHeight="364" />
+<SubTexture name="Bowser.EXE left0001" x="1066" y="0" width="304" height="359" frameX="-4" frameY="-1" frameWidth="308" frameHeight="361" />
+<SubTexture name="Bowser.EXE left0002" x="439" y="382" width="312" height="360" frameX="-10" frameY="-1" frameWidth="322" frameHeight="363" />
+<SubTexture name="Bowser.EXE left0003" x="783" y="0" width="283" height="360" frameX="-10" frameY="-1" frameWidth="293" frameHeight="363" />
+<SubTexture name="Bowser.EXE left0004" x="783" y="360" width="254" height="360" frameX="-11" frameY="-1" frameWidth="265" frameHeight="363" />
+<SubTexture name="Bowser.EXE right0000" x="1585" y="319" width="274" height="316" frameX="-4" frameY="-20" frameWidth="281" frameHeight="360" />
+<SubTexture name="Bowser.EXE right0001" x="285" y="1437" width="289" height="310" frameX="-5" frameY="-25" frameWidth="295" frameHeight="365" />
+<SubTexture name="Bowser.EXE right0002" x="0" y="1437" width="285" height="314" frameX="-4" frameY="-22" frameWidth="293" frameHeight="362" />
+<SubTexture name="Bowser.EXE right0003" x="1585" y="0" width="278" height="319" frameX="-3" frameY="-17" frameWidth="286" frameHeight="356" />
+<SubTexture name="Bowser.EXE right0004" x="1072" y="1097" width="273" height="322" frameX="-2" frameY="-14" frameWidth="279" frameHeight="352" />
+<SubTexture name="Bowser.EXE up0000" x="0" y="382" width="192" height="374" frameX="0" frameY="0" frameWidth="202" frameHeight="374" />
+<SubTexture name="Bowser.EXE up0001" x="0" y="0" width="195" height="382" frameX="0" frameY="0" frameWidth="204" frameHeight="382" />
+<SubTexture name="Bowser.EXE up0002" x="195" y="0" width="196" height="382" frameX="0" frameY="0" frameWidth="204" frameHeight="382" />
+<SubTexture name="Bowser.EXE up0003" x="391" y="0" width="196" height="382" frameX="0" frameY="0" frameWidth="204" frameHeight="382" />
+<SubTexture name="Bowser.EXE up0004" x="587" y="0" width="196" height="382" frameX="0" frameY="0" frameWidth="204" frameHeight="382" />
+</TextureAtlas>

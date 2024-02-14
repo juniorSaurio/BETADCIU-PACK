@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ballsdungeon.png">
+<SubTexture name="ballsdungeon idle0000" x="0" y="0" width="1200" height="666" frameX="0" frameY="0" frameWidth="1200" frameHeight="666" />
+<SubTexture name="ballsdungeon idle0001" x="1200" y="0" width="1200" height="666" frameX="0" frameY="0" frameWidth="1200" frameHeight="666" />
+<SubTexture name="ballsdungeon idle0002" x="0" y="666" width="1200" height="666" frameX="0" frameY="0" frameWidth="1200" frameHeight="666" />
+<SubTexture name="ballsdungeon idle0003" x="1200" y="666" width="1200" height="666" frameX="0" frameY="0" frameWidth="1200" frameHeight="666" />
+<SubTexture name="ballsdungeon idle0004" x="0" y="1332" width="1200" height="666" frameX="0" frameY="0" frameWidth="1200" frameHeight="666" />
+<SubTexture name="ballsdungeon idle0005" x="1200" y="1332" width="1200" height="666" frameX="0" frameY="0" frameWidth="1200" frameHeight="666" />
+<SubTexture name="ballsdungeon idle0006" x="2400" y="0" width="1200" height="666" frameX="0" frameY="0" frameWidth="1200" frameHeight="666" />
+<SubTexture name="ballsdungeon idle0007" x="2400" y="666" width="1200" height="666" frameX="0" frameY="0" frameWidth="1200" frameHeight="666" />
+</TextureAtlas>

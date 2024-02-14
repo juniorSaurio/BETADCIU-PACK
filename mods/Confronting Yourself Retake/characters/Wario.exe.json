@@ -1,0 +1,216 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				5,
+				0
+			],
+			"loop": true,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "Wario.exe idle"
+		},
+		{
+			"offsets": [
+				107,
+				124
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Wario.exe right"
+		},
+		{
+			"offsets": [
+				336,
+				405
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Wario.exe up"
+		},
+		{
+			"offsets": [
+				-80,
+				140
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Wario.exe down"
+		},
+		{
+			"offsets": [
+				290,
+				440
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "attack",
+			"indices": [
+				1,
+				1,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "Wario.exe attack"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				110,
+				120
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 12,
+			"name": "Wario.exe right",
+			"indices": [
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-80,
+				140
+			],
+			"anim": "singDOWN-loop",
+			"fps": 12,
+			"name": "Wario.exe down",
+			"indices": [
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				642,
+				286
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "Wario.exe left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				646,
+				290
+			],
+			"loop": true,
+			"fps": 20,
+			"anim": "singLEFT-loop",
+			"indices": [
+				2,
+				3,
+				4,
+				5
+			],
+			"name": "Wario.exe left"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				330,
+				410
+			],
+			"anim": "singUP-loop",
+			"fps": 12,
+			"name": "Wario.exe up",
+			"indices": [
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				550,
+				440
+			],
+			"anim": "start",
+			"fps": 12,
+			"name": "Wario.exe start",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				790,
+				320
+			],
+			"anim": "final",
+			"fps": 12,
+			"name": "Wario.exe final",
+			"indices": [
+				1,
+				2,
+				3,
+				1,
+				2,
+				3,
+				1,
+				2,
+				3,
+				1,
+				2,
+				3,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/wario.exe",
+	"position": [
+		100,
+		370
+	],
+	"healthicon": "wario",
+	"flip_x": false,
+	"healthbar_colors": [
+		201,
+		158,
+		0
+	],
+	"camera_position": [
+		-500,
+		-510
+	],
+	"sing_duration": 6.1,
+	"scale": 2.8
+}

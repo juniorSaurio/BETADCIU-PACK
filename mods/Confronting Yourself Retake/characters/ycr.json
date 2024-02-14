@@ -1,0 +1,115 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-50,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "scream",
+			"indices": [],
+			"name": "scream"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				-51
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "laugh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				129
+			],
+			"anim": "singUP",
+			"fps": 42,
+			"name": "normal_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				-6
+			],
+			"anim": "singDOWN",
+			"fps": 40,
+			"name": "normal_down",
+			"indices": []
+		},
+		{
+			"cameraOffset": [
+				0,
+				0
+			],
+			"loop": true,
+			"offsets": [
+				-15,
+				67
+			],
+			"anim": "idle",
+			"fps": 26,
+			"name": "normal_idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				84,
+				-21
+			],
+			"loop": false,
+			"fps": 35,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "normal_left"
+		},
+		{
+			"offsets": [
+				124,
+				-28
+			],
+			"loop": false,
+			"fps": 38,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "normal_right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-50
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "laugh",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/YCR",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "ycr",
+	"flip_x": false,
+	"healthbar_colors": [
+		22,
+		13,
+		135
+	],
+	"camera_position": [
+		200,
+		-150
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,157 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				2,
+				0
+			],
+			"loop": true,
+			"fps": 16,
+			"anim": "idle",
+			"indices": [],
+			"name": "Crazy Cosmic Mario idle"
+		},
+		{
+			"offsets": [
+				61,
+				-44
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Crazy Cosmic Mario left"
+		},
+		{
+			"offsets": [
+				16,
+				135
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Crazy Cosmic Mario up"
+		},
+		{
+			"offsets": [
+				12,
+				-130
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Crazy Cosmic Mario down"
+		},
+		{
+			"offsets": [
+				37,
+				54
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Crazy Cosmic Mario right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "you cant",
+			"fps": 12,
+			"name": "Crazy Cosmic Mario you cant",
+			"indices": []
+		},
+		{
+			"offsets": [
+				240,
+				240
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "not bad",
+			"indices": [],
+			"name": "Crazy Cosmic Mario not bad"
+		},
+		{
+			"offsets": [
+				10,
+				150
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "power",
+			"indices": [],
+			"name": "Crazy Cosmic Mario my power"
+		},
+		{
+			"offsets": [
+				-1,
+				80
+			],
+			"loop": false,
+			"fps": 8,
+			"anim": "final",
+			"indices": [],
+			"name": "Crazy Cosmic Mario final"
+		},
+		{
+			"offsets": [
+				-1,
+				80
+			],
+			"indices": [
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				77,
+				77,
+				77,
+				77,
+				77,
+				77,
+				77,
+				77,
+				77,
+				77,
+				77
+			],
+			"fps": 8,
+			"anim": "continue",
+			"loop": false,
+			"name": "Crazy Cosmic Mario final"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Crazy Cosmic Mario",
+	"position": [
+		150,
+		150
+	],
+	"healthicon": "cosmic",
+	"flip_x": false,
+	"healthbar_colors": [
+		33,
+		33,
+		33
+	],
+	"camera_position": [
+		-250,
+		-330
+	],
+	"sing_duration": 6.1,
+	"scale": 2.7
+}

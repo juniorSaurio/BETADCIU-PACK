@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				175
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "PoisonM up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-43,
+				54
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "PoisonM right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				250,
+				56
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "PoisonM left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				-230
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "PoisonM down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 20,
+			"anim": "idle",
+			"indices": [],
+			"name": "PoisonM idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				480,
+				110
+			],
+			"anim": "SCREAM",
+			"fps": 24,
+			"name": "PoisonM SCREAM",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/PoisonM",
+	"position": [
+		70,
+		80
+	],
+	"healthicon": "poison",
+	"flip_x": false,
+	"healthbar_colors": [
+		107,
+		2,
+		71
+	],
+	"camera_position": [
+		-250,
+		-330
+	],
+	"sing_duration": 6.1,
+	"scale": 3
+}

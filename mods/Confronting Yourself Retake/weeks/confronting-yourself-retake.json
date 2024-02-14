@@ -1,0 +1,26 @@
+{
+	"storyName": "",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Confronting Yourself Retake",
+			"m-sonicexe",
+			[
+				255,
+				0,
+				0
+			]
+		],
+	],
+	"hideStoryMode": true,
+	"weekName": "Confronting Week"
+}

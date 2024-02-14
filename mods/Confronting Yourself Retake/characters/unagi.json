@@ -1,0 +1,153 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				6,
+				0
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "Dad idle dance",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-9,
+				10
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note LEFT",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				27
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-6,
+				49
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing Note UP",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				60
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "Unagi left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-100
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "Unagi down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-190,
+				205
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "Unagi right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				34,
+				310
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Unagi up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "Unagi idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				540
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "death",
+			"indices": [],
+			"name": "Unagi death"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Unagi",
+	"position": [
+		-350,
+		500
+	],
+	"healthicon": "unagi",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		235,
+		0
+	],
+	"camera_position": [
+		200,
+		-800
+	],
+	"sing_duration": 6.1,
+	"scale": 3.6
+}

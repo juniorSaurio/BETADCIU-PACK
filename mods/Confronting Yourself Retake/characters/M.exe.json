@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				15,
+				135
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "M.exe up"
+		},
+		{
+			"offsets": [
+				87,
+				54
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "M.exe right"
+		},
+		{
+			"offsets": [
+				200,
+				-150
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				1,
+				2,
+				3,
+				3,
+				3,
+				4,
+				4,
+				5,
+				6,
+				7
+			],
+			"name": "M.exe down"
+		},
+		{
+			"offsets": [
+				240,
+				56
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				1,
+				2,
+				3,
+				3,
+				3,
+				4,
+				4,
+				5,
+				6,
+				7
+			],
+			"name": "M.exe left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "M.exe idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/M.exe",
+	"position": [
+		80,
+		150
+	],
+	"healthicon": "mexe",
+	"flip_x": false,
+	"healthbar_colors": [
+		173,
+		1,
+		55
+	],
+	"camera_position": [
+		-250,
+		-330
+	],
+	"sing_duration": 6.1,
+	"scale": 2.7
+}

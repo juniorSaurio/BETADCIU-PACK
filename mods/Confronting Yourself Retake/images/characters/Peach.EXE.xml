@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Peach.EXE.png">
+<SubTexture name="Peach.EXE down0000" x="1745" y="0" width="284" height="306" frameX="0" frameY="-1" frameWidth="284" frameHeight="307" />
+<SubTexture name="Peach.EXE down0001" x="567" y="1705" width="301" height="287" frameX="0" frameY="-20" frameWidth="301" frameHeight="307" />
+<SubTexture name="Peach.EXE down0002" x="868" y="1705" width="291" height="282" frameX="0" frameY="-25" frameWidth="291" frameHeight="307" />
+<SubTexture name="Peach.EXE down0003" x="281" y="1705" width="286" height="290" frameX="0" frameY="-17" frameWidth="286" frameHeight="307" />
+<SubTexture name="Peach.EXE down0004" x="0" y="1705" width="281" height="295" frameX="0" frameY="-12" frameWidth="281" frameHeight="307" />
+<SubTexture name="Peach.EXE down0005" x="1745" y="1200" width="279" height="296" frameX="0" frameY="-11" frameWidth="279" frameHeight="307" />
+<SubTexture name="Peach.EXE down0006" x="1745" y="605" width="276" height="298" frameX="0" frameY="-9" frameWidth="276" frameHeight="307" />
+<SubTexture name="Peach.EXE down0007" x="1745" y="306" width="276" height="299" frameX="0" frameY="-8" frameWidth="276" frameHeight="307" />
+<SubTexture name="Peach.EXE idle0000" x="517" y="368" width="200" height="339" frameX="0" frameY="-4" frameWidth="205" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0001" x="0" y="720" width="203" height="339" frameX="0" frameY="-4" frameWidth="208" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0002" x="862" y="720" width="207" height="337" frameX="-1" frameY="-4" frameWidth="211" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0003" x="1268" y="0" width="208" height="335" frameX="-2" frameY="-5" frameWidth="213" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0004" x="0" y="1059" width="209" height="332" frameX="-2" frameY="-7" frameWidth="214" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0005" x="1745" y="903" width="209" height="297" frameX="-2" frameY="-43" frameWidth="215" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0006" x="1268" y="335" width="206" height="329" frameX="-2" frameY="-11" frameWidth="213" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0007" x="1009" y="340" width="205" height="339" frameX="-1" frameY="-2" frameWidth="211" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0008" x="750" y="344" width="202" height="341" frameX="0" frameY="-2" frameWidth="207" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0009" x="203" y="720" width="200" height="339" frameX="0" frameY="-4" frameWidth="205" frameHeight="343" />
+<SubTexture name="Peach.EXE idle0010" x="403" y="720" width="200" height="339" frameX="0" frameY="-4" frameWidth="205" frameHeight="343" />
+<SubTexture name="Peach.EXE left0000" x="0" y="1391" width="227" height="314" frameX="-30" frameY="-16" frameWidth="257" frameHeight="335" />
+<SubTexture name="Peach.EXE left0001" x="227" y="1391" width="236" height="314" frameX="-20" frameY="-17" frameWidth="257" frameHeight="338" />
+<SubTexture name="Peach.EXE left0002" x="463" y="1391" width="236" height="312" frameX="-21" frameY="-18" frameWidth="257" frameHeight="335" />
+<SubTexture name="Peach.EXE left0003" x="699" y="1391" width="231" height="312" frameX="-26" frameY="-16" frameWidth="257" frameHeight="331" />
+<SubTexture name="Peach.EXE left0004" x="930" y="1391" width="220" height="312" frameX="-37" frameY="-16" frameWidth="257" frameHeight="330" />
+<SubTexture name="Peach.EXE left0005" x="1355" y="1391" width="212" height="311" frameX="-45" frameY="-16" frameWidth="257" frameHeight="329" />
+<SubTexture name="Peach.EXE left0006" x="1150" y="1391" width="205" height="312" frameX="-52" frameY="-16" frameWidth="257" frameHeight="329" />
+<SubTexture name="Peach.EXE left0007" x="1268" y="664" width="203" height="313" frameX="-54" frameY="-15" frameWidth="257" frameHeight="328" />
+<SubTexture name="Peach.EXE right0000" x="1042" y="1059" width="269" height="323" frameX="-3" frameY="-8" frameWidth="277" frameHeight="349" />
+<SubTexture name="Peach.EXE right0001" x="209" y="1059" width="282" height="326" frameX="-3" frameY="-1" frameWidth="289" frameHeight="347" />
+<SubTexture name="Peach.EXE right0002" x="491" y="1059" width="278" height="324" frameX="-3" frameY="0" frameWidth="284" frameHeight="340" />
+<SubTexture name="Peach.EXE right0003" x="769" y="1059" width="273" height="324" frameX="-2" frameY="0" frameWidth="278" frameHeight="337" />
+<SubTexture name="Peach.EXE right0004" x="1476" y="0" width="269" height="323" frameX="-2" frameY="0" frameWidth="275" frameHeight="333" />
+<SubTexture name="Peach.EXE right0005" x="1476" y="969" width="268" height="321" frameX="-1" frameY="0" frameWidth="272" frameHeight="331" />
+<SubTexture name="Peach.EXE right0006" x="1476" y="323" width="265" height="323" frameX="-1" frameY="0" frameWidth="269" frameHeight="330" />
+<SubTexture name="Peach.EXE right0007" x="1476" y="646" width="265" height="323" frameX="-1" frameY="0" frameWidth="269" frameHeight="330" />
+<SubTexture name="Peach.EXE up0000" x="503" y="0" width="247" height="354" frameX="-14" frameY="-14" frameWidth="271" frameHeight="368" />
+<SubTexture name="Peach.EXE up0001" x="0" y="0" width="250" height="368" frameX="-15" frameY="0" frameWidth="276" frameHeight="368" />
+<SubTexture name="Peach.EXE up0002" x="250" y="0" width="253" height="360" frameX="-14" frameY="-8" frameWidth="277" frameHeight="368" />
+<SubTexture name="Peach.EXE up0003" x="0" y="368" width="258" height="352" frameX="-12" frameY="-16" frameWidth="278" frameHeight="368" />
+<SubTexture name="Peach.EXE up0004" x="258" y="368" width="259" height="346" frameX="-11" frameY="-22" frameWidth="277" frameHeight="368" />
+<SubTexture name="Peach.EXE up0005" x="750" y="0" width="259" height="344" frameX="-11" frameY="-24" frameWidth="277" frameHeight="368" />
+<SubTexture name="Peach.EXE up0006" x="1009" y="0" width="259" height="340" frameX="-11" frameY="-28" frameWidth="277" frameHeight="368" />
+<SubTexture name="Peach.EXE up0007" x="603" y="720" width="259" height="339" frameX="-11" frameY="-29" frameWidth="277" frameHeight="368" />
+</TextureAtlas>
