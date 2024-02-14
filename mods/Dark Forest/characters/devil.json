@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				190,
+				260
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				345,
+				272
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1250,
+				90
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				540,
+				490
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				-223
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right instance 1",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/devil",
+	"position": [
+		-280,
+		290
+	],
+	"healthicon": "devil",
+	"flip_x": false,
+	"healthbar_colors": [
+		35,
+		50,
+		78
+	],
+	"camera_position": [
+		-580,
+		-480
+	],
+	"sing_duration": 6.1,
+	"scale": 1.6
+}

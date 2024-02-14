@@ -1,0 +1,212 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				219,
+				-130
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				-177
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				-206
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				197,
+				-125
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				105,
+				-134
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				213,
+				-134
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "mleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				100,
+				-135
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "mright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				132,
+				-175
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "mdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				143,
+				-217
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "mup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				763,
+				-128
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "pink dies",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				159,
+				-140
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "death loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				159,
+				-140
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "death confirm",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pretender",
+	"position": [
+		400,
+		100
+	],
+	"healthicon": "pink",
+	"flip_x": false,
+	"healthbar_colors": [
+		238,
+		100,
+		204
+	],
+	"camera_position": [
+		-190,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

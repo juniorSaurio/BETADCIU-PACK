@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle "
+		},
+		{
+			"offsets": [
+				82,
+				-77
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down "
+		},
+		{
+			"offsets": [
+				-207,
+				97
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up "
+		},
+		{
+			"loop": false,
+			"offsets": [
+				103,
+				-77
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-19
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Pretender remaster",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "hpink-pretender",
+	"flip_x": false,
+	"healthbar_colors": [
+		227,
+		94,
+		197
+	],
+	"camera_position": [
+		-270,
+		-240
+	],
+	"sing_duration": 6,
+	"scale": 2.5
+}

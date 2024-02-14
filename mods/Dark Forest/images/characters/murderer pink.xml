@@ -1,0 +1,171 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="homicide pink.png">
+	<!-- Created with Adobe Animate version 20.0.2.22168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down 10000" x="2203" y="2429" width="291" height="544" frameX="-3" frameY="0" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10001" x="2203" y="2429" width="291" height="544" frameX="-3" frameY="0" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10002" x="1328" y="2567" width="299" height="504" frameX="-1" frameY="-41" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10003" x="1328" y="2567" width="299" height="504" frameX="-1" frameY="-41" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10004" x="0" y="2443" width="298" height="522" frameX="0" frameY="-23" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10005" x="0" y="2443" width="298" height="522" frameX="0" frameY="-23" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10006" x="0" y="2443" width="298" height="522" frameX="0" frameY="-23" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10007" x="0" y="2443" width="298" height="522" frameX="0" frameY="-23" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10008" x="0" y="2443" width="298" height="522" frameX="0" frameY="-23" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="down 10009" x="0" y="2443" width="298" height="522" frameX="0" frameY="-23" frameWidth="300" frameHeight="545"/>
+	<SubTexture name="idle 10000" x="3632" y="525" width="359" height="660" frameX="-37" frameY="-1" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10001" x="3632" y="525" width="359" height="660" frameX="-37" frameY="-1" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10002" x="2434" y="525" width="380" height="632" frameX="-8" frameY="-28" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10003" x="2434" y="525" width="380" height="632" frameX="-8" frameY="-28" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10004" x="0" y="0" width="389" height="639" frameX="0" frameY="-21" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10005" x="0" y="0" width="389" height="639" frameX="0" frameY="-21" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10006" x="389" y="0" width="382" height="648" frameX="-11" frameY="-12" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10007" x="389" y="0" width="382" height="648" frameX="-11" frameY="-12" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10008" x="1697" y="0" width="371" height="655" frameX="-24" frameY="-5" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10009" x="1697" y="0" width="371" height="655" frameX="-24" frameY="-5" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10010" x="2814" y="525" width="362" height="661" frameX="-37" frameY="0" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10011" x="2814" y="525" width="362" height="661" frameX="-37" frameY="0" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10012" x="2068" y="525" width="366" height="659" frameX="-32" frameY="-1" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="idle 10013" x="2068" y="525" width="366" height="659" frameX="-32" frameY="-1" frameWidth="399" frameHeight="661"/>
+	<SubTexture name="laugh 10000" x="771" y="0" width="467" height="524" frameX="-13" frameY="-150" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10001" x="771" y="0" width="467" height="524" frameX="-13" frameY="-150" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10002" x="3176" y="525" width="456" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10003" x="3176" y="525" width="456" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10004" x="2068" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10005" x="2068" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10006" x="2068" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10007" x="2068" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10008" x="2068" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10009" x="2528" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10010" x="2528" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10011" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10012" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10013" x="2988" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10014" x="2988" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10015" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10016" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10017" x="2988" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10018" x="2988" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10019" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10020" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10021" x="2988" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10022" x="2988" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10023" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10024" x="3448" y="0" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10025" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10026" x="771" y="524" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10027" x="1231" y="1041" width="451" height="520" frameX="-16" frameY="-153" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10028" x="771" y="524" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10029" x="771" y="524" width="460" height="525" frameX="-12" frameY="-149" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10030" x="1238" y="0" width="459" height="530" frameX="-16" frameY="-144" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10031" x="1238" y="0" width="459" height="530" frameX="-16" frameY="-144" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10032" x="0" y="648" width="459" height="512" frameX="-9" frameY="-161" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10033" x="0" y="648" width="459" height="512" frameX="-9" frameY="-161" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10034" x="2038" y="1184" width="460" height="501" frameX="-1" frameY="-172" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10035" x="2038" y="1184" width="460" height="501" frameX="-1" frameY="-172" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10036" x="2038" y="1184" width="460" height="501" frameX="-1" frameY="-172" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10037" x="1231" y="530" width="460" height="511" frameX="0" frameY="-163" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10038" x="1231" y="530" width="460" height="511" frameX="0" frameY="-163" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10039" x="2690" y="1860" width="358" height="547" frameX="-89" frameY="-128" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10040" x="2690" y="1860" width="358" height="547" frameX="-89" frameY="-128" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10041" x="1137" y="1561" width="374" height="592" frameX="-117" frameY="-82" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10042" x="1137" y="1561" width="374" height="592" frameX="-117" frameY="-82" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10043" x="991" y="2153" width="337" height="576" frameX="-104" frameY="-98" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10044" x="1511" y="2003" width="347" height="564" frameX="-96" frameY="-110" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10045" x="1511" y="2003" width="347" height="564" frameX="-96" frameY="-110" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10046" x="646" y="1730" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10047" x="646" y="1730" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10048" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10049" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10050" x="646" y="1730" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10051" x="646" y="1730" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10052" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10053" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10054" x="646" y="1730" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10055" x="646" y="1730" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10056" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10057" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10058" x="3503" y="1859" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10059" x="3503" y="1859" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10060" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10061" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10062" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10063" x="3503" y="1859" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10064" x="3503" y="1859" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10065" x="3503" y="1859" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10066" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10067" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10068" x="646" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10069" x="2345" y="1860" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10070" x="2345" y="1860" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10071" x="2345" y="1860" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10072" x="2345" y="1860" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10073" x="2345" y="1860" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10074" x="2345" y="1860" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10075" x="2345" y="1860" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10076" x="2345" y="1860" width="345" height="569" frameX="-98" frameY="-105" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10077" x="1858" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10078" x="1858" y="2299" width="345" height="562" frameX="-98" frameY="-112" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10079" x="3048" y="2335" width="359" height="537" frameX="-86" frameY="-136" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10080" x="3048" y="2335" width="359" height="537" frameX="-86" frameY="-136" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10081" x="3690" y="2428" width="271" height="638" frameX="-185" frameY="-38" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10082" x="3690" y="2428" width="271" height="638" frameX="-185" frameY="-38" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10083" x="3407" y="2428" width="283" height="652" frameX="-200" frameY="-29" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10084" x="3407" y="2428" width="283" height="652" frameX="-200" frameY="-29" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10085" x="3519" y="1185" width="338" height="674" frameX="-167" frameY="-7" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10086" x="3519" y="1185" width="338" height="674" frameX="-167" frameY="-7" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10087" x="459" y="1049" width="339" height="681" frameX="-166" frameY="0" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10088" x="459" y="1049" width="339" height="681" frameX="-166" frameY="0" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10089" x="2498" y="1186" width="338" height="674" frameX="-167" frameY="-7" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10090" x="2498" y="1186" width="338" height="674" frameX="-167" frameY="-7" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10091" x="2498" y="1186" width="338" height="674" frameX="-167" frameY="-7" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10092" x="2498" y="1186" width="338" height="674" frameX="-167" frameY="-7" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10093" x="798" y="1049" width="339" height="681" frameX="-166" frameY="0" frameWidth="512" frameHeight="681"/>
+	<SubTexture name="laugh 10094" x="790‚')	*†H†÷ ‚'0‚'10	`†He 0‚	+‚7
+ ‚þ0‚ú0
++‚7Ð}.îãò¶MµZ.†K6{š240209210632Z0
++‚7 0¼0 –y*Ý[>§î±ÙXéucúòÃ·iÓl?n˜BG€˜–1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  –y*Ý[>§î±ÙXéucúòÃ·iÓl?n˜BG€˜–0*Xý”V!ÔbY$h +äÜžÿY>110
++‚71‚  ù0ö0w
++‚7i0g P a c k a g e N a m e Hw i n p e - s e c u r e s t a r t u p - p a c k a g e - W r a p p e r   0{
++‚7m0k O S A t t r V2 : 1 0 . 0 , 2 : 6 . 3 , 2 : 6 . 2 , 2 : 6 . 1 , 2 : 6 . 0 , 2 : 5 . 2 , 2 : 5 . 1    ‚
+Ù0‚ú0‚â 3  `ÏB©1_o³    `0	*†H†÷ 0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110231116192009Z241114192009Z0p10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Windows0‚"0	*†H†÷ ‚ 0‚
+‚ š¹î8¥`´ÿÜgÄëÕ¨dËðýØå\›$²VL]Ü÷Utëµ™åŽî&ÙÕŽG¡Dàúç»Úó‘OÞÁ•C¼»œkv¸‚Gwjž,F6Ä+V³ ’ª8-™˜Ã5-u ”§u	¦@û,×»óð%¼sJTJÏ€¸§‡Òº¹Ù…DŸ)Ì¨ƒÜÕ¯C„	}S¹Bœvz§ˆ5{j—o2ö°ãþ_z±‚˜9ŽHÒxÂÊûß¬~Ü‘Þ¢Â–[®˜ñÛÏ+6¦f}8±cEöx£}æÀ6[#ã¬Õ#¦ø—ŠZµœÃˆHŽ¤…Ôñ‘2ËuÇ:b?ó £‚v0‚r0U%0
++‚7
++0UÂ«vdªLœ íMMU5G˜ÿô030EU>0<¤:0810UMicrosoft Corporation10U229879+5018250U#0€©)9ŽÄ—xÍùžOšá|U¯S0WUP0N0L J H†Fhttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl%200a+U0S0Q+0†Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0Uÿ0 0	*†H†÷ ‚ 5c‹Å¼#·ÀºCPîá°”ñ_)žµ/Vúï‘tÊ›ä<ÅàÂU@ÈàÕò~È­Æ.ÕDI/"÷‚[Q“FééÖÕášUiØ9@qÝHñ‰@MS–fÇ²3X¼Êmv[p—sN2Ž˜§‰uˆ†X é‚]?:Ž“ÛªŸ+:Cf;@ê×Å°iè¯®^ØæÚò«}ñ˜¬4è×–úòqþgzóÞ’¡ùÏß¯%¬&ýF7âÑØ‰sæ¯lk†7®™åñÆe€Ñ”üÐô…¹§º,¡ŽlÍP
+íq;Ëà¯÷ºof.pÎÕxÛ‚Pâ²>¿‘y(ÞUíw0‚×0‚¿ 
+avV     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100111019184142Z261019185142Z0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110‚"0	*†H†÷ ‚ 0‚
+‚ Ý»¢ä.	ãçÅ÷–i¼ !½i33ï­ËT€îƒ»Å „Ù÷Ò‹ó8°«¤­-|byÿãJ?5 pãÄçkàœÀ6uéŠ1ÝpåÜ7µtF–([‡`#,¿ÜG¥g÷Q'žrë¦É¹;S5|åÓì'¹‡þ¹É#	o¨F‘Án–<AÓË£?]jMìi%(\6ÿýC
+”à´ÏßÂâÂ['î'x0‹[*	k"‰S`,ÀhSºìIóaŒ…h	sD]}¢T+Ýy÷Ï5]l+\Î¼œ#‹onµ&Ù6ÃOÖ'®¹2;A’,áÇÍwèªTN÷\‡e´C¨²àmwìZ$úH £‚C0‚?0	+‚7 0U©)9ŽÄ—xÍùžOšá|U¯S0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*†H†÷ ‚ ü|qQ¥yÂn²ï9>¼<Rn+?sþ¨hÐH¦4MŠ–&î1FayÖÿ8.EkôÀå(¸ÚŠÛ	×ÇL
+6fjŒì×¨¤›¹â@26vÄÁZÆ¿äÀêÓ¬Ãhïb¬ÝTlP0X¦ë|þ”§NŽôì|†sWÂR!s4Zó£ŠVÈÚ	íø‹ãÎô~Ž®ðöŠû?ÉrS¸ë¾càã=1e°åò¬Í¤Ÿ=¨±›ÂBÐ„_Tÿ‰êºGo°sNAŸ@Ÿ_å¡*²‘sŠ!(ðÎÞs9_>«\`ìß¨Ó	éôö–…¶QˆfG¢°=*hw»‘Lb{¶ÁÇºz‡4Kbz™éÊüÎJ7É-¤W|þ=Ü¸ZúÖÄ³…:ê³Ùnäi!7ÞÑöugÓ“W^)9Èî-áÍäEs[ÐÒÎz«‚FXÐ^³g¯l5ò¼å?$â5¢
+uöV™Ôx,ÑëÐˆªñßº~,c·›#!ÄùxlâX6+‘Ì¤Ùò-ºù”@íEñÎŠ\k>«Óp*
+jà_GÑÕc
+2ò¯×6*pZåBYqKWº~ƒð!<ôÁÅ¹“ˆE“†é± ™¾˜ËÅ•¤]bÖ c ½uw}=óE¹Ÿ—ŸËW€o3©Ïw¤bY~1‚0‚0œ0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20113  `ÏB©1_o³    `0	`†He  ­0	*†H†÷	1	+‚7
+0
++‚710
++‚70/	*†H†÷	1" Šì§•†‘šËŽ%èÛø´è#×ñÑã!,5C=µ0B
++‚71402 € M i c r o s o f t¡€http://www.microsoft.com0	*†H†÷ ‚ €›=þ®w-ÙP£ÿ¹Y‰ì¶Â¹Þ ¡’?÷THÜˆÜ~q¦™&ÂÚkóÅC-£YUnwvÍ_½ø‰Ÿ‰–Ü	"ÑËó]ñdFp½l•bZ"ë ‹4¾¶nvËr˜Ó-
+*ÑŠiŠÁë®'ù®#þÞ9!ãÝ=ðÖ ò…žZléH37XˆÄ•RängÅéÁ­¼KòüŸ¬tÌ€‹1Ö)+ŒH08cLgB¬v‹¦Js‹zýÍlXšedìë9\7x¯ô4½Hz'ˆF\Vâd€ÐTÉm•Ë@h–n¯"ñ‚B¦¿“F×i	eYHÁn/7wÔ	ûî$Ø‹RÕ¡‚”0‚
++‚71‚€0‚|	*†H†÷ ‚m0‚i10	`†He 0‚R*†H†÷	 ‚A‚=0‚9
++„Y
+010	`†He  ´fÄ¶¹°E:/kØcóq‰	Â@­¢©ž›e¼‡ô^20240209211221.652Z0€ô Ñ¤Î0Ë10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1%0#UMicrosoft America Operations1'0%UnShield TSS ESN:7F00-05E0-D9471%0#UMicrosoft Time-Stamp Service ‚ê0‚ 0‚ 3  ð*|Y;æ­   ð0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100231206184551Z250305184551Z0Ë10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1%0#UMicrosoft America Operations1'0%UnShield TSS ESN:7F00-05E0-D9471%0#UMicrosoft Time-Stamp Service0‚"0	*†H†÷ ‚ 0‚
+‚ µ-S£8w;G3Ì_FzòšRM	¡–¢iËGˆ5ÿ¸šû­ÿ-K9`Â%á˜øñ>_M3€‡©ÈMö”®þº—'gü`Ð¨ŠA@å«/Ó›(r”ß¯ðÐàû_Á‘´‰î&Ã$Á(:Ý·Áá”ŠC?ð­dx¼ÅnW´©÷—,ÞkÔËÈ 7&¿ÔÈ À•ÕS‰šb+ÍLû']ux=J¬ofCâ‚tQý}±L3Ïè¨ñ–ElfœÞù§ÎæàêŽ)l¡r£º“ïxïà@/Q¿‹3,Ñƒj‡x®ˆSBjph×«Ü„¿³XB€÷{S˜Yå«Qv±m¿‰¢Èk5 Pk5jªg.<ô`§Ôª"å6æGWjTx@Že÷•†”èž³8°OÌ”I.”v GŒ~‹W5²µ‡ÑC‰W‰`GåfdÑ|âFAw8@ó–}Wv6Œ×”-ž¤kT©nj,:ôg1Ž ¤ïYC×÷Ó,°c›;LIÝÊÿ$iù´F&¦¶»°*.m¾´öë"9½çcY²ïGr‰kÔ)EoÌv¾ ]²]lFq•QQ·Tà×ÜFOÄÌSñ¢S-áì)W;™û‚¸ƒ³
+DÃl®N”¼©#é‚Ÿ—S‹öŒßS ¦¦xý(¦wãš!· £‚I0‚E0UÐ‚²§WG/Ìš6FU0/Ç¶Z›%0U#0€Ÿ§] ^b]ƒôåÒe§S5ér0_UX0V0T R P†Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l+`0^0\+0†Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%2020

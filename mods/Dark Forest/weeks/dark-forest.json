@@ -1,0 +1,23 @@
+{
+	"storyName": "",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Dark Forest",
+			"peach",
+			[133,63,48],
+			75
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Dark Forest"
+}
