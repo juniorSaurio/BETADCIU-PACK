@@ -1,0 +1,189 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				21,
+				289
+			],
+			"anim": "idle",
+			"fps": 7,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				22,
+				309
+			],
+			"anim": "singUP-loop",
+			"fps": 7,
+			"name": "up note",
+			"indices": [
+				2,
+				3,
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				22,
+				309
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "up note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				22,
+				289
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down note"
+		},
+		{
+			"offsets": [
+				22,
+				289
+			],
+			"loop": true,
+			"fps": 7,
+			"anim": "singDOWN-loop",
+			"indices": [
+				2,
+				3,
+				2,
+				3
+			],
+			"name": "down note"
+		},
+		{
+			"offsets": [
+				-81,
+				300
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right note"
+		},
+		{
+			"offsets": [
+				-81,
+				300
+			],
+			"loop": true,
+			"fps": 7,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				2,
+				3,
+				2,
+				3
+			],
+			"name": "right note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				120,
+				290
+			],
+			"anim": "singLEFT",
+			"fps": 23,
+			"name": "left note",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				120,
+				290
+			],
+			"anim": "singLEFT-loop",
+			"fps": 7,
+			"name": "left note",
+			"indices": [
+				2,
+				3,
+				2,
+				3
+			]
+		},
+		{
+			"offsets": [
+				20,
+				290
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "ingrain",
+			"indices": [],
+			"name": "ingrain"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				22,
+				289
+			],
+			"anim": "idle-alt",
+			"fps": 7,
+			"name": "hopeless idle",
+			"indices": [
+				0,
+				0
+			]
+		},
+		{
+			"offsets": [
+				26,
+				311
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "shriek"
+		},
+		{
+			"offsets": [
+				20,
+				290
+			],
+			"indices": [],
+			"fps": 20,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "ingrain"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/may",
+	"position": [
+		20,
+		200
+	],
+	"healthicon": "may",
+	"flip_x": false,
+	"healthbar_colors": [
+		113,
+		79,
+		89
+	],
+	"camera_position": [
+		-270,
+		-350
+	],
+	"sing_duration": 4.99999999999998,
+	"scale": 1.2
+}

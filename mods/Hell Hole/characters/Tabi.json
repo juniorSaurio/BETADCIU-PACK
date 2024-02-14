@@ -1,0 +1,98 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-13
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Dad Sing Note LEFT",
+			"playerOffsets": [
+				154,
+				61
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-60
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Dad Sing Note DOWN",
+			"playerOffsets": [
+				-26,
+				-62
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				31
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Dad Sing Note UP",
+			"playerOffsets": [
+				-65,
+				110
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				24,
+				9
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Dad Sing Note RIGHT",
+			"playerOffsets": [
+				-86,
+				21
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Dad idle dance",
+			"playerOffsets": [
+				-80,
+				50
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tabi",
+	"position": [
+		-100,
+		30
+	],
+	"healthicon": "tabi",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		187,
+		129
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

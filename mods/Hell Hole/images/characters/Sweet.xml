@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sweet.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sweet Down0000" x="10" y="10" width="474" height="676" frameX="0" frameY="-24" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0001" x="10" y="10" width="474" height="676" frameX="0" frameY="-24" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0002" x="494" y="10" width="468" height="693" frameX="-1" frameY="-7" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0003" x="494" y="10" width="468" height="693" frameX="-1" frameY="-7" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0004" x="972" y="10" width="463" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0005" x="972" y="10" width="463" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0006" x="1445" y="10" width="460" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0007" x="1445" y="10" width="460" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0008" x="1445" y="10" width="460" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0009" x="1445" y="10" width="460" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0010" x="1445" y="10" width="460" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0011" x="1445" y="10" width="460" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0012" x="1445" y="10" width="460" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down0013" x="1445" y="10" width="460" height="700" frameX="-1" frameY="0" frameWidth="474" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0000" x="1915" y="10" width="451" height="676" frameX="0" frameY="-24" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0001" x="1915" y="10" width="451" height="676" frameX="0" frameY="-24" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0002" x="2376" y="10" width="451" height="693" frameX="-1" frameY="-7" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0003" x="2376" y="10" width="451" height="693" frameX="-1" frameY="-7" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0004" x="2837" y="10" width="451" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0005" x="2837" y="10" width="451" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0006" x="3298" y="10" width="450" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0007" x="3298" y="10" width="450" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0008" x="3758" y="10" width="450" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0009" x="3758" y="10" width="450" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0010" x="3758" y="10" width="450" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0011" x="3758" y="10" width="450" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0012" x="3758" y="10" width="450" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down Baton0013" x="3758" y="10" width="450" height="700" frameX="-1" frameY="0" frameWidth="452" frameHeight="700"/>
+	<SubTexture name="Sweet Down MISS0000" x="4218" y="10" width="474" height="676" frameX="0" frameY="-29" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0001" x="4702" y="10" width="451" height="705" frameX="-5" frameY="0" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0002" x="4702" y="10" width="451" height="705" frameX="-5" frameY="0" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0003" x="5163" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0004" x="5163" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0005" x="5634" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0006" x="5634" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0007" x="5163" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0008" x="5163" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0009" x="5634" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0010" x="5634" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0011" x="5163" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0012" x="5163" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0013" x="5634" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0014" x="5634" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0015" x="5163" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0016" x="5163" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0017" x="5634" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Down MISS0018" x="5634" y="10" width="461" height="700" frameX="0" frameY="-5" frameWidth="474" frameHeight="705"/>
+	<SubTexture name="Sweet Idle0000" x="6105" y="10" width="537" height="718" frameX="0" frameY="-9" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0001" x="6105" y="10" width="537" height="718" frameX="0" frameY="-9" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0002" x="6652" y="10" width="522" height="710" frameX="-1" frameY="-17" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0003" x="7184" y="10" width="492" height="714" frameX="-28" frameY="-13" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0004" x="7184" y="10" width="492" height="714" frameX="-28" frameY="-13" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0005" x="7686" y="10" width="488" height="723" frameX="-35" frameY="-3" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0006" x="7686" y="10" width="488" height="723" frameX="-35" frameY="-3" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0007" x="10" y="743" width="497" height="726" frameX="-29" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0008" x="10" y="743" width="497" height="726" frameX="-29" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0009" x="517" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0010" x="517" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0011" x="517" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0012" x="517" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0013" x="517" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle0014" x="517" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0000" x="1026" y="743" width="537" height="718" frameX="0" frameY="-9" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0001" x="1026" y="743" width="537" height="718" frameX="0" frameY="-9" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0002" x="1573" y="743" width="522" height="710" frameX="-1" frameY="-17" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0003" x="2105" y="743" width="492" height="714" frameX="-28" frameY="-13" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0004" x="2105" y="743" width="492" height="714" frameX="-28" frameY="-13" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0005" x="2607" y="743" width="488" height="723" frameX="-35" frameY="-3" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0006" x="2607" y="743" width="488" height="723" frameX="-35" frameY="-3" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0007" x="3105" y="743" width="497" height="726" frameX="-29" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0008" x="3105" y="743" width="497" height="726" frameX="-29" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0009" x="3612" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0010" x="3612" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0011" x="3612" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0012" x="3612" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0013" x="3612" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Idle Baton0014" x="3612" y="743" width="499" height="726" frameX="-27" frameY="0" frameWidth="537" frameHeight="727"/>
+	<SubTexture name="Sweet Left0000" x="4121" y="743" width="586" height="725" frameX="0" frameY="-1" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0001" x="4121" y="743" width="586" height="725" frameX="0" frameY="-1" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0002" x="4717" y="743" width="542" height="726" frameX="-37" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0003" x="4717" y="743" width="542" height="726" frameX="-37" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0004" x="5269" y="743" width="538" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0005" x="5269" y="743" width="538" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0006" x="5817" y="743" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0007" x="5817" y="743" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0008" x="5817" y="743" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0009" x="5817" y="743" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0010" x="5817" y="743" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0011" x="5817" y="743" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0012" x="5817" y="743" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left0013" x="5817" y="743" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0000" x="6370" y="743" width="586" height="725" frameX="0" frameY="-1" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0001" x="6370" y="743" width="586" height="725" frameX="0" frameY="-1" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0002" x="6966" y="743" width="542" height="726" frameX="-37" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0003" x="6966" y="743" width="542" height="726" frameX="-37" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0004" x="7518" y="743" width="538" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0005" x="7518" y="743" width="538" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0006" x="10" y="1479" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0007" x="10" y="1479" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0008" x="563" y="1479" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0009" x="563" y="1479" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0010" x="563" y="1479" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0011" x="563" y="1479" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0012" x="563" y="1479" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left Baton0013" x="563" y="1479" width="543" height="726" frameX="-50" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left MISS0000" x="4121" y="743" width="586" height="725" frameX="0" frameY="0" frameWidth="593" frameHeight="726"/>
+	<SubTexture name="Sweet Left MISS0001" x="1116" y="1479" width="429" height="727" frameX="-187" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0002" x="1116" y="1479" width="429" height="727" frameX="-187" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0003" x="1555" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0004" x="1555" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0005" x="1994" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0006" x="1994" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0007" x="1555" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0008" x="1555" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0009" x="1994" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0010" x="1994" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0011" x="1555" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0012" x="1555" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0013" x="1994" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0014" x="1994" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0015" x="1555" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0016" x="1555" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0017" x="1994" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Left MISS0018" x="1994" y="1479" width="429" height="727" frameX="-185" frameY="-5" frameWidth="616" frameHeight="732"/>
+	<SubTexture name="Sweet Right0000" x="2433" y="1479" width="449" height="742" frameX="-1" frameY="-18" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0001" x="2433" y="1479" width="449" height="742" frameX="-1" frameY="-18" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0002" x="2892" y="1479" width="452" height="756" frameX="-18" frameY="-4" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0003" x="2892" y="1479" width="452" height="756" frameX="-18" frameY="-4" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0004" x="3354" y="1479" width="451" height="760" frameX="-5" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0005" x="3354" y="1479" width="451" height="760" frameX="-5" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0006" x="3815" y="1479" width="451" height="760" frameX="0" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0007" x="3815" y="1479" width="451" height="760" frameX="0" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0008" x="3815" y="1479" width="451" height="760" frameX="0" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0009" x="3815" y="1479" width="451" height="760" frameX="0" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0010" x="3815" y="1479" width="451" height="760" frameX="0" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0011" x="3815" y="1479" width="451" height="760" frameX="0" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0012" x="3815" y="1479" width="451" height="760" frameX="0" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right0013" x="3815" y="1479" width="451" height="760" frameX="0" frameY="0" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right Baton0000" x="4276" y="1479" width="582" height="713" frameX="-1" frameY="-6" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0001" x="4276" y="1479" width="582" height="713" frameX="-1" frameY="-6" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0002" x="4868" y="1479" width="576" height="719" frameX="-18" frameY="0" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0003" x="4868" y="1479" width="576" height="719" frameX="-18" frameY="0" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0004" x="5454" y="1479" width="593" height="718" frameX="-5" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0005" x="5454" y="1479" width="593" height="718" frameX="-5" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0006" x="6057" y="1479" width="600" height="718" frameX="0" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0007" x="6057" y="1479" width="600" height="718" frameX="0" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0008" x="6057" y="1479" width="600" height="718" frameX="0" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0009" x="6057" y="1479" width="600" height="718" frameX="0" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0010" x="6057" y="1479" width="600" height="718" frameX="0" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0011" x="6057" y="1479" width="600" height="718" frameX="0" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0012" x="6057" y="1479" width="600" height="718" frameX="0" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right Baton0013" x="6057" y="1479" width="600" height="718" frameX="0" frameY="-1" frameWidth="600" frameHeight="719"/>
+	<SubTexture name="Sweet Right MISS0000" x="2433" y="1479" width="449" height="742" frameX="-4" frameY="-5" frameWidth="470" frameHeight="760"/>
+	<SubTexture name="Sweet Right MISS0001" x="6667" y="1479" width="451" height="747" frameX="0" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0002" x="6667" y="1479" width="451" height="747" frameX="0" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0003" x="7128" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0004" x="7128" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0005" x="7589" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0006" x="7589" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0007" x="7128" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0008" x="7128" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0009" x="7589" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0010" x="7589" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0011" x="7128" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0012" x="7128" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0013" x="7589" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0014" x="7589" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0015" x="7128" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0016" x="7128" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0017" x="7589" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Right MISS0018" x="7589" y="1479" width="451" height="747" frameX="-3" frameY="0" frameWidth="454" frameHeight="747"/>
+	<SubTexture name="Sweet Up0000" x="10" y="2249" width="442" height="736" frameX="-7" frameY="0" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0001" x="10" y="2249" width="442" height="736" frameX="-7" frameY="0" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0002" x="462" y="2249" width="451" height="735" frameX="-3" frameY="-1" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0003" x="462" y="2249" width="451" height="735" frameX="-3" frameY="-1" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0004" x="923" y="2249" width="457" height="732" frameX="0" frameY="-4" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0005" x="923" y="2249" width="457" height="732" frameX="0" frameY="-4" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0006" x="1390" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0007" x="1390" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0008" x="1851" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0009" x="1851" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0010" x="1851" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0011" x="1851" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0012" x="1851" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up0013" x="1851" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0000" x="2312" y="2249" width="442" height="736" frameX="-7" frameY="0" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0001" x="2312" y="2249" width="442" height="736" frameX="-7" frameY="0" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0002" x="2764" y="2249" width="451" height="735" frameX="-3" frameY="-1" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0003" x="2764" y="2249" width="451" height="735" frameX="-3" frameY="-1" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0004" x="3225" y="2249" width="457" height="732" frameX="0" frameY="-4" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0005" x="3225" y="2249" width="457" height="732" frameX="0" frameY="-4" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0006" x="3692" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0007" x="3692" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0008" x="4153" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0009" x="4153" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0010" x="4153" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0011" x="4153" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0012" x="4153" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up Baton0013" x="4153" y="2249" width="451" height="727" frameX="-3" frameY="-9" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up MISS0000" x="10" y="2249" width="442" height="736" frameX="-8" frameY="0" frameWidth="457" frameHeight="736"/>
+	<SubTexture name="Sweet Up MISS0001" x="4614" y="2249" width="459" height="722" frameX="0" frameY="-15" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0002" x="4614" y="2249" width="459" height="722" frameX="0" frameY="-15" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0003" x="5083" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0004" x="5083" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0005" x="5544" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0006" x="5544" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0007" x="5083" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0008" x="5083" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0009" x="5544" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0010" x="5544" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0011" x="5083" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0012" x="5083" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0013" x="5544" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0014" x="5544" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0015" x="5083" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0016" x="5083" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0017" x="5544" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+	<SubTexture name="Sweet Up MISS0018" x="5544" y="2249" width="451" height="727" frameX="-4" frameY="-10" frameWidth="459" frameHeight="737"/>
+</TextureAtlas>

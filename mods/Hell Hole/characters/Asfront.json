@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "Asfl",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "Asfd",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "Asfu",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "Asfr",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "Asfi",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Asfront",
+	"position": [
+		-290,
+		-50
+	],
+	"healthicon": "monikap2",
+	"flip_x": false,
+	"healthbar_colors": [
+		32,
+		108,
+		10
+	],
+	"camera_position": [
+		-205,
+		120
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

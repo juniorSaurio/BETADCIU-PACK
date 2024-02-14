@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-39,
+				36
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "KIRBY LEFT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-34
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "kirby down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				27
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "KIRBY UP"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				19
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "KIRBY RIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "kirby idle"
+		},
+		{
+			"offsets": [
+				10,
+				169
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Poyo",
+			"indices": [],
+			"name": "KIRBY POYO"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/kirby",
+	"position": [
+		210,
+		420
+	],
+	"healthicon": "kirby",
+	"flip_x": false,
+	"healthbar_colors": [
+		241,
+		157,
+		181
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

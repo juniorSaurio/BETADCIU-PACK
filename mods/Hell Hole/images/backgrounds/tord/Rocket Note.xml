@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Rocket Note.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="purple0000" x="656" y="0" width="165" height="383" pivotX="12.85" pivotY="0" frameX="0" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="purple0001" x="164" y="0" width="162" height="403" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="purple0002" x="0" y="0" width="162" height="419" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="purple0003" x="328" y="0" width="162" height="396" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="purple0004" x="492" y="0" width="162" height="393" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	
+	<SubTexture name="blue0000" x="656" y="0" width="165" height="383" pivotX="12.85" pivotY="0" frameX="0" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="blue0001" x="164" y="0" width="162" height="403" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="blue0002" x="0" y="0" width="162" height="419" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="blue0003" x="328" y="0" width="162" height="396" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="blue0004" x="492" y="0" width="162" height="393" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+
+	<SubTexture name="green0000" x="656" y="0" width="165" height="383" pivotX="12.85" pivotY="0" frameX="0" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="green0001" x="164" y="0" width="162" height="403" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="green0002" x="0" y="0" width="162" height="419" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="green0003" x="328" y="0" width="162" height="396" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="green0004" x="492" y="0" width="162" height="393" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+
+	<SubTexture name="red0000" x="656" y="0" width="165" height="383" pivotX="12.85" pivotY="0" frameX="0" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="red0001" x="164" y="0" width="162" height="403" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="red0002" x="0" y="0" width="162" height="419" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="red0003" x="328" y="0" width="162" height="396" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+	<SubTexture name="red0004" x="492" y="0" width="162" height="393" frameX="-3" frameY="0" frameWidth="165" frameHeight="419"/>
+</TextureAtlas>

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "fuckedfinalboss"
+		},
+		{
+			"offsets": [
+				63,
+				-17
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "ROBOTLEFTPOSE"
+		},
+		{
+			"offsets": [
+				11,
+				-13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "ROBOTRIGHT"
+		},
+		{
+			"offsets": [
+				-2,
+				-12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "ROBOTDOWN"
+		},
+		{
+			"offsets": [
+				13,
+				31
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "ROBOTUP"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Robot_assets",
+	"position": [
+		-150,
+		-40
+	],
+	"healthicon": "boss",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-130,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

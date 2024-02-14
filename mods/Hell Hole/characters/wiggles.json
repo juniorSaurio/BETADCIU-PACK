@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-97,
+				-228
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "wigglytuff idle"
+		},
+		{
+			"offsets": [
+				-93,
+				-210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "wigglytuff right"
+		},
+		{
+			"offsets": [
+				-86,
+				-219
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "wigglytuff up"
+		},
+		{
+			"offsets": [
+				-83,
+				-248
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "wigglytuff down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-114,
+				-233
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "wigglytuff left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-92,
+				-390
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "STARE down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-145,
+				-335
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "STARE left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-54,
+				-320
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "STARE right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-129,
+				-235
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "STARE up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/wiggles_glitchy",
+	"position": [
+		170,
+		140
+	],
+	"healthicon": "wigglytuff",
+	"flip_x": false,
+	"healthbar_colors": [
+		163,
+		103,
+		117
+	],
+	"camera_position": [
+		30,
+		230
+	],
+	"sing_duration": 6.1,
+	"scale": 1.5
+}

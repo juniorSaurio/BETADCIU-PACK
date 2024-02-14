@@ -1,0 +1,180 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				84,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Sweet Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				-23
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sweet Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				9
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sweet Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-89,
+				33
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sweet Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				66,
+				-10
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Sweet Left MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-102,
+				-31
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Sweet Down MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-73,
+				10
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Sweet Up MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				21
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Sweet Right MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				84,
+				0
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Sweet Left Baton",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				-23
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Sweet Down Baton",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				9
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Sweet Up Baton",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-92,
+				-14
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Sweet Right Baton",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Sweet Idle0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "Sweet Idle Baton"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sweet",
+	"position": [
+		0,
+		20
+	],
+	"healthicon": "sweet",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		196,
+		189
+	],
+	"camera_position": [
+		-60,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"note": "note_sweet",
+	"noteSplash": "splash_sweet", 
+	"ratings_folder": "sweet"
+}
