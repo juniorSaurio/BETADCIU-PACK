@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Libi Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				89,
+				79
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Libi left0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				270,
+				-137
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Libi down0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				92,
+				175
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Libi up0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				220,
+				-78
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Libi right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				100,
+				-180
+			],
+			"loop": false,
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Libi left miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				180,
+				-160
+			],
+			"loop": false,
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Libi down miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				312,
+				-135
+			],
+			"loop": false,
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Libi up miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				280,
+				-148
+			],
+			"loop": false,
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Libi right miss",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Libitina_tmp",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "libitina",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 2.2,
+	"_editor_isPlayer": false
+}

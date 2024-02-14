@@ -1,0 +1,27 @@
+{
+	"storyName": "",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Demise",
+			"2MX",
+			[
+				55,
+				8,
+				2
+			],
+			75
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Demise"
+}

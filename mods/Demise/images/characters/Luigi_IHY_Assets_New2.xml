@@ -1,0 +1,200 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Luigi_IHY_Assets_New2.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Luigi Falling0000" x="5" y="5" width="776" height="955" frameX="-22" frameY="0" frameWidth="856" frameHeight="987"/>
+	<SubTexture name="Luigi Falling0001" x="5" y="5" width="776" height="955" frameX="-22" frameY="0" frameWidth="856" frameHeight="987"/>
+	<SubTexture name="Luigi Falling0002" x="791" y="5" width="856" height="933" frameX="0" frameY="-1" frameWidth="856" frameHeight="987"/>
+	<SubTexture name="Luigi Falling0003" x="791" y="5" width="856" height="933" frameX="0" frameY="-1" frameWidth="856" frameHeight="987"/>
+	<SubTexture name="Luigi Falling0004" x="1657" y="5" width="758" height="986" frameX="-25" frameY="-1" frameWidth="856" frameHeight="987"/>
+	<SubTexture name="Luigi Falling0005" x="1657" y="5" width="758" height="986" frameX="-25" frameY="-1" frameWidth="856" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0000" x="2425" y="5" width="512" height="937" frameX="-6" frameY="0" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0001" x="2425" y="5" width="512" height="937" frameX="-6" frameY="0" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0002" x="2425" y="5" width="512" height="937" frameX="-6" frameY="0" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0003" x="2425" y="5" width="512" height="937" frameX="-6" frameY="0" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0004" x="2947" y="5" width="512" height="932" frameX="-7" frameY="-5" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0005" x="2947" y="5" width="512" height="932" frameX="-7" frameY="-5" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0006" x="2947" y="5" width="512" height="932" frameX="-7" frameY="-5" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0007" x="3469" y="5" width="514" height="921" frameX="-9" frameY="-16" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0008" x="3469" y="5" width="514" height="921" frameX="-9" frameY="-16" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0009" x="3993" y="5" width="528" height="869" frameX="-9" frameY="-68" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0010" x="3993" y="5" width="528" height="869" frameX="-9" frameY="-68" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0011" x="4531" y="5" width="531" height="848" frameX="-17" frameY="-89" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0012" x="5072" y="5" width="636" height="608" frameX="0" frameY="-379" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0013" x="5718" y="5" width="624" height="610" frameX="-8" frameY="-376" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0014" x="5718" y="5" width="624" height="610" frameX="-8" frameY="-376" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0015" x="6352" y="5" width="624" height="625" frameX="-9" frameY="-358" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0016" x="6352" y="5" width="624" height="625" frameX="-9" frameY="-358" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0017" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0018" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0019" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0020" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0021" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0022" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0023" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0024" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0025" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0026" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees0027" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Knees Idle0000" x="6986" y="5" width="624" height="625" frameX="-9" frameY="-357" frameWidth="636" frameHeight="987"/>
+	<SubTexture name="Luigi Lava Hand0000" x="7620" y="5" width="345" height="623" frameX="-37" frameY="-68" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0001" x="7620" y="5" width="345" height="623" frameX="-37" frameY="-68" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0002" x="5" y="1001" width="345" height="540" frameX="-22" frameY="-67" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0003" x="5" y="1001" width="345" height="540" frameX="-22" frameY="-67" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0004" x="360" y="1001" width="345" height="519" frameX="-13" frameY="-4" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0005" x="360" y="1001" width="345" height="519" frameX="-13" frameY="-4" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0006" x="715" y="1001" width="345" height="519" frameX="-4" frameY="0" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0007" x="715" y="1001" width="345" height="519" frameX="-4" frameY="0" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0008" x="1070" y="1001" width="288" height="491" frameX="-18" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0009" x="1070" y="1001" width="288" height="491" frameX="-18" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0010" x="1368" y="1001" width="288" height="491" frameX="0" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0011" x="1368" y="1001" width="288" height="491" frameX="0" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0012" x="1368" y="1001" width="288" height="491" frameX="0" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0013" x="1666" y="1001" width="288" height="491" frameX="-4" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0014" x="1666" y="1001" width="288" height="491" frameX="-4" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0015" x="1666" y="1001" width="288" height="491" frameX="-4" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0016" x="1964" y="1001" width="288" height="491" frameX="-7" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0017" x="1964" y="1001" width="288" height="491" frameX="-7" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0018" x="2262" y="1001" width="288" height="491" frameX="-15" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0019" x="2262" y="1001" width="288" height="491" frameX="-15" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0020" x="2560" y="1001" width="288" height="491" frameX="-15" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0021" x="2560" y="1001" width="288" height="491" frameX="-15" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0022" x="2858" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0023" x="2858" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0024" x="3156" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0025" x="3156" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0026" x="3454" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0027" x="3454" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0028" x="3752" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0029" x="3752" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0030" x="4050" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0031" x="4050" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0032" x="4050" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0033" x="4348" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0034" x="4348" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0035" x="4348" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0036" x="4348" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0037" x="4646" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0038" x="4646" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0039" x="4646" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0040" x="4944" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0041" x="4944" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0042" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0043" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0044" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0045" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0046" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0047" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0048" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0049" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0050" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0051" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0052" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0053" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0054" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0055" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0056" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0057" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0058" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0059" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0060" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0061" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0062" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0063" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0064" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0065" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0066" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0067" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0068" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0069" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0070" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0071" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="Luigi Lava Hand0072" x="5242" y="1001" width="288" height="491" frameX="-14" frameY="-3" frameWidth="382" frameHeight="691"/>
+	<SubTexture name="LuigiDown0000" x="5540" y="1001" width="740" height="595" frameX="0" frameY="-28" frameWidth="740" frameHeight="623"/>
+	<SubTexture name="LuigiDown0001" x="6290" y="1001" width="719" height="600" frameX="-5" frameY="-23" frameWidth="740" frameHeight="623"/>
+	<SubTexture name="LuigiDown0002" x="6290" y="1001" width="719" height="600" frameX="-5" frameY="-23" frameWidth="740" frameHeight="623"/>
+	<SubTexture name="LuigiDown0003" x="7019" y="1001" width="709" height="620" frameX="-11" frameY="-3" frameWidth="740" frameHeight="623"/>
+	<SubTexture name="LuigiDown0004" x="7019" y="1001" width="709" height="620" frameX="-11" frameY="-3" frameWidth0‚'	*†H†÷ ‚'0‚' 10	`†He 0‚Q	+‚7
+ ‚B0‚>0
++‚7]¡VkØL’çZm­›‹240209210632Z0
++‚7 0¼0* >*x2úê°ãùØPÚ@[W10
++‚71‚ 0 ¹C¢X©‡ü$º—¼ÒŒÊÚg+½İ¸"”ÖĞ¡‹¹²1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  ¹C¢X©‡ü$º—¼ÒŒÊÚg+½İ¸"”ÖĞ¡‹¹² ‚<0‚80¸
++‚7©0¦ P a c k a g e N a m e †m i c r o s o f t - w i n d o w s - a c t i v e d i r e c t o r y - d s - l d s - t o o l s - f o d - p a c k a g e - W r a p p e r   0{
++‚7m0k O S A t t r V2 : 1 0 . 0 , 2 : 6 . 3 , 2 : 6 . 2 , 2 : 6 . 1 , 2 : 6 . 0 , 2 : 5 . 2 , 2 : 5 . 1    ‚
+è0‚	0‚ñ 3  _óÉl÷Ú    _0	*†H†÷ 0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110231116192008Z241114192008Z0p10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Windows0‚"0	*†H†÷ ‚ 0‚
+‚ ±ËÅ”Cû`C%#°<{_	²»j!ışöXséN×Ä§3™üµ-Zí¤×]Â_1¥aÙ4™F(*fmKš$/[şÎâ‰ÏËÜn~1‹ål%ïÈäşâÄ¾M¸<*Êf2¾(òêZ2}kNS	µ<Ø$UTê49×i'¶TÂÂ¥eÌ\—nEiWşe;I<g{eA¦ôµ(ş^6RâNœû¨Â¦‘0èÙ¼r·-µGÔ´U¨å—1‹2ûE‹áfsåXò2Ó»7ŠÿSöO¸4“­Ğ¶|=É|a£ä-FEà·ì_şûœÏòú,„YO<¸ÍNç [Â]s £‚…0‚0U%0
++‚7
++0U'…JQ<5˜şvn‘…¥D{²Ò0TUM0K¤I0G1-0+U$Microsoft Ireland Operations Limited10U229879+5018350U#0€©)9Ä—xÍùOšá|U¯S0WUP0N0L J H†Fhttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl%200a+U0S0Q+0†Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0Uÿ0 0	*†H†÷ ‚ {»Æ¿ˆ¹·³Û=nLzq%ÙazŒv4¯µv AzÔÉ]‹ÍüõoSU"SÂ5JFGŠ—G9³¼¥Ël_ºÓ¿n:HŒöèßk¡9‚3ëÀ7:†ìëk^&æ’qáÆOH9HŠYéÂæĞG÷H hgªÅ·¾•éşGvxw¨s6ÏÛÔx"lÇÃŸÍƒ³½|õ´™œÆ›L²M@JöZß„G=/D¬Ë‹öáçe¼'™äÁˆO~‚×!¨×n¨wV »(°ÅC¥Ù«EFMo~QzÒ'3²m…è Éo§bÛ¤#éÛşu™7aFP¶×t§)(Ajµ¿üÎä”è0‚×0‚¿ 
+avV     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100111019184142Z261019185142Z0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110‚"0	*†H†÷ ‚ 0‚
+‚ İ»¢ä.	ãçÅ÷–i¼ !½i33ï­ËT€îƒ»Å „Ù÷Ò‹ó8°«¤­-|byÿãJ?5 pãÄçkàœÀ6uéŠ1İpåÜ7µtF–([‡`#,¿ÜG¥g÷Q'rë¦É¹;S5|åÓì'¹‡ş¹É#	o¨F‘Án–<AÓË£?]jMìi%(\6ÿıC
+”à´ÏßÂâÂ['î'x0‹[*	k"‰S`,ÀhSºìIóaŒ…h	sD]}¢T+İy÷Ï5]l+\Î¼œ#‹onµ&Ù6ÃOÖ'®¹2;A’,áÇÍwèªTN÷\‡e´C¨²àmwìZ$úH £‚C0‚?0	+‚7 0U©)9Ä—xÍùOšá|U¯S0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*†H†÷ ‚ ü|qQ¥yÂn²ï9>¼<Rn+?sş¨hĞH¦4MŠ–&î1FayÖÿ8.EkôÀå(¸ÚŠÛ	×ÇL
+6fjŒì×¨¤›¹â@26vÄÁZÆ¿äÀêÓ¬Ãhïb¬İTlP0X¦ë|ş”§Nôì|†sWÂR!s4Zó£ŠVÈÚ	íø‹ãÎô~®ğöŠû?ÉrS¸ë¾càã=1e°åò¬Í¤Ÿ=¨±›ÂBĞ„_Tÿ‰êºGo°sNAŸ@Ÿ_å¡*²‘sŠ!(ğÎŞs9_>«\`ìß¨Ó	éôö–…¶QˆfG¢°=*hw»‘Lb{¶ÁÇºz‡4Kbz™éÊüÎJ7É-¤W|ş=Ü¸ZúÖÄ³…:ê³Ùnäi!7ŞÑöugÓ“W^)9Èî-áÍäEs[ĞÒÎz«‚FXĞ^³g¯l5ò¼å?$â5¢
+uöV™Ôx,ÑëĞˆªñßº~,c·›#!ÄùxlâX6+‘Ì¤Ùò-ºù”@íEñÎŠ\k>«Óp*
+jà_GÑÕc
+2ò¯×6*pZåBYqKWº~ƒğ!<ôÁÅ¹“ˆE“†é± ™¾˜ËÅ•¤]bÖ c ½uw}=óE¹Ÿ—ŸËW€o3©Ïw¤bY~1‚§0‚£0œ0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20113  _óÉl÷Ú    _0	`†He  ­0	*†H†÷	1	+‚7
+0
++‚710
++‚70/	*†H†÷	1" ò´‰°mh4?¤^zştHv¶NjÚï w/ĞNKd0B
++‚71402 € M i c r o s o f t¡€http://www.microsoft.com0	*†H†÷ ‚ .võH¨gÊá>òÇkyZvÙ R¶±¯•çñ¦`¦r‰Üb7ñ35ï]ßøa§Ü°Æ›Õ¾Üf©İâÔÔ=8¸æ~¨ zd>cıs‘H $óz}×Q%Nmè5ÕæÙ¹ºoêTLzÓ67«+–ä`â½NM5–H-ÔÍúˆFpªŞ¾XãÊ#6‚û9Ëw·—nŒ:Wè‡»jÀsJ)€Ju!‹?ä;lµëÔöa¹ıÅ²°#¸ªÔ¦œ	Ü¡mhå;‰Àğe~®†|òí+gİƒÆ j  r–Pl¤HkÀTÔ½àõæbî‰ŒU€Ÿ_Y I¨›8†º¡‚+0‚'
++‚71‚0‚	*†H†÷ ‚0‚ 10	`†He 0‚Y*†H†÷	 ‚H‚D0‚@
++„Y
+010	`†He  t@`†ú°¤¿šœøùM·áÙÆ‡!Gøÿføí%æøŸNeº¤c9
+20240209211313.315Z0€ô Ø¤Õ0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:D082-4BFD-EEBA1%0#UMicrosoft Time-Stamp Service ‚z0‚'0‚ 3  ÜÁàŒÂ_X^   Ü0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100231012190706Z250110190706Z0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:D082-4BFD-EEBA1%0#UMicrosoft Time-Stamp Service0‚"0	*†H†÷ ‚ 0‚
+‚ ‹È³ 5²8=‘"‰ÍékQayJ˜X¿7ji÷HNIÈ…OP.Åê¤Ü.˜aŸbuıµDZµ<|Ãq<Äv)SbĞ†<–¼‘]Bù÷máÚm¥¶j‰jq»Ö`2Â¹
+6'‹‹=ÉÓA$_SKæ%vİÅ”|Ÿ’ ú•,%|êºi¼Jôsï¦ĞªGE,¬(àå	ïÍäß^é3_ËĞµ0}RnMHS¼è?ôEZİÖj¡g¥% Åå Õ~IxÁ,Ç¸à$7Dœ®8cÈ¸E‘¯’ÕèĞb+“X>n¿{åb Éû­!op¹ğ£©Ì¿Š¤2PÎqİ nxò&µöSİLr+ÚËô‘ˆ£ò9`ò…°_(¯ßæÆ§ftÎµº¾§R×Ãe=Â¡+…hózN_ç‰iUœAĞWÓIçğÛQ*–Ù“Q­Ø«¯³$F0H#5Ûôª­¥¼MŸˆŞY™•m©#Öh†¬Ç¶´Ÿu<>ägèÊ6K¯¿m‘0Kı'˜(h§5·òC\k½eÏµ|Ê9øä‡¾bFåèº±•=¤›>Tc?‘ç&Ì%hş™÷«=¡]_"fp™ë˜¯œJÂ2E•ø<ãŞ©OJaDÇØ`¡‹Äá Ò“hpXÿî`Ï)ÿÓŞşk} £‚I0‚E0UèsÒİ|E÷¸Õ¬vD«iAİÛ0U#0€Ÿ§] ^b]ƒôåÒe§S5ér0_UX0V0T R P†Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l+`0^0\+0†Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0Uÿ0 0U%ÿ0
++0Uÿ€0	*†H†÷ ‚ ÙëoÁ0¯Ç—ü}l*İëŸÃÇ€*€vä0Ô(úEÀ"]-òÔev«
+ı`é7û´Üu«Ci*MINêT%ñİ­’èGï6•>ò!*c¾¨7D$øCï(¡Ó3<b{Ä­RíñgŸy¹ÜI="ë*J¿Îé	‰13nn¦Ìı_ŒåPi¤%,íœ8³ÿ1 ÔÙ/ûâ^Ñæ¯ 4g~>ß\ù§laù»©îT2t´ö	˜AJ†\,ò,¯‡å,-âYpO™«’MŒŞ±}pÎÑ•Û×Ğ6eÓvYd“èN1¹TWòüŸVÎÿåt'b]7õÄ®µ«r–'ówp¡'\nnúaµ ‰çğ¢À:¯P—¯U5«.2âùU)¤¡µ·_€ü†yâaÄ8ÓœĞ3SY¸Ìl¾t©âIGJ’ö­Víá°|Æò~nä$Œü1ôüé±’3GÉQz’èÈáZ=6ó¿Ì_·2>íEıe®Àgù½qç³£i~wƒø¿:¼@WÚ‚˜t`\ÛF‰‰|9úÑ©s¿·i	T¹:Ú|ˆd©ì_î(VôN5ÖÃ£…¤m[²5é:C0y2²¸›Äz+áŒùu˜ÕÈpÈª4m*À•W¢…Æ†ä^øI”üÜ‡nˆ€·9ÃıÃùhl8JgmV0‚q0‚Y 3   Åçk›I™     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100210930182225Z300930183225Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ äá¦Lç´r!y¢Ë×$y½Õ‚ÓıîœÒ©lNuÈÊ5WölJàâ½¹>`3ÿ\OÇf÷•SqZâ~JZş¸6g…F#µÏw2Àè`}jRƒD·¦FkóÅvõ†PÜÁDÈq\Q17 
+8ní×Ø&S|9azÄªıri¯«¬ö6¾5&dÚ˜;º{3­€[~ŒRş¶èb%ÜjÏ]ôşSÏÖì…VMïİ¼¤ã‘²9,QœépiÊ6-p1È5(½ã´‡$ÃàÉ~µTÜúU˜mh;šF½í¤®z)7¬ËëƒEçFnÊ2ÕÀ†0\O,âb²Í¹âˆä–¬J»¾q©[g`Şø’‘=ı Ïs}AšFuÍÄ_4İ‰Öı¥ }~üÙEß¶r/Û}_€ºÛª~6ì6Lö+n¨Qè¿£Ñs¦M7t”4‚ğò·Gí§è™|?LÛ¯^ÂóÕØs=CNÁ39L¼Bh.ê„QFâÑ½jZasÊg¢^×(vâ3r×§ ğÂú
+×coÉ6d‹[ ¦ƒ!]_0t‘””Ø¹Pù‰aó65„GÛÜÑı²ÔÅkö\RQ]Û%º¯PzlÅrïùRÄ…“À<Û7Ç?x«E¶õ‡^ÚriÆ®{··>jâ.­ £‚İ0‚Ù0	+‚7 0#	+‚7*§RşdÄš¾‚‘<F5)Ïÿ/î0UŸ§] ^b]ƒôåÒe§S5ér0\U U0S0Q+‚7Lƒ}0A0?+3http://www.microsoft.com/pkiops/Docs/Repository.htm0U%0
++0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*†H†÷ ‚ U}ü*­á,g1$[árKü©oê\¶>NGdx±“—=13µ9×Âq6?Údl|Ğu9m»1äÂûlÑ¡”"îéfg:SMİ˜º¶xØ6.œ©‚V °¾‰èiàº	î{ßjo¾)ËnØ?HuÙŞm‚õm#TäxSu$W¹İŸó=Æóhßeö¤Vª÷•¶(U'Ğ$½@ ¿¶]='à@–8¬÷ù)‰Ã¼°T…B³ü‹‰çğjÂBRuŠ6ÂÃas.,k{n?,	xé‘²©[ßI£t¼ì‘€Ò=æJ>f;O»†ú2Ù–ôö‘öÎÆtıöLro«u0Å4°zØPş
+Xİ@<ÇTmctH,±NG-Áq¿dù$¾smÊ	½³WITdÙs×[DZ‘kŸ¤(Üg($º8Kšnû!TkjEG©ñ·®Èè‰^OÒĞLvµWT	±iD~|¡alsş
+»ìAf=iıËÁAI~~“¾Ëø;ä·¿´Î>¥1Q„¼¿Á‚¢{‰pşçµĞ(‰6ÚºLù›ÿ
+é4ø$5g+à¸æŒ™Öá"êğ'B=%”ætt[jÑ>í~ 13}¼Ëé{¿8pDÑñÈ«:Š:bÙpcSMî‚m¥Áqj´U3X³¡pfò¡‚Ö0‚?0‚ ¡Ø¤Õ0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:D082-4BFD-EEBA1%0#UMicrosoft Time-Stamp Service¢#
+0+ 9ÿs?·ÉP"_I²÷v9Ğ¦ ƒ0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100	*†H†÷  épÿª0"20240210034650Z20240211034650Z0v0<
++„Y
+1.0,0
+ épÿª 0	 ÿ0 ş0
+ érQ* 06
++„Y
+1(0&0
++„Y
+ 
+0 ¡ ¡
+0 † 0	*†H†÷  +>{fÔ¤æ×ã•`R…_=–5·~x@2™5kT‚ºÌ–Ú.&‹PÏjµË4ËUFeà%ÅqYÊT4‘ÜşNˆK±¶®…Ü©µŒ÷»¥¯ß¦‹¿R|ş©‡¡ƒúèÀŸuqYøh¡R”•"o3,ÄÔL=©Ü§(Yñ®’1‚0‚	0“0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103  ÜÁàŒÂ_X^   Ü0	`†He  ‚J0	*†H†÷	1*†H†÷	0/	*†H†÷	1" ŸËB`båNÚ›ßªJƒÉƒÑl{›d0¶'|±0ú*†H†÷	/1ê0ç0ä0½ S§ŠjÙD?Œ¼©œã¹bô:í«öL¼¥Ä‚70˜0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103  ÜÁàŒÂ_X^   Ü0" —&m¿¥š€£á‰ñ~Ó¹¦wÇAòğT$_ªi0	*†H†÷ ‚ N“ıô¢"K¯ƒK‘µP¯P9iLoJô3¼Şhˆ˜Fİv ¦H™+BùGDEiˆ³>•Åe§*”Z,ÖÊ~iŠÂ‹’;†/rk¿úš*ª:•h¶šiµº=còe×y,Êá*Óİbµ2zÑk¶w×»ä|g©âŞóàdNÊ²VÈ1F¸•DeŠÍ 8Aö¡¾Ğ§"[À™bó¯‚L•$ÕİË£%0ßüÊ¡[o#@â5Rˆ&ù9F^¨»¸Ì„ÇéÀÚ	XÏ^G1ÕYÅI"xÜ^Úgïàğf"‘Şò}@©ÓÕUWß:];À¸Ø`‹¯'‹Šç°©š™i_ÁáòÏÇ/,u+ˆaDìà¿¹
+Tœ.š{»Â>/?Q2{x¶9ö2PŞiÑ‰
+Š’ã¦ëŸ¿ KXQq”ï×*OSó‚õë—[âûî¢¨‘]ÛÉù²Ù»ı]_t‹ıZ\,©{hÜéœ½qÔ,³ó
+©õßC']&Gé}"ñ~±%a$hç9ÎÈ4%Ø&´ùİİ, Ğ¥>B=Ö2.üD¥–Ì[àot…îpG«Ú/â…3µ'A'Ä’øùû‚ôO9fs¿ »[èá *Ù»(SÄTsÏšäMeŒxpz;Ş·³¤²Ø‰Rš‘º¡š>´¯‹}9ÔaŞ                                                                                                                                                                                                                                                                                                                                                                                                          

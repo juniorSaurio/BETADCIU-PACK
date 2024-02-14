@@ -1,0 +1,3 @@
+v1: type of popup 
+(1: Binary, 2: Error, 3: Unauthorized, 
+4: unspecified, default ort blank: Unknown)
