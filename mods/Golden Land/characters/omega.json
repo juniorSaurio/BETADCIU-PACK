@@ -1,0 +1,201 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "omegario idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				350,
+				-23
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "omegario left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				60
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "omegario down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				54,
+				259
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "omegario up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				20,
+				-206
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "omegario right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				165,
+				-34
+			],
+			"anim": "scream",
+			"fps": 24,
+			"name": "omegario scream",
+			"indices": []
+		},
+		{
+			"offsets": [
+				325,
+				214
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "exit",
+			"indices": [],
+			"name": "omegario exit"
+		},
+		{
+			"offsets": [
+				325,
+				214
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "exit1",
+			"indices": [
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				11,
+				11,
+				11,
+				11,
+				11,
+				11,
+				11,
+				11
+			],
+			"name": "omegario exit"
+		},
+		{
+			"offsets": [
+				325,
+				214
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "exit2",
+			"indices": [
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74
+			],
+			"name": "omegario exit"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/OmegaMario_Ass2",
+	"position": [
+		540,
+		-320
+	],
+	"healthicon": "omega",
+	"flip_x": false,
+	"healthbar_colors": [
+		171,
+		32,
+		-2147483648
+	],
+	"camera_position": [
+		-155,
+		85
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

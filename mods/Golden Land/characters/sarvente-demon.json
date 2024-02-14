@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-40,
+				54
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "LuciferSarvIdle"
+		},
+		{
+			"offsets": [
+				0,
+				41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "LuciferSarvDown"
+		},
+		{
+			"offsets": [
+				-60,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "LuciferSarvRight"
+		},
+		{
+			"offsets": [
+				-20,
+				58
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "LuciferSarvLeft"
+		},
+		{
+			"offsets": [
+				-26,
+				70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "LuciferSarvUp"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sarventedemon",
+	"position": [
+		-90,
+		-410
+	],
+	"healthicon": "sarvente-demon",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		195,
+		235
+	],
+	"camera_position": [
+		-20,
+		-30
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,27 @@
+{
+	"storyName": "",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Golden Land",
+			"gb",
+			[
+				148,
+				148,
+				148
+			],
+			75
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Golden Land"
+}

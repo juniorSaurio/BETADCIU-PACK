@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "TankIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				76,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "TankDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				85,
+				41
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "TankUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "TankRight",
+			"indices": []
+		},
+		{
+			"offsets": [
+				29,
+				25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "TankLeft"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tankman-perspective",
+	"position": [
+		700,
+		600
+	],
+	"healthicon": "tankman",
+	"flip_x": false,
+	"healthbar_colors": [
+		27,
+		24,
+		24
+	],
+	"camera_position": [
+		-400,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
