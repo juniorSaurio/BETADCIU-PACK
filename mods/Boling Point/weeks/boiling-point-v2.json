@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Boiling Point v2", "maroonParasite", [154, 6, 0]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "",
+	"weekBefore": "Confronting Week",
+	"weekName": "Week Boiling Point",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

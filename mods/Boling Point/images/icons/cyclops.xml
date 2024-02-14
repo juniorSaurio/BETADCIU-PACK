@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="le cyclopse icons.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="losing0000" x="0" y="0" width="141" height="124" frameX="-2" frameY="-2" frameWidth="143" frameHeight="127"/>
+	<SubTexture name="losing0001" x="141" y="0" width="142" height="126" frameX="0" frameY="0" frameWidth="143" frameHeight="127"/>
+	<SubTexture name="losing0002" x="283" y="0" width="141" height="125" frameX="-2" frameY="-1" frameWidth="143" frameHeight="127"/>
+	<SubTexture name="losing0003" x="424" y="0" width="141" height="126" frameX="-2" frameY="0" frameWidth="143" frameHeight="127"/>
+	<SubTexture name="losing0004" x="565" y="0" width="142" height="127" frameX="0" frameY="0" frameWidth="143" frameHeight="127"/>
+	<SubTexture name="losing0005" x="707" y="0" width="140" height="124" frameX="-2" frameY="-2" frameWidth="143" frameHeight="127"/>
+	<SubTexture name="losing0006" x="847" y="0" width="141" height="126" frameX="-2" frameY="0" frameWidth="143" frameHeight="127"/>
+	<SubTexture name="losing0007" x="0" y="127" width="141" height="125" frameX="-2" frameY="-1" frameWidth="143" frameHeight="127"/>
+	<SubTexture name="natural0000" x="141" y="127" width="143" height="132"/>
+	<SubTexture name="natural0001" x="141" y="127" width="143" height="132"/>
+	<SubTexture name="natural0002" x="284" y="127" width="143" height="132"/>
+	<SubTexture name="natural0003" x="284" y="127" width="143" height="132"/>
+	<SubTexture name="winning0000" x="427" y="127" width="139" height="143" frameX="0" frameY="-1" frameWidth="139" frameHeight="144"/>
+	<SubTexture name="winning0001" x="427" y="127" width="139" height="143" frameX="0" frameY="-1" frameWidth="139" frameHeight="144"/>
+	<SubTexture name="winning0002" x="566" y="127" width="139" height="144"/>
+	<SubTexture name="winning0003" x="566" y="127" width="139" height="144"/>
+	<SubTexture name="winning0004" x="705" y="127" width="139" height="143" frameX="0" frameY="-1" frameWidth="139" frameHeight="144"/>
+	<SubTexture name="winning0005" x="705" y="127" width="139" height="143" frameX="0" frameY="-1" frameWidth="139" frameHeight="144"/>
+	<SubTexture name="winning0006" x="844" y="127" width="139" height="143" frameX="0" frameY="-1" frameWidth="139" frameHeight="144"/>
+	<SubTexture name="winning0007" x="844" y="127" width="139" height="143" frameX="0" frameY="-1" frameWidth="139" frameHeight="144"/>
+</TextureAtlas>
