@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				21,
+				3
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Mouse Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-115,
+				-182
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mouse Sing UP"
+		},
+		{
+			"offsets": [
+				-58,
+				-134
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mouse Sing RIGHT"
+		},
+		{
+			"offsets": [
+				-9,
+				-336
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "fuck you",
+			"indices": [],
+			"name": "Mouse attack"
+		},
+		{
+			"offsets": [
+				-131,
+				-182
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mouse Sing LEFT"
+		},
+		{
+			"offsets": [
+				-108,
+				-180
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Mouse Sing DOWN"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/MOUSE PH2",
+	"position": [
+		-520,
+		-500
+	],
+	"healthicon": "mouse-p2",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		170,
+		111
+	],
+	"camera_position": [
+		50,
+		420
+	],
+	"sing_duration": 6.99999999999999,
+	"scale": 0.700000000000004
+}

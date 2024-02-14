@@ -1,0 +1,31 @@
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+name_of_character = 'fleetway_anim1'
+
+function onCreate()
+
+	makeAnimatedLuaSprite(name_of_character, 'characters/fleetway1', -800, 1700);
+    addAnimationByPrefix(name_of_character, 'anim1', 'Fleetway StepItUp', 24, false)
+    scaleObject(name_of_character,1.5,1.5)
+
+	setProperty(name_of_character..'.antialiasing', false);
+	setPropertyLuaSprite(name_of_character, 'flipX', false);
+	scaleObject(name_of_character, 2.2,2.2);
+
+end
+
+function onUpdate(elapsed)
+
+    if curStep == 2032 then
+    	addLuaSprite(name_of_character,true)
+    	setProperty(name_of_character..'.alpha',0.5)
+        doTweenY("fleetwayEnterY", name_of_character, 600, 0.8, "circOut")
+        --playAnim(name_of_character,'anim1',false)
+    end
+
+    if curStep == 2047 then
+        removeLuaSprite(name_of_character)
+    end
+end

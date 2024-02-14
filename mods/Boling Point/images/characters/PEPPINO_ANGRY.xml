@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="angry peppino.png">
+  <!-- silly funny :3 -->
+  <SubTexture name="idle 0000" x="0" y="0" width="161" height="146"/>
+  <SubTexture name="idle 0001" x="161" y="0" width="161" height="146"/>
+  <SubTexture name="idle 0002" x="322" y="0" width="161" height="146"/>
+  <SubTexture name="idle 0003" x="483" y="0" width="161" height="146"/>
+  <SubTexture name="idle 0004" x="644" y="0" width="161" height="146"/>
+  <SubTexture name="idle 0005" x="805" y="0" width="161" height="146"/>
+  <SubTexture name="fall 0000" x="966" y="0" width="161" height="146"/>
+  <SubTexture name="fall 0001" x="0" y="146" width="161" height="146"/>
+  <SubTexture name="fall 0002" x="161" y="146" width="161" height="146"/>
+  <SubTexture name="left 0000" x="322" y="146" width="161" height="146"/>
+  <SubTexture name="left 0001" x="483" y="146" width="161" height="146"/>
+  <SubTexture name="left 0002" x="644" y="146" width="161" height="146"/>
+  <SubTexture name="down 0000" x="805" y="146" width="161" height="146"/>
+  <SubTexture name="down 0001" x="966" y="146" width="161" height="146"/>
+  <SubTexture name="down 0002" x="0" y="292" width="161" height="146"/>
+  <SubTexture name="up 0000" x="161" y="292" width="161" height="146"/>
+  <SubTexture name="up 0001" x="322" y="292" width="161" height="146"/>
+  <SubTexture name="up 0002" x="483" y="292" width="161" height="146"/>
+  <SubTexture name="right 0000" x="644" y="292" width="161" height="146"/>
+  <SubTexture name="right 0001" x="805" y="292" width="161" height="146"/>
+  <SubTexture name="right 0002" x="966" y="292" width="161" height="146"/>
+  <SubTexture name="old-fall 0000" x="0" y="438" width="161" height="146"/>
+  <SubTexture name="old-fall 0001" x="161" y="438" width="161" height="146"/>
+  <SubTexture name="old-fall 0002" x="322" y="438" width="161" height="146"/>
+  <SubTexture name="scream 0000" x="483" y="438" width="161" height="146"/>
+  <SubTexture name="scream 0001" x="644" y="438" width="161" height="146"/>
+  <SubTexture name="scream 0002" x="805" y="438" width="161" height="146"/>
+  <SubTexture name="scream 0003" x="966" y="438" width="161" height="146"/>
+  <SubTexture name="scream 0004" x="0" y="584" width="161" height="146"/>
+  <SubTexture name="scream 0005" x="161" y="584" width="161" height="146"/>
+  <SubTexture name="scream 0006" x="322" y="584" width="161" height="146"/>
+  <SubTexture name="scream 0007" x="483" y="584" width="161" height="146"/>
+  <SubTexture name="scream 0008" x="644" y="584" width="161" height="146"/>
+  <SubTexture name="scream 0009" x="805" y="584" width="161" height="146"/>
+  <SubTexture name="scream 00010" x="966" y="584" width="161" height="146"/>
+  <SubTexture name="scream 00011" x="0" y="730" width="161" height="146"/>
+  <SubTexture name="scream 00012" x="161" y="730" width="161" height="146"/>
+  <SubTexture name="scream 00013" x="644" y="584" width="161" height="146"/>
+  <SubTexture name="scream 00014" x="805" y="584" width="161" height="146"/>
+  <SubTexture name="scream 00015" x="966" y="584" width="161" height="146"/>
+</TextureAtlas>

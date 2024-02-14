@@ -1,0 +1,123 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "LORD IDLE",
+			"indices": [],
+			"playerOffsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-180,
+				-90
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "LORD LEFT",
+			"indices": [],
+			"playerOffsets": [
+				-180,
+				-90
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-440,
+				-120
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "LORD RIGHT",
+			"indices": [],
+			"playerOffsets": [
+				-440,
+				-120
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-360,
+				-210
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "LORD DOWN",
+			"indices": [],
+			"playerOffsets": [
+				-360,
+				-210
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-340,
+				30
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "LORD UP",
+			"indices": [],
+			"playerOffsets": [
+				-340,
+				30
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "entrance",
+			"fps": 24,
+			"name": "entrance",
+			"indices": [],
+			"playerOffsets": [
+				0,
+				0
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/lord x",
+	"position": [
+		-460,
+		0
+	],
+	"player_camera_position": [
+		220,
+		200
+	],
+	"playerposition": [
+		-460,
+		100
+	],
+	"healthicon": "LORD-x",
+	"flip_x": false,
+	"healthbar_colors": [
+		120,
+		119,
+		176
+	],
+	"camera_position": [
+		220,
+		200
+	],
+	"noteSkin": null,
+	"sing_duration": 6.1,
+	"isPlayerChar": false,
+	"scale": 1
+}

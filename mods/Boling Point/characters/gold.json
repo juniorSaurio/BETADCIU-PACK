@@ -1,0 +1,113 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"playerOffsets": [
+				0,
+				0
+			],
+			"name": "Silver Idle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "enter",
+			"fps": 24,
+			"playerOffsets": [
+				0,
+				0
+			],
+			"name": "Silver Spawn Full",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				60
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"playerOffsets": [
+				0,
+				0
+			],
+			"name": "Silver Right Finished",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				510,
+				110
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"playerOffsets": [
+				0,
+				0
+			],
+			"name": "Lost Silver Left finished",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-230
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"playerOffsets": [
+				0,
+				0
+			],
+			"name": "Silver Down Full",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				182
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"playerOffsets": [
+				0,
+				0
+			],
+			"name": "Full Silver Up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Lost Silver Assets Gold",
+	"position": [
+		-100,
+		40
+	],
+	"healthicon": "gold",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-150,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

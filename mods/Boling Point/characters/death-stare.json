@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-127,
+				-312
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-139,
+				-312
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-133,
+				-306
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-128,
+				-344
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"name": "down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-63,
+				-311
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"name": "left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/The_Death_Stare",
+	"position": [
+		770,
+		-235
+	],
+	"healthicon": "wigglytuff",
+	"flip_x": false,
+	"healthbar_colors": [
+		84,
+		47,
+		56
+	],
+	"camera_position": [
+		30,
+		230
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

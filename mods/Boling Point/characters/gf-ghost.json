@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				106,
+				245
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "ghost gf idle"
+		},
+		{
+			"offsets": [
+				99,
+				244
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "ghost gf singLEFT"
+		},
+		{
+			"offsets": [
+				99,
+				244
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "ghost gf singDOWN"
+		},
+		{
+			"offsets": [
+				98,
+				242
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "ghost gf singRIGHT"
+		},
+		{
+			"offsets": [
+				100,
+				245
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "ghost gf singUP"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ghost gf",
+	"position": [
+		580,
+		290
+	],
+	"healthicon": "gf-ghost",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		195,
+		255
+	],
+	"camera_position": [
+		-100,
+		110
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

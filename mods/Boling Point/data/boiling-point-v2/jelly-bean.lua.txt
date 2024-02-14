@@ -1,0 +1,114 @@
+-- script base by ItsCapp 
+idleoffsets = {'0', '0'} -- I recommend you have your idle offset at 0
+leftoffsets = {'-75', '8'}
+downoffsets = {'-56', '-23'}
+upoffsets = {'-76', '24'}
+rightoffsets = {'-81', '1'}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+name_of_character = 'jellybean'
+doIdle = true
+
+function onCreate()
+
+	makeLuaSprite('bgAtrocity', 'backgrounds/atrocity/bg', 1500, -100);
+	setObjectOrder('bgAtrocity', 0)
+	setScrollFactor('bgAtrocity',0,0);
+	setObjectCamera('bgAtrocity','hud');
+	setProperty('bgAtrocity.visible', false)
+
+	makeAnimatedLuaSprite(name_of_character, 'characters/Jellybean', 1650, 150);
+	addAnimationByPrefix(name_of_character, 'idle', 'idle', 24, true);
+	addAnimationByIndices(name_of_character,'singLEFT','left','0,1,2,3,4,5,6,7,8,9,10,11,12,13,14')
+	addAnimationByIndices(name_of_character,'singDOWN','down','0,1,2,3,4,5,6,7,8,9,10,11,12,13,14')
+	addAnimationByIndices(name_of_character,'singUP','up','0,1,2,3,4,5,6,7,8,9,10,11,12,13,14')
+	addAnimationByIndices(name_of_character,'singRIGHT','right','0,1,2,3,4,5,6,7,8,9,10,11,12,13,14')
+
+	setProperty(name_of_character..'.antialiasing', false);
+	setPropertyLuaSprite(name_of_character, 'flipX', false);
+	scaleObject(name_of_character, 1,1);
+	setObjectOrder(name_of_character, getObjectOrder('bgAtrocity') + 1)
+	setScrollFactor(name_of_character,0,0);
+	setObjectCamera(name_of_character,'hud');
+	setProperty(name_of_character..'.visible', false)
+
+end
+
+local singAnims = {"singLEFT", "singDOWN", "singUP", "singRIGHT"}
+function goodNoteHit(id, direction, noteType, isSustainNote)
+	if noteType == 'No Animation' and (curStep >= 447 and curStep <= 511) then
+		doIdle = false
+		objectPlayAnimation(name_of_character, singAnims[direction + 1], true);
+
+		if direction == 0 then
+			setProperty(name_of_character .. '.offset.x', leftoffsets[1]);
+			setProperty(name_of_character .. '.offset.y', leftoffsets[2]);
+
+			if isSustainNote then
+				objectPlayAnimation(name_of_character, singAnims[direction + 1], true);
+			end
+		elseif direction == 1 then
+			setProperty(name_of_character .. '.offset.x', downoffsets[1]);
+			setProperty(name_of_character .. '.offset.y', downoffsets[2]);
+
+			if isSustainNote then
+				objectPlayAnimation(name_of_character, singAnims[direction + 1], true);
+			end
+		elseif direction == 2 then
+			setProperty(name_of_character .. '.offset.x', upoffsets[1]);
+			setProperty(name_of_character .. '.offset.y', upoffsets[2]);
+
+			if isSustainNote then
+				objectPlayAnimation(name_of_character, singAnims[direction + 1], true);
+			end
+		elseif direction == 3 then
+			setProperty(name_of_character .. '.offset.x', rightoffsets[1]);
+			setProperty(name_of_character .. '.offset.y', rightoffsets[2]);
+
+			if isSustainNote then
+				objectPlayAnimation(name_of_character, singAnims[direction + 1], true);
+			end
+		end
+	end
+
+end
+
+function onBeatHit()
+	-- triggered 4 times per section
+	if curBeat % 2 == 0  and doIdle then
+		objectPlayAnimation(name_of_character, 'idle');
+		setProperty(name_of_character .. '.offset.x', idleoffsets[1]);
+		setProperty(name_of_character .. '.offset.y', idleoffsets[2]);
+	end
+	doIdle = true
+end
+
+function onUpdate(elapsed)
+
+    if curStep == 440 then
+
+        setProperty('jellybean.visible', true)
+        setProperty('bgAtrocity.visible', true)
+        doTweenX("jellybeanTweenEnter", 'jellybean', 600, 0.5, "circOut")
+        doTweenX("BgAtrocityTweenEnter", 'bgAtrocity', 550, 0.5, "circOut")
+    end
+
+       if curStep == 510 then
+        doTweenX("jellybeanTweenExit", 'jellybean', 1400, 0.7, "circInOut")
+        doTweenX("BgAtrocityTweenExit", 'bgAtrocity', 1400, 0.7, "circInOut")
+    end
+end
+
+function onTweenCompleted(tag)
+
+	if tag == 'jellybeanTweenEnter' then
+		runHaxeCode([[game.iconP1.changeIcon('jellybean')]]);
+        setHealthBarColors('08012E', '7E3B90');
+	end
+
+    if tag == 'jellybeanTweenExit' then
+        removeLuaSprite('jellybean',true)
+        removeLuaSprite('bgAtrocity',true)
+    end
+end

@@ -1,0 +1,98 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"playerOffsets": [
+				0,
+				0
+			],
+			"name": "Monker Idle Dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				38
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"playerOffsets": [
+				28,
+				36
+			],
+			"name": "Monker Left Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-49,
+				-8
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"playerOffsets": [
+				5,
+				-6
+			],
+			"name": "Monker Down Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				36
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"playerOffsets": [
+				-30,
+				45
+			],
+			"name": "Monker Up Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-45,
+				44
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"playerOffsets": [
+				-54,
+				33
+			],
+			"name": "Monker Right Note",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Monker_assets",
+	"position": [
+		55,
+		320
+	],
+	"healthicon": "monker",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		218,
+		136
+	],
+	"camera_position": [
+		150,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
