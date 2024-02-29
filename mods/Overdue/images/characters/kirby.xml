@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kirby.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="KIRBY LEFT0000" x="0" y="0" width="262" height="252" frameX="0" frameY="-4" frameWidth="293" frameHeight="256"/>
+	<SubTexture name="KIRBY LEFT0001" x="0" y="0" width="262" height="252" frameX="0" frameY="-4" frameWidth="293" frameHeight="256"/>
+	<SubTexture name="KIRBY LEFT0002" x="262" y="0" width="275" height="254" frameX="-10" frameY="-1" frameWidth="293" frameHeight="256"/>
+	<SubTexture name="KIRBY LEFT0003" x="262" y="0" width="275" height="254" frameX="-10" frameY="-1" frameWidth="293" frameHeight="256"/>
+	<SubTexture name="KIRBY LEFT0004" x="537" y="0" width="278" height="255" frameX="-15" frameY="0" frameWidth="293" frameHeight="256"/>
+	<SubTexture name="KIRBY LEFT0005" x="537" y="0" width="278" height="255" frameX="-15" frameY="0" frameWidth="293" frameHeight="256"/>
+	<SubTexture name="KIRBY LEFT0006" x="815" y="0" width="278" height="255" frameX="-11" frameY="0" frameWidth="293" frameHeight="256"/>
+	<SubTexture name="KIRBY LEFT0007" x="815" y="0" width="278" height="255" frameX="-11" frameY="0" frameWidth="293" frameHeight="256"/>
+	<SubTexture name="KIRBY POYO0000" x="1093" y="0" width="286" height="278" frameX="0" frameY="-87" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0001" x="1093" y="0" width="286" height="278" frameX="0" frameY="-87" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0002" x="1379" y="0" width="282" height="272" frameX="-5" frameY="-24" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0003" x="1379" y="0" width="282" height="272" frameX="-5" frameY="-24" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0004" x="1661" y="0" width="289" height="250" frameX="-5" frameY="-16" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0005" x="1661" y="0" width="289" height="250" frameX="-5" frameY="-16" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0006" x="0" y="278" width="287" height="251" frameX="-7" frameY="-8" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0007" x="0" y="278" width="287" height="251" frameX="-7" frameY="-8" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0008" x="287" y="278" width="284" height="252" frameX="-8" frameY="-2" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0009" x="287" y="278" width="284" height="252" frameX="-8" frameY="-2" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0010" x="571" y="278" width="283" height="252" frameX="-9" frameY="0" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0011" x="854" y="278" width="283" height="251" frameX="-9" frameY="0" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0012" x="854" y="278" width="283" height="251" frameX="-9" frameY="0" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0013" x="1137" y="278" width="285" height="250" frameX="-8" frameY="-3" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0014" x="1137" y="278" width="285" height="250" frameX="-8" frameY="-3" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0015" x="1422" y="278" width="285" height="250" frameX="-8" frameY="-11" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY POYO0016" x="1422" y="278" width="285" height="250" frameX="-8" frameY="-11" frameWidth="294" frameHeight="365"/>
+	<SubTexture name="KIRBY RIGHT0000" x="1707" y="278" width="286" height="234"/>
+	<SubTexture name="KIRBY RIGHT0001" x="1707" y="278" width="286" height="234"/>
+	<SubTexture name="KIRBY RIGHT0002" x="0" y="530" width="276" height="234" frameX="-1" frameY="0" frameWidth="286" frameHeight="234"/>
+	<SubTexture name="KIRBY RIGHT0003" x="0" y="530" width="276" height="234" frameX="-1" frameY="0" frameWidth="286" frameHeight="234"/>
+	<SubTexture name="KIRBY RIGHT0004" x="276" y="530" width="270" height="234" frameX="-2" frameY="0" frameWidth="286" frameHeight="234"/>
+	<SubTexture name="KIRBY RIGHT0005" x="276" y="530" width="270" height="234" frameX="-2" frameY="0" frameWidth="286" frameHeight="234"/>
+	<SubTexture name="KIRBY RIGHT0006" x="546" y="530" width="270" height="234" frameX="-2" frameY="0" frameWidth="286" frameHeight="234"/>
+	<SubTexture name="KIRBY RIGHT0007" x="546" y="530" width="270" height="234" frameX="-2" frameY="0" frameWidth="286" frameHeight="234"/>
+	<SubTexture name="KIRBY UP0000" x="816" y="530" width="265" height="244" frameX="-5" frameY="0" frameWidth="276" frameHeight="245"/>
+	<SubTexture name="KIRBY UP0001" x="816" y="530" width="265" height="244" frameX="-5" frameY="0" frameWidth="276" frameHeight="245"/>
+	<SubTexture name="KIRBY UP0002" x="1081" y="530" width="275" height="239" frameX="-1" frameY="-6" frameWidth="276" frameHeight="245"/>
+	<SubTexture name="KIRBY UP0003" x="1081" y="530" width="275" height="239" frameX="-1" frameY="-6" frameWidth="276" frameHeight="245"/>
+	<SubTexture name="KIRBY UP0004" x="1356" y="530" width="276" height="237" frameX="0" frameY="-8" frameWidth="276" frameHeight="245"/>
+	<SubTexture name="KIRBY UP0005" x="1356" y="530" width="276" height="237" frameX="0" frameY="-8" frameWidth="276" frameHeight="245"/>
+	<SubTexture name="KIRBY UP0006" x="1632" y="530" width="274" height="239" frameX="-1" frameY="-6" frameWidth="276" frameHeight="245"/>
+	<SubTexture name="KIRBY UP0007" x="1632" y="530" width="274" height="239" frameX="-1" frameY="-6" frameWidth="276" frameHeight="245"/>
+	<SubTexture name="kirby down0000" x="0" y="774" width="317" height="181" frameX="0" frameY="-8" frameWidth="317" frameHeight="189"/>
+	<SubTexture name="kirby down0001" x="0" y="774" width="317" height="181" frameX="0" frameY="-8" frameWidth="317" frameHeight="189"/>
+	<SubTexture name="kirby down0002" x="317" y="774" width="302" height="187" frameX="-5" frameY="-2" frameWidth="317" frameHeight="189"/>
+	<SubTexture name="kirby down0003" x="317" y="774" width="302" height="187" frameX="-5" frameY="-2" frameWidth="317" frameHeight="189"/>
+	<SubTexture name="kirby down0004" x="619" y="774" width="299" height="189" frameX="-6" frameY="0" frameWidth="317" frameHeight="189"/>
+	<SubTexture name="kirby down0005" x="619" y="774" width="299" height="189" frameX="-6" frameY="0" frameWidth="317" frameHeight="189"/>
+	<SubTexture name="kirby down0006" x="918" y="774" width="298" height="186" frameX="-5" frameY="-3" frameWidth="317" frameHeight="189"/>
+	<SubTexture name="kirby down0007" x="918" y="774" width="298" height="186" frameX="-5" frameY="-3" frameWidth="317" frameHeight="189"/>
+	<SubTexture name="kirby idle0000" x="1216" y="774" width="275" height="221"/>
+	<SubTexture name="kirby idle0001" x="1216" y="774" width="275" height="221"/>
+	<SubTexture name="kirby idle0002" x="1491" y="774" width="267" height="215" frameX="-4" frameY="-6" frameWidth="275" frameHeight="221"/>
+	<SubTexture name="kirby idle0003" x="1491" y="774" width="267" height="215" frameX="-4" frameY="-6" frameWidth="275" frameHeight="221"/>
+	<SubTexture name="kirby idle0004" x="1758" y="774" width="271" height="218" frameX="-2" frameY="-2" frameWidth="275" frameHeight="221"/>
+	<SubTexture name="kirby idle0005" x="1758" y="774" width="271" height="218" frameX="-2" frameY="-2" frameWidth="275" frameHeight="221"/>
+	<SubTexture name="kirby idle0006" x="0" y="995" width="273" height="221" frameX="-1" frameY="0" frameWidth="275" frameHeight="221"/>
+	<SubTexture name="kirby idle0007" x="0" y="995" width="273" height="221" frameX="-1" frameY="0" frameWidth="275" frameHeight="221"/>
+	<SubTexture name="kirby idle0008" x="273" y="995" width="274" height="221" frameX="-1" frameY="0" frameWidth="275" frameHeight="221"/>
+	<SubTexture name="kirby idle0009" x="273" y="995" width="274" height="221" frameX="-1" frameY="0" frameWidth="275" frameHeight="221"/>
+</TextureAtlas>

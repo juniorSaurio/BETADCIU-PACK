@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="picodx2.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="downpicopine20000" x="0" y="0" width="439" height="721" frameX="-6" frameY="-8" frameWidth="445" frameHeight="729"/>
+	<SubTexture name="downpicopine20001" x="0" y="0" width="439" height="721" frameX="-6" frameY="-8" frameWidth="445" frameHeight="729"/>
+	<SubTexture name="downpicopine20002" x="439" y="0" width="439" height="727" frameX="0" frameY="-2" frameWidth="445" frameHeight="729"/>
+	<SubTexture name="downpicopine20003" x="439" y="0" width="439" height="727" frameX="0" frameY="-2" frameWidth="445" frameHeight="729"/>
+	<SubTexture name="downpicopine20004" x="878" y="0" width="439" height="729" frameX="-2" frameY="0" frameWidth="445" frameHeight="729"/>
+	<SubTexture name="downpicopine20005" x="878" y="0" width="439" height="729" frameX="-2" frameY="0" frameWidth="445" frameHeight="729"/>
+	<SubTexture name="downpicopine20006" x="1317" y="0" width="434" height="729" frameX="-10" frameY="0" frameWidth="445" frameHeight="729"/>
+	<SubTexture name="idlepicopine0000" x="1751" y="0" width="484" height="777" frameX="-1" frameY="-11" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0001" x="1751" y="0" width="484" height="777" frameX="-1" frameY="-11" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0002" x="2235" y="0" width="483" height="776" frameX="0" frameY="-12" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0003" x="2235" y="0" width="483" height="776" frameX="0" frameY="-12" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0004" x="2718" y="0" width="492" height="779" frameX="-1" frameY="-9" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0005" x="2718" y="0" width="492" height="779" frameX="-1" frameY="-9" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0006" x="3210" y="0" width="506" height="788" frameX="-2" frameY="-1" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0007" x="3210" y="0" width="506" height="788" frameX="-2" frameY="-1" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0008" x="0" y="788" width="507" height="789" frameX="-2" frameY="0" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0009" x="0" y="788" width="507" height="789" frameX="-2" frameY="0" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0010" x="0" y="788" width="507" height="789" frameX="-2" frameY="0" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="idlepicopine0011" x="0" y="788" width="507" height="789" frameX="-2" frameY="0" frameWidth="509" frameHeight="789"/>
+	<SubTexture name="leftpicopine 20000" x="507" y="788" width="445" height="784" frameX="0" frameY="-3" frameWidth="450" frameHeight="787"/>
+	<SubTexture name="leftpicopine 20001" x="507" y="788" width="445" height="784" frameX="0" frameY="-3" frameWidth="450" frameHeight="787"/>
+	<SubTexture name="leftpicopine 20002" x="952" y="788" width="448" height="786" frameX="-1" frameY="-1" frameWidth="450" frameHeight="787"/>
+	<SubTexture name="leftpicopine 20003" x="952" y="788" width="448" height="786" frameX="-1" frameY="-1" frameWidth="450" frameHeight="787"/>
+	<SubTexture name="leftpicopine 20004" x="1400" y="788" width="449" height="787" frameX="-1" frameY="0" frameWidth="450" frameHeight="787"/>
+	<SubTexture name="rightpicopine0000" x="1849" y="788" width="515" height="776" frameX="-1" frameY="-2" frameWidth="516" frameHeight="778"/>
+	<SubTexture name="rightpicopine0001" x="1849" y="788" width="515" height="776" frameX="-1" frameY="-2" frameWidth="516" frameHeight="778"/>
+	<SubTexture name="rightpicopine0002" x="2364" y="788" width="515" height="777" frameX="0" frameY="-1" frameWidth="516" frameHeight="778"/>
+	<SubTexture name="rightpicopine0003" x="2364" y="788" width="515" height="777" frameX="0" frameY="-1" frameWidth="516" frameHeight="778"/>
+	<SubTexture name="rightpicopine0004" x="2879" y="788" width="514" height="778" frameX="0" frameY="0" frameWidth="516" frameHeight="778"/>
+	<SubTexture name="uppicopine20000" x="3393" y="788" width="534" height="791"/>
+	<SubTexture name="uppicopine20001" x="3393" y="788" width="534" height="791"/>
+	<SubTexture name="uppicopine20002" x="0" y="1579" width="519" height="789" frameX="-6" frameY="-2" frameWidth="534" frameHeight="791"/>
+	<SubTexture name="uppicopine20003" x="0" y="1579" width="519" height="789" frameX="-6" frameY="-2" frameWidth="534" frameHeight="791"/>
+	<SubTexture name="uppicopine20004" x="519" y="1579" width="517" height="789" frameX="-7" frameY="-2" frameWidth="534" frameHeight="791"/>
+</TextureAtlas>

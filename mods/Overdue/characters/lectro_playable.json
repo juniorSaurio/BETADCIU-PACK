@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				35,
+				151
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Lectro_Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-199
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Lectro_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				100
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Lectro_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				91,
+				90
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Lectro_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				200
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Lectro_Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				130,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "miss_Lectro_Right"
+		},
+		{
+			"offsets": [
+				-50,
+				180
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "miss_Lectro_Left"
+		},
+		{
+			"offsets": [
+				-110,
+				-225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "miss_Lectro_Down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				30
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "miss_Lectro_up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Lectro_Assets",
+	"position": [
+		-40,
+		400
+	],
+	"healthicon": "Lectro",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		255,
+		209
+	],
+	"camera_position": [
+		240,
+		-370
+	],
+	"sing_duration": 4,
+	"scale": 1.65
+}

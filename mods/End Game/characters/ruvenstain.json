@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "ruvstyle idle alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				-80
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ruvstyle down alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				41
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ruvstyle up alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				45
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ruvstyle left alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				111,
+				-22
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ruvstyle right alt",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Ruvenstain",
+	"position": [
+		450,
+		0
+	],
+	"healthicon": "ruvstyle",
+	"flip_x": false,
+	"healthbar_colors": [
+		200,
+		36,
+		55
+	],
+	"camera_position": [
+		60,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

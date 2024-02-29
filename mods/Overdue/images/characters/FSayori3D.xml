@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FSayori3D.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sayo down0091.png" x="0" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0092.png" x="584" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0093.png" x="1168" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0094.png" x="1752" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0095.png" x="2336" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0096.png" x="2920" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0097.png" x="3504" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0098.png" x="4088" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0099.png" x="4672" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo down0100.png" x="5256" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0000.png" x="5840" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0001.png" x="6424" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0002.png" x="7008" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0003.png" x="7592" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0004.png" x="0" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0005.png" x="584" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0006.png" x="1168" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0007.png" x="1752" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0008.png" x="2336" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0009.png" x="2920" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0010.png" x="3504" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0011.png" x="4088" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0012.png" x="4672" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0013.png" x="5256" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0014.png" x="5840" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0015.png" x="6424" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0016.png" x="7008" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0017.png" x="7592" y="601" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0018.png" x="0" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0019.png" x="584" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0020.png" x="1168" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0021.png" x="1752" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0022.png" x="2336" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0023.png" x="2920" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0024.png" x="3504" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0025.png" x="4088" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0026.png" x="4672" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0027.png" x="5256" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0028.png" x="5840" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0029.png" x="6424" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0030.png" x="7008" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0031.png" x="7592" y="1202" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0032.png" x="0" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0033.png" x="584" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0034.png" x="1168" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0035.png" x="1752" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0036.png" x="2336" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0037.png" x="2920" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0038.png" x="3504" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0039.png" x="4088" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle left0040.png" x="5840" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0041.png" x="4672" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0042.png" x="5256" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0043.png" x="5840" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0044.png" x="6424" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0045.png" x="7008" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0046.png" x="7592" y="1803" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0047.png" x="0" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0048.png" x="584" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0049.png" x="1168" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0050.png" x="1752" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0051.png" x="2336" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0052.png" x="2920" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0053.png" x="3504" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0054.png" x="4088" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0055.png" x="4672" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0056.png" x="5256" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0057.png" x="5840" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0058.png" x="6424" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0059.png" x="7008" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0060.png" x="7592" y="2404" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0061.png" x="0" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0062.png" x="584" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0063.png" x="1168" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0064.png" x="1752" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0065.png" x="2336" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0066.png" x="2920" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0067.png" x="3504" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0068.png" x="4088" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0069.png" x="4672" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0070.png" x="5256" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0071.png" x="5840" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0072.png" x="6424" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0073.png" x="7008" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0074.png" x="7592" y="3005" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0075.png" x="0" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0076.png" x="584" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0077.png" x="1168" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0078.png" x="1752" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0079.png" x="2336" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo idle right0080.png" x="5840" y="0" width="584" height="601"/>
+	<SubTexture name="Sayo left0101.png" x="2920" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0102.png" x="3504" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0103.png" x="4088" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0104.png" x="4672" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0105.png" x="5256" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0106.png" x="5840" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0107.png" x="6424" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0108.png" x="7008" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0109.png" x="7592" y="3606" width="584" height="601"/>
+	<SubTexture name="Sayo left0110.png" x="0" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0111.png" x="584" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0112.png" x="1168" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0113.png" x="1752" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0114.png" x="2336" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0115.png" x="2920" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0116.png" x="3504" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0117.png" x="4088" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0118.png" x="4672" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0119.png" x="5256" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo right0120.png" x="5840" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo up0081.png" x="6424" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo up0082.png" x="7008" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo up0083.png" x="7592" y="4207" width="584" height="601"/>
+	<SubTexture name="Sayo up0084.png" x="0" y="4808" width="584" height="601"/>
+	<SubTexture name="Sayo up0085.png" x="584" y="4808" width="584" height="601"/>
+	<SubTexture name="Sayo up0086.png" x="1168" y="4808" width="584" height="601"/>
+	<SubTexture name="Sayo up0087.png" x="1752" y="4808" width="584" height="601"/>
+	<SubTexture name="Sayo up0088.png" x="2336" y="4808" width="584" height="601"/>
+	<SubTexture name="Sayo up0089.png" x="2920" y="4808" width="584" height="601"/>
+	<SubTexture name="Sayo up0090.png" x="3504" y="4808" width="584" height="601"/>
+</TextureAtlas>

@@ -1,0 +1,146 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				5,
+				25
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Angry Senpai Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-55,
+				37
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Angry Senpai UP NOTE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				130,
+				60
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Angry Senpai LEFT NOTE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-20,
+				-10
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Angry Senpai RIGHT NOTE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				44,
+				-30
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Angry Senpai DOWN NOTE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				19,
+				30
+			],
+			"loop": false,
+			"anim": "glown",
+			"fps": 24,
+			"name": "Angry Senpai Glown",
+			"indices": []
+		},
+		{
+			"offsets": [
+				15,
+				20
+			],
+			"loop": false,
+			"anim": "grr",
+			"fps": 24,
+			"name": "Angry Senpai GrrrGRR",
+			"indices": []
+		},
+		{
+			"offsets": [
+				4,
+				10
+			],
+			"loop": false,
+			"anim": "fast",
+			"fps": 24,
+			"name": "Angry Senpai HowFast",
+			"indices": []
+		},
+		{
+			"offsets": [
+				10,
+				32
+			],
+			"loop": false,
+			"anim": "laser",
+			"fps": 24,
+			"name": "Angry Senpai Laser Blast",
+			"indices": []
+		},
+		{
+			"offsets": [
+				3,
+				10
+			],
+			"loop": false,
+			"anim": "laugh",
+			"fps": 24,
+			"name": "Angry Senpai Laugh",
+			"indices": []
+		},
+		{
+			"offsets": [
+				14,
+				0
+			],
+			"loop": false,
+			"anim": "scream",
+			"fps": 24,
+			"name": "Angry Senpai Scream",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/fleetway",
+	"position": [
+		500,
+		360
+	],
+	"healthicon": "fleetway",
+	"flip_x": false,
+	"healthbar_colors": [
+		187,
+		228,
+		23
+	],
+	"camera_position": [
+		-240,
+		-330
+	],
+	"sing_duration": 4,
+	"scale": 4.00000000000001,
+	"_editor_isPlayer": false
+}

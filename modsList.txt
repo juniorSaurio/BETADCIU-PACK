@@ -1,0 +1,15 @@
+End Game|1
+Overdue|1
+Nacreus Snowmelt|1
+Boling Point|1
+Confronting Yourself Retake|1
+Dark Forest|1
+Demise|0
+Genocide|1
+Golden Land|1
+Hell Hole|1
+I Hate You|0
+Its A Me|0
+Spread The Word|1
+Verdant|0
+Mario Madness V2 - Lua Port|0

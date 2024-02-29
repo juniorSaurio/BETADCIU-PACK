@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BGSKULL.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="WholeSkull0000" x="0" y="0" width="2886" height="1156" pivotX="0" pivotY="0" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0001" x="0" y="0" width="2886" height="1156" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0002" x="0" y="0" width="2886" height="1156" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0003" x="2886" y="0" width="2886" height="1156" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0004" x="2886" y="0" width="2886" height="1156" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0005" x="0" y="1156" width="2886" height="1156" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0006" x="0" y="1156" width="2886" height="1156" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0007" x="2886" y="1156" width="2886" height="1180" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0008" x="2886" y="1156" width="2886" height="1180" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0009" x="0" y="2336" width="2886" height="1200" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0010" x="0" y="2336" width="2886" height="1200" frameX="0" frameY="0" frameWidth="2886" frameHeight="1217"/>
+	<SubTexture name="WholeSkull0011" x="2886" y="2336" width="2886" height="1217"/>
+	<SubTexture name="WholeSkull0012" x="2886" y="2336" width="2886" height="1217"/>
+	<SubTexture name="WholeSkull0013" x="2886" y="2336" width="2886" height="1217"/>
+</TextureAtlas>

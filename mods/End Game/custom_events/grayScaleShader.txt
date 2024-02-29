@@ -1,0 +1,2 @@
+v1: on/off (enable or disable gray filter)
+v2: on/off (enable or disable scanLines filter)

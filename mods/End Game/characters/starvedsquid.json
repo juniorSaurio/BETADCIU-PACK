@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-110
+			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "starved_spuidward idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-109
+			],
+			"anim": "singLEFT",
+			"fps": 14,
+			"name": "starved_spuidward left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-124
+			],
+			"anim": "singRIGHT",
+			"fps": 14,
+			"name": "starved_spuidward right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-102,
+				-110
+			],
+			"anim": "singUP",
+			"fps": 14,
+			"name": "starved_spuidward up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-97,
+				-111
+			],
+			"anim": "singDOWN",
+			"fps": 14,
+			"name": "starved_spuidward down",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/starved_spuidward",
+	"position": [
+		0,
+		-100
+	],
+	"healthicon": "starvedsquid",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		15,
+		255
+	],
+	"camera_position": [
+		-90,
+		120
+	],
+	"sing_duration": 4,
+	"scale": 2.5,
+	"_editor_isPlayer": false
+}

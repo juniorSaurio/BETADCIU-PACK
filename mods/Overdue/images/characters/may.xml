@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="may.png">
+	<!-- Created with Krita lol -->
+	<SubTexture name="down note0000" x="0" y="1724" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="down note0001" x="815" y="1724" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="down note0002" x="1629" y="1724" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="down note0003" x="2445" y="1724" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="left note0000" x="3315" y="0" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="left note0001" x="3315" y="857" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="left note0002" x="3315" y="1715" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="left note0003" x="3315" y="2576" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="right note0000" x="0" y="2588" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="right note0001" x="819" y="2588" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="right note0002" x="1637" y="2588" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="right note0003" x="2456" y="2588" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="up note0000" x="0" y="864" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="up note0001" x="818" y="864" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="up note0002" x="1634" y="864" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="up note0003" x="2453" y="864" width="811" height="855" frameX="0" frameY="0" frameWidth="811" frameHeight="855"/>
+	<SubTexture name="idle0000" x="0" y="0" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="idle0001" x="812" y="0" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="idle0003" x="1629" y="0" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0000" x="0" y="3514" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0001" x="823" y="3514" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0002" x="1647" y="3514" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0003" x="2467" y="3514" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0004" x="3303" y="3514" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0005" x="0" y="4389" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0006" x="824" y="4389" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0007" x="1646" y="4389" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="ingrain0008" x="2466" y="4389" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="hopeless idle0000" x="4252" y="0" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="hopeless idle0001" x="4253" y="882" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="shriek0000" x="4252" y="1780" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="shriek0001" x="4252" y="2642" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="shriek0002" x="4252" y="3504" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="shriek0003" x="4252" y="4366" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="shriek0004" x="5065" y="1780" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+	<SubTexture name="shriek0005" x="5065" y="2642" width="811" height="855" frameX="0" frameY="0" frameWidth="516" frameHeight="868"/>
+</TextureAtlas>

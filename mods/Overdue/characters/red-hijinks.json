@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				179,
+				-13
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "RedLeft0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-42,
+				-52
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "RedDown0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-56,
+				50
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "RedUp0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-61,
+				-45
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "RedRight0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "RedIdle0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				71,
+				-24
+			],
+			"loop": false,
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "SabotageLeft0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-61,
+				-28
+			],
+			"loop": false,
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "SabotageRight0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/HRed",
+	"position": [
+		300,
+		50
+	],
+	"healthicon": "red-hijinks",
+	"flip_x": false,
+	"healthbar_colors": [
+		197,
+		45,
+		47
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

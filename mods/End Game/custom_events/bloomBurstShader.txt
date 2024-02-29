@@ -1,0 +1,1 @@
+v1: strength (default 3)

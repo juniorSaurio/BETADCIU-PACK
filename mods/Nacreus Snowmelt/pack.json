@@ -1,0 +1,6 @@
+{
+	"name": "Camelia v2",
+	"description": "Nacreus Snowmelt Port",
+	"restart":false,
+	"color": [255,3,37]
+}

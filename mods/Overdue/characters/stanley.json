@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				518,
+				171
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "stanley left"
+		},
+		{
+			"offsets": [
+				-58,
+				117
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "stanley right"
+		},
+		{
+			"offsets": [
+				196,
+				-267
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "stanley down"
+		},
+		{
+			"offsets": [
+				226,
+				380
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "stanley up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				60
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "stanley idle left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				60
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "stanley idle right",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Mario_Stanley",
+	"position": [
+		130,
+		450
+	],
+	"healthicon": "stanley",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		44,
+		0
+	],
+	"camera_position": [
+		-255,
+		150
+	],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": true
+}

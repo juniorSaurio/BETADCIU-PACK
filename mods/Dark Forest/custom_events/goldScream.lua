@@ -17,6 +17,7 @@ function onEvent(name, value1, value2)
         addLuaSprite('image', true);
         setObjectCamera('image', 'other');
 		setObjectOrder('image', 1)
+		setProperty('camGame.alpha',0.001)
 		runTimer('chauP', value2);
 		duration = value2;
 	   stopShake = false
@@ -36,6 +37,7 @@ end
 function onTimerCompleted(tag, loops, loopsleft)
 	if tag == 'chauP' then
 		doTweenAlpha('adiosJumpscare', 'image', 0, 0.1, 'linear');
+		setProperty('camGame.alpha',1)
 		stopShake = true
 	end
 end

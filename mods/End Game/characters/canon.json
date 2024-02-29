@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				252,
+				-22
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Canon_leftpose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				83,
+				-63
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Canon_downpose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-64,
+				295
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Canon_uppose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				19
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Canon_rightpose",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Canonsquid_idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/canon",
+	"position": [
+		-150,
+		30
+	],
+	"healthicon": "canonsquiddy",
+	"flip_x": false,
+	"healthbar_colors": [
+		182,
+		203,
+		194
+	],
+	"camera_position": [
+		130,
+		210
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

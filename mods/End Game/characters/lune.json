@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "lune idle"
+		},
+		{
+			"offsets": [
+				-108,
+				-18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "lune down"
+		},
+		{
+			"offsets": [
+				24,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "lune up"
+		},
+		{
+			"offsets": [
+				88,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "lune left"
+		},
+		{
+			"offsets": [
+				82,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "lune right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/lune_sprites",
+	"position": [
+		-160,
+		-160
+	],
+	"healthicon": "lune",
+	"flip_x": false,
+	"healthbar_colors": [
+		183,
+		195,
+		220
+	],
+	"camera_position": [
+		135,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": true
+}

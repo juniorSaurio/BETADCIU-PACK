@@ -1,0 +1,9 @@
+Value 1 = type,value,layer
+type = angle or zoom or x or y, default is'zoom'
+value = default is 1 (in x or y type, value is velocity default 0.2)
+layer = the default is 'camGame'
+Leave blank if you want to use default.
+Value 2 = duration,easing
+duration = time (2,4,8,16,32,etc)
+easing = examples ('cubeIn,cubeOut,expoIn,expoOut,linear,elasticIn,etc)
+if type is x or y then easing = on / off

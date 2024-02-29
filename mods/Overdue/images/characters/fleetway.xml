@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fleetway.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Angry Senpai DOWN NOTE0000" x="0" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0001" x="0" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0002" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0003" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0004" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0005" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0006" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0007" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0008" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0009" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0010" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0011" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0012" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai DOWN NOTE0013" x="79" y="0" width="79" height="101"/>
+	<SubTexture name="Angry Senpai Glown0000" x="158" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0001" x="158" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0002" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0003" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0004" x="158" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0005" x="158" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0006" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0007" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0008" x="158" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0009" x="158" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0010" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0011" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0012" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0013" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0014" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0015" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0016" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0017" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0018" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0019" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0020" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0021" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0022" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0023" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0024" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0025" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0026" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0027" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0028" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0029" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0030" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0031" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0032" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai Glown0033" x="228" y="0" width="70" height="109"/>
+	<SubTexture name="Angry Senpai GrrrGRR0000" x="298" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0001" x="298" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0002" x="298" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0003" x="368" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0004" x="368" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0005" x="368" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0006" x="438" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0007" x="438" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0008" x="438" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0009" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0010" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0011" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0012" x="578" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0013" x="578" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0014" x="578" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0015" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0016" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0017" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0018" x="578" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0019" x="578" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0020" x="578" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0021" x="648" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0022" x="648" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0023" x="648" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0024" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0025" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0026" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0027" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0028" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0029" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0030" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0031" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0032" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0033" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0034" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0035" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0036" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0037" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0038" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0039" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0040" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0041" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0042" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai GrrrGRR0043" x="508" y="0" width="70" height="107"/>
+	<SubTexture name="Angry Senpai HowFast0000" x="718" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0001" x="718" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0002" x="718" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0003" x="718" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0004" x="813" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0005" x="813" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0006" x="813" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0007" x="813" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0008" x="908" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0009" x="908" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0010" x="908" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0011" x="908" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0012" x="813" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0013" x="813" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0014" x="718" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0015" x="1003" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0016" x="1003" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0017" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0018" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0019" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0020" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0021" x="1288" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0022" x="1288" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0023" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0024" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0025" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0026" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0027" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0028" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0029" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0030" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0031" x="1288" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0032" x="1288" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0033" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0034" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0035" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0036" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0037" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0038" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0039" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0040" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0041" x="1288" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0042" x="1288" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0043" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0044" x="1193" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0045" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0046" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0047" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0048" x="1098" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0049" x="1383" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0050" x="1383" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0051" x="1383" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0052" x="1478" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0053" x="1478" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0054" x="1478" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0055" x="1573" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0056" x="1573" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0057" x="1668" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0058" x="1668" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0059" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0060" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0061" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0062" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0063" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0064" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0065" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0066" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0067" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0068" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0069" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0070" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0071" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0072" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0073" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0074" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0075" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0076" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0077" x="1763" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0078" x="1858" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0079" x="1858" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0080" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0081" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0082" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0083" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0084" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0085" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0086" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0087" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0088" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0089" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0090" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0091" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0092" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0093" x="0" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0094" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0095" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0096" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0097" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0098" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0099" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0100" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0101" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0102" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0103" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0104" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0105" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0106" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0107" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0108" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0109" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0110" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0111" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0112" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0113" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0114" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0115" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0116" x="1953" y="0" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0117" x="95" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0118" x="95" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0119" x="190" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0120" x="190" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0121" x="285" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0122" x="285" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0123" x="285" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0124" x="285" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0125" x="285" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0126" x="285" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0127" x="285" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0128" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0129" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0130" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0131" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0132" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0133" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0134" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0135" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0136" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0137" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0138" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0139" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0140" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0141" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0142" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0143" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0144" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0145" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0146" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0147" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0148" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0149" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0150" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0151" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0152" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0153" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0154" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0155" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0156" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0157" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0158" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0159" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0160" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai HowFast0161" x="380" y="111" width="95" height="111"/>
+	<SubTexture name="Angry Senpai Idle0000" x="475" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0001" x="475" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0002" x="536" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0003" x="536" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0004" x="597" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0005" x="597" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0006" x="658" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0007" x="658" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0008" x="658" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0009" x="658" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0010" x="658" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0011" x="658" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0012" x="658" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai Idle0013" x="658" y="111" width="61" height="111"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0000" x="719" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0001" x="719" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0002" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0003" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0004" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0005" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0006" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0007" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0008" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0009" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0010" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0011" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0012" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai LEFT NOTE0013" x="794" y="111" width="75" height="105"/>
+	<SubTexture name="Angry Senpai Laser Blast0000" x="869" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0001" x="1051" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0002" x="1233" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0003" x="1233" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0004" x="1415" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0005" x="1415" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0006" x="1597" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0007" x="1597" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0008" x="1597" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0009" x="1597" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0010" x="1779" y="111" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0011" x="0" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0012" x="182" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0013" x="364" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0014" x="546" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0015" x="728" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0016" x="910" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0017" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0018" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0019" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0020" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0021" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0022" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0023" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0024" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0025" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0026" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0027" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0028" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0029" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0030" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0031" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0032" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0033" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0034" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0035" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0036" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0037" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0038" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0039" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0040" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0041" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laser Blast0042" x="1092" y="225" width="182" height="114"/>
+	<SubTexture name="Angry Senpai Laugh0000" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0001" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0002" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0003" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0004" x="1382" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0005" x="1382" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0006" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0007" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0008" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0009" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0010" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0011" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0012" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0013" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0014" x="1382" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0015" x="1382" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0016" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0017" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0018" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0019" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0020" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0021" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0022" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0023" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0024" x="1382" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0025" x="1382" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0026" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0027" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0028" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0029" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0030" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0031" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0032" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0033" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0034" x="1382" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0035" x="1382" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0036" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0037" x="1328" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0038" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0039" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0040" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0041" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0042" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0043" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0044" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0045" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0046" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0047" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0048" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0049" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0050" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0051" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0052" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0053" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0054" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0055" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0056" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0057" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0058" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0059" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0060" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0061" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0062" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0063" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0064" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0065" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0066" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0067" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0068" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0069" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0070" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0071" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai Laugh0072" x="1274" y="225" width="54" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0000" x="1436" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0001" x="1436" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0002" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0003" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0004" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0005" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0006" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0007" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0008" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0009" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0010" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0011" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0012" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai RIGHT NOTE0013" x="1529" y="225" width="93" height="98"/>
+	<SubTexture name="Angry Senpai Scream0000" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0001" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0002" x="1693" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0003" x="1693" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0004" x="1764" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0005" x="1764" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0006" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0007" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0008" x="1693" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0009" x="1693" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0010" x="1764" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0011" x="1764" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0012" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0013" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0014" x="1693" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0015" x="1693" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0016" x="1764" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0017" x="1764" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0018" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0019" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0020" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0021" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0022" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Scream0023" x="1622" y="225" width="71" height="95"/>
+	<SubTexture name="Angry Senpai Shut Up0000" x="1835" y="225" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0001" x="1835" y="225" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0002" x="1917" y="225" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0003" x="1917" y="225" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0004" x="0" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0005" x="0" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0006" x="0" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0007" x="0" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0008" x="0" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0009" x="0" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0010" x="82" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0011" x="82" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0012" x="164" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0013" x="164" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0014" x="164" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0015" x="246" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0016" x="246" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0017" x="328" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0018" x="328" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0019" x="410" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0020" x="410" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0021" x="410" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0022" x="410" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0023" x="410" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0024" x="410" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0025" x="410" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0026" x="410" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0027" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0028" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0029" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0030" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0031" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0032" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0033" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0034" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0035" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0036" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0037" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0038" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0039" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0040" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0041" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0042" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai Shut Up0043" x="492" y="339" width="82" height="107"/>
+	<SubTexture name="Angry Senpai StepItUp0000" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0001" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0002" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0003" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0004" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0005" x="679" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0006" x="679" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0007" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0008" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0009" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0010" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0011" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0012" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0013" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0014" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0015" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0016" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0017" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0018" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0019" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0020" x="574" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0021" x="784" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0022" x="784" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0023" x="889" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0024" x="889" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0025" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0026" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0027" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0028" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0029" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0030" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0031" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0032" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0033" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0034" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0035" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0036" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0037" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0038" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0039" x="994" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0040" x="1099" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0041" x="1204" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0042" x="1204" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0043" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0044" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0045" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0046" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0047" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0048" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0049" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0050" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0051" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0052" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0053" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0054" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0055" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0056" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0057" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0058" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0059" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0060" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0061" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0062" x="1309" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0063" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0064" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0065" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0066" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0067" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0068" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0069" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0070" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0071" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai StepItUp0072" x="1414" y="339" width="105" height="112"/>
+	<SubTexture name="Angry Senpai Too Slow0000" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0001" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0002" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0003" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0004" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0005" x="1595" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0006" x="1595" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0007" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0008" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0009" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0010" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0011" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0012" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0013" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0014" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0015" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0016" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0017" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0018" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0019" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0020" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0021" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0022" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0023" x="1519" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0024" x="1671" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0025" x="1747" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0026" x="1747" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0027" x="1823" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0028" x="1823" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0029" x="1823" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0030" x="1823" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0031" x="1899" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0032" x="1899" y="339" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0033" x="0" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0034" x="0" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0035" x="0" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0036" x="0" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0037" x="0" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0038" x="0" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0039" x="0" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0040" x="0" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0041" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0042" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0043" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0044" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0045" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0046" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0047" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0048" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0049" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0050" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0051" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0052" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0053" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0054" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0055" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0056" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0057" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai Too Slow0058" x="76" y="451" width="76" height="108"/>
+	<SubTexture name="Angry Senpai UP NOTE0000" x="152" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0001" x="152" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0002" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0003" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0004" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0005" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0006" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0007" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0008" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0009" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0010" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0011" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0012" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai UP NOTE0013" x="210" y="451" width="58" height="98"/>
+	<SubTexture name="Angry Senpai WHAT?!0000" x="268" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0001" x="268" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0002" x="353" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0003" x="353" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0004" x="438" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0005" x="438" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0006" x="523" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0007" x="523" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0008" x="523" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0009" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0010" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0011" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0012" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0013" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0014" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0015" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0016" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0017" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0018" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0019" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0020" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0021" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0022" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0023" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0024" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0025" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0026" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0027" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0028" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai WHAT?!0029" x="608" y="451" width="85" height="106"/>
+	<SubTexture name="Angry Senpai YoureFinished0000" x="693" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0001" x="787" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0002" x="787" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0003" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0004" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0005" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0006" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0007" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0008" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0009" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0010" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0011" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0012" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0013" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0014" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0015" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0016" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0017" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0018" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0019" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0020" x="881" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0021" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0022" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0023" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0024" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0025" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0026" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0027" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0028" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0029" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0030" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0031" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0032" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0033" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0034" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0035" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0036" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0037" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0038" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0039" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0040" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0041" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0042" x="975" y="451" width="94" height="104"/>
+	<SubTexture name="Angry Senpai YoureFinished0043" x="975" y="451" width="94" height="104"/>
+</TextureAtlas>

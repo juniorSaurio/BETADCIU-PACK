@@ -1,0 +1,78 @@
+{
+    "animations": [
+        {
+            "anim": "idle",
+            "name": "idle",
+            "fps": 24,
+            "loop": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "indices": []
+        },
+        {
+            "anim": "singLEFT",
+            "name": "left0",
+            "fps": 24,
+            "loop": false,
+            "offsets": [
+                45,
+                8
+            ],
+            "indices": []
+        },
+        {
+            "anim": "singDOWN",
+            "name": "down0",
+            "fps": 24,
+            "loop": false,
+            "offsets": [
+                -11,
+                -26
+            ],
+            "indices": []
+        },
+        {
+            "anim": "singUP",
+            "name": "up0",
+            "fps": 24,
+            "loop": false,
+            "offsets": [
+                6,
+                47
+            ],
+            "indices": []
+        },
+        {
+            "anim": "singRIGHT",
+            "name": "right0",
+            "fps": 24,
+            "loop": false,
+            "offsets": [
+                -57,
+                6
+            ],
+            "indices": []
+        }
+    ],
+    "no_antialiasing": false,
+    "image": "characters/Lylace",
+    "position": [
+        120,
+        30
+    ],
+    "healthicon": "lylace",
+    "flip_x": false,
+    "healthbar_colors": [
+        233,
+        131,
+        9
+    ],
+    "camera_position": [
+        120,
+        140
+    ],
+    "sing_duration": 6.1,
+    "scale": 1
+}

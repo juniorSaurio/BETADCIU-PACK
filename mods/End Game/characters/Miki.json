@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Miki Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				14,
+				21
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Miki Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-20,
+				-27
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Miki Down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-40,
+				-9
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Miki Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-48,
+				-14
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Miki Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Miki Plush_Assets",
+	"position": [
+		-190,
+		-180
+	],
+	"healthicon": "miki",
+	"flip_x": false,
+	"healthbar_colors": [
+		95,
+		6,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
