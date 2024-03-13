@@ -11,12 +11,12 @@ local typeDetaultCamHUD = 'x';
 
 function onCreatePost()
 
-    callShader('createShader',{'mirror', 'MirrorRepeatEffect'})
+    callShader('createShader',{'mirror', 'MirrorRepeatEffect',true})
     callShader('runShader',{'camGame','mirror'})
     shaderVar('mirror', 'zoom', 1)
     shaderVar('mirror', 'angle', 0)
 
-    callShader('createShader',{'mirrorHUD','MirrorRepeatEffect'})
+    callShader('createShader',{'mirrorHUD','MirrorRepeatEffect',true})
 	callShader('runShader',{'camHUD','mirrorHUD'})
 	shaderVar('mirrorHUD','enableClone',true,'bool')
     shaderVar('mirrorHUD', 'zoom', 1)

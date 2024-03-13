@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BendyDAgames.png"><SubTexture name="Down Normal0000" x="4806" y="3456" width="365" height="348" frameX="0" frameY="-58" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0001" x="4806" y="3085" width="348" height="371" frameX="-9" frameY="-36" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0002" x="4806" y="2711" width="344" height="374" frameX="-14" frameY="-33" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0003" x="4806" y="2711" width="344" height="374" frameX="-14" frameY="-33" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0004" x="4806" y="2329" width="331" height="382" frameX="-31" frameY="-24" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0005" x="4806" y="2329" width="331" height="382" frameX="-31" frameY="-24" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0006" x="4806" y="1946" width="331" height="383" frameX="-32" frameY="-23" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0007" x="4806" y="1946" width="331" height="383" frameX="-32" frameY="-23" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0008" x="4806" y="1560" width="328" height="386" frameX="-38" frameY="-20" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0009" x="4806" y="1560" width="328" height="386" frameX="-38" frameY="-20" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0010" x="802" y="4065" width="319" height="396" frameX="-54" frameY="-9" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Normal0011" x="3240" y="3655" width="312" height="405" frameX="-67" frameY="0" frameWidth="379" frameHeight="408" />
+<SubTexture name="Down Oblivion0000" x="387" y="3655" width="482" height="409" frameX="0" frameY="-80" frameWidth="483" frameHeight="493" />
+<SubTexture name="Down Oblivion0001" x="0" y="3219" width="442" height="436" frameX="-17" frameY="-57" frameWidth="483" frameHeight="493" />
+<SubTexture name="Down Oblivion0002" x="3517" y="2695" width="443" height="437" frameX="-17" frameY="-56" frameWidth="483" frameHeight="493" />
+<SubTexture name="Down Oblivion0003" x="3517" y="2695" width="443" height="437" frameX="-17" frameY="-56" frameWidth="483" frameHeight="493" />
+<SubTexture name="Down Oblivion0004" x="3517" y="1361" width="445" height="447" frameX="-19" frameY="-44" frameWidth="483" frameHeight="493" />
+<SubTexture name="Down Oblivion0005" x="3517" y="1361" width="445" height="447" frameX="-19" frameY="-44" frameWidth="483" frameHeight="493" />
+<SubTexture name="Down Oblivion0006" x="2184" y="2742" width="444" height="469" frameX="-23" frameY="-21" frameWidth="483" frameHeight="493" />
+<SubTexture name="Down Oblivion0007" x="2184" y="2742" width="444" height="469" frameX="-23" frameY="-21" frameWidth="483" frameHeight="493" />
+<SubTexture name="Down Oblivion0008" x="1992" y="536" width="436" height="489" frameX="-27" frameY="0" frameWidth="483" frameHeight="493" />
+<SubTexture name="Idle Normal0000" x="4023" y="1647" width="235" height="409" frameX="0" frameY="-37" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0001" x="4023" y="1647" width="235" height="409" frameX="0" frameY="-37" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0002" x="2170" y="3219" width="225" height="426" frameX="-4" frameY="-20" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0003" x="2170" y="3219" width="225" height="426" frameX="-4" frameY="-20" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0004" x="1204" y="3219" width="224" height="429" frameX="-5" frameY="-17" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0005" x="1204" y="3219" width="224" height="429" frameX="-5" frameY="-17" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0006" x="3733" y="2254" width="219" height="439" frameX="-8" frameY="-7" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0007" x="3779" y="913" width="215" height="446" frameX="-10" frameY="0" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0008" x="3517" y="1808" width="216" height="446" frameX="-10" frameY="0" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0009" x="3733" y="1808" width="216" height="445" frameX="-10" frameY="-1" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0010" x="3517" y="2254" width="216" height="441" frameX="-10" frameY="-5" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0011" x="3517" y="2254" width="216" height="441" frameX="-10" frameY="-5" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0012" x="1769" y="1133" width="216" height="435" frameX="-10" frameY="-11" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0013" x="1769" y="1133" width="216" height="435" frameX="-10" frameY="-11" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0014" x="987" y="3219" width="217" height="431" frameX="-9" frameY="-15" frameWidth="235" frameHeight="447" />
+<SubTexture name="Idle Normal0015" x="987" y="3219" width="217" height="431" frameX="-9" frameY="-15" frameWidth="235" frameHeight="447" />
+<SubTexture name="Left Oblivion0000" x="1428" y="3219" width="517" height="429" frameX="-1" frameY="-34" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0001" x="482" y="2742" width="481" height="475" frameX="-40" frameY="-12" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0002" x="0" y="2742" width="482" height="477" frameX="-40" frameY="-11" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0003" x="0" y="2742" width="482" height="477" frameX="-40" frameY="-11" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0004" x="0" y="2742" width="482" height="477" frameX="-40" frameY="-11" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0005" x="0" y="2742" width="482" height="477" frameX="-40" frameY="-11" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0006" x="3018" y="1931" width="489" height="478" frameX="-42" frameY="-11" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0007" x="3018" y="1931" width="489" height="478" frameX="-42" frameY="-11" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0008" x="3018" y="0" width="499" height="485" frameX="-48" frameY="-8" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0009" x="3018" y="0" width="499" height="485" frameX="-48" frameY="-8" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Oblivion0010" x="2502" y="1555" width="504" height="497" frameX="-59" frameY="0" frameWidth="563" frameHeight="498" />
+<SubTexture name="Left Normal0000" x="0" y="4463" width="453" height="389" frameX="0" frameY="-27" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0001" x="4374" y="0" width="432" height="403" frameX="-25" frameY="-14" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0002" x="4374" y="0" width="432" height="403" frameX="-25" frameY="-14" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0003" x="2388" y="3655" width="427" height="406" frameX="-31" frameY="-11" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0004" x="2388" y="3655" width="427" height="406" frameX="-31" frameY="-11" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0005" x="2815" y="3655" width="425" height="406" frameX="-33" frameY="-11" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0006" x="2815" y="3655" width="425" height="406" frameX="-33" frameY="-11" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0007" x="1238" y="3655" width="412" height="407" frameX="-40" frameY="-10" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0008" x="1238" y="3655" width="412" height="407" frameX="-40" frameY="-10" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0009" x="0" y="3655" width="387" height="410" frameX="-52" frameY="-7" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0010" x="4023" y="0" width="351" height="413" frameX="-69" frameY="-4" frameWidth="459" frameHeight="418" />
+<SubTexture name="Left Normal0011" x="3154" y="3219" width="319" height="417" frameX="-94" frameY="0" frameWidth="459" frameHeight="418" />
+<SubTexture name="Oblivion Bendy0000" x="1044" y="2207" width="525" height="534" frameX="0" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0001" x="1044" y="2207" width="525" height="534" frameX="0" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0002" x="1569" y="2207" width="525" height="534" frameX="-1" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0003" x="1569" y="2207" width="525" height="534" frameX="-1" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0004" x="511" y="1671" width="523" height="535" frameX="-2" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0005" x="511" y="1671" width="523" height="535" frameX="-2" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0006" x="1034" y="1671" width="521" height="535" frameX="-5" frameY="-3" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0007" x="1034" y="1671" width="521" height="535" frameX="-5" frameY="-3" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0008" x="1034" y="1671" width="521" height="535" frameX="-5" frameY="-3" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0009" x="1555" y="1671" width="516" height="535" frameX="-9" frameY="-4" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0010" x="1555" y="1671" width="516" height="535" frameX="-9" frameY="-4" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0011" x="1555" y="1671" width="516" height="535" frameX="-9" frameY="-4" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0012" x="1992" y="0" width="510" height="536" frameX="-13" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0013" x="1992" y="0" width="510" height="536" frameX="-13" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0014" x="1992" y="0" width="510" height="536" frameX="-13" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0015" x="504" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0016" x="504" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0017" x="504" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0018" x="504" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0019" x="504" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0020" x="504" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0021" x="770" y="591" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0022" x="770" y="591" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0023" x="770" y="591" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0024" x="770" y="591" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0025" x="770" y="591" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0026" x="1489" y="0" width="503" height="538" frameX="-19" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0027" x="1489" y="0" width="503" height="538" frameX="-19" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0028" x="1489" y="0" width="503" height="538" frameX="-19" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0029" x="1489" y="0" width="503" height="538" frameX="-19" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0030" x="0" y="1133" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0031" x="0" y="1133" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0032" x="0" y="1133" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0033" x="0" y="1133" width="504" height="538" frameX="-18" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0034" x="1011" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0035" x="1011" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0036" x="1011" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0037" x="1011" y="1133" width="507" height="537" frameX="-16" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0038" x="0" y="1671" width="511" height="536" frameX="-13" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0039" x="0" y="1671" width="511" height="536" frameX="-13" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0040" x="0" y="1671" width="511" height="536" frameX="-13" frameY="-5" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0041" x="2502" y="0" width="516" height="535" frameX="-9" frameY="-4" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0042" x="2502" y="0" width="516" height="535" frameX="-9" frameY="-4" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0043" x="0" y="2207" width="520" height="535" frameX="-5" frameY="-3" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0044" x="0" y="2207" width="520" height="535" frameX="-5" frameY="-3" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0045" x="520" y="2207" width="524" height="535" frameX="-2" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0046" x="520" y="2207" width="524" height="535" frameX="-2" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0047" x="2094" y="2207" width="525" height="534" frameX="-1" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0048" x="2094" y="2207" width="525" height="534" frameX="-1" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0049" x="1044" y="2207" width="525" height="534" frameX="0" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Oblivion Bendy0050" x="1044" y="2207" width="525" height="534" frameX="0" frameY="-1" frameWidth="526" frameHeight="543" />
+<SubTexture name="Right Normal0000" x="453" y="4463" width="471" height="377" frameX="-4" frameY="-43" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0001" x="3637" y="4065" width="448" height="390" frameX="-3" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0002" x="3637" y="4065" width="448" height="390" frameX="-3" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0003" x="4085" y="4065" width="448" height="390" frameX="-1" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0004" x="4085" y="4065" width="448" height="390" frameX="-1" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0005" x="4806" y="0" width="448" height="390" frameX="0" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0006" x="4806" y="0" width="448" height="390" frameX="0" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0007" x="4806" y="390" width="448" height="390" frameX="0" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0008" x="4806" y="390" width="448" height="390" frameX="0" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0009" x="4806" y="390" width="448" height="390" frameX="0" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0010" x="4806" y="390" width="448" height="390" frameX="0" frameY="-30" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0011" x="2366" y="4065" width="443" height="391" frameX="0" frameY="-29" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0012" x="1121" y="4065" width="427" height="395" frameX="-2" frameY="-25" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0013" x="4374" y="3218" width="398" height="401" frameX="-6" frameY="-18" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0014" x="869" y="3655" width="369" height="409" frameX="-11" frameY="-10" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Normal0015" x="2827" y="3219" width="327" height="419" frameX="-17" frameY="0" frameWidth="476" frameHeight="421" />
+<SubTexture name="Right Oblivion0000" x="442" y="3219" width="545" height="435" frameX="-52" frameY="-70" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0001" x="3517" y="0" width="506" height="460" frameX="-65" frameY="-56" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0002" x="3517" y="0" width="506" height="460" frameX="-65" frameY="-56" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0003" x="2628" y="2742" width="502" height="465" frameX="-58" frameY="-50" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0004" x="2628" y="2742" width="502" height="465" frameX="-58" frameY="-50" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0005" x="2628" y="2742" width="502" height="465" frameX="-58" frameY="-50" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0006" x="2628" y="2742" width="502" height="465" frameX="-58" frameY="-50" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0007" x="2628" y="2742" width="502" height="465" frameX="-58" frameY="-50" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0008" x="3018" y="969" width="496" height="481" frameX="-36" frameY="-31" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0009" x="3018" y="969" width="496" height="481" frameX="-36" frameY="-31" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0010" x="2502" y="535" width="483" height="514" frameX="0" frameY="0" frameWidth="598" frameHeight="516" />
+<SubTexture name="Right Oblivion0011" x="2502" y="535" width="483" height="514" frameX="0" frameY="0" frameWidth="598" frameHeight="516" />
+<SubTexture name="Transformation0000" x="1945" y="3219" width="225" height="427" frameX="0" frameY="0" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0001" x="1945" y="3219" width="225" height="427" frameX="0" frameY="0" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0002" x="2395" y="3219" width="216" height="424" frameX="-7" frameY="-3" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0003" x="2395" y="3219" width="216" height="424" frameX="-7" frameY="-3" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0004" x="2611" y="3219" width="216" height="421" frameX="-8" frameY="-6" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0005" x="2611" y="3219" width="216" height="421" frameX="-8" frameY="-6" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0006" x="1274" y="591" width="215" height="419" frameX="-9" frameY="-8" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0007" x="1274" y="591" width="215" height="419" frameX="-9" frameY="-8" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0008" x="3473" y="3219" width="215" height="416" frameX="-10" frameY="-11" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0009" x="3473" y="3219" width="215" height="416" frameX="-10" frameY="-11" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0010" x="3688" y="3219" width="216" height="414" frameX="-10" frameY="-13" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0011" x="3688" y="3219" width="216" height="414" frameX="-10" frameY="-13" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0012" x="4023" y="413" width="215" height="412" frameX="-11" frameY="-15" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0013" x="4023" y="413" width="215" height="412" frameX="-11" frameY="-15" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0014" x="4023" y="1237" width="216" height="410" frameX="-11" frameY="-17" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0015" x="4023" y="1237" width="216" height="410" frameX="-11" frameY="-17" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0016" x="4023" y="2056" width="215" height="408" frameX="-12" frameY="-19" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0017" x="4023" y="2056" width="215" height="408" frameX="-12" frameY="-19" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0018" x="4023" y="2464" width="215" height="407" frameX="-13" frameY="-20" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0019" x="4023" y="2464" width="215" height="407" frameX="-13" frameY="-20" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0020" x="4023" y="2871" width="215" height="406" frameX="-13" frameY="-21" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0021" x="4023" y="2871" width="215" height="406" frameX="-13" frameY="-21" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0022" x="3552" y="3655" width="216" height="405" frameX="-13" frameY="-22" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0023" x="3552" y="3655" width="216" height="405" frameX="-13" frameY="-22" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0024" x="3768" y="3655" width="216" height="404" frameX="-13" frameY="-23" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0025" x="3768" y="3655" width="216" height="404" frameX="-13" frameY="-23" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0026" x="4374" y="403" width="216" height="403" frameX="-13" frameY="-24" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0027" x="4374" y="403" width="216" height="403" frameX="-13" frameY="-24" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0028" x="4590" y="403" width="215" height="403" frameX="-14" frameY="-24" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0029" x="4590" y="403" width="215" height="403" frameX="-14" frameY="-24" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0030" x="4374" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0031" x="4374" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0032" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0033" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0034" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0035" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0036" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0037" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0038" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0039" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0040" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0041" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0042" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0043" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0044" x="4589" y="806" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0045" x="4374" y="1208" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0046" x="4589" y="1208" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0047" x="4374" y="1610" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0048" x="4589" y="1610" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0049" x="4374" y="2012" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0050" x="4589" y="2012" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0051" x="4374" y="2414" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0052" x="4589" y="2414" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0053" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0054" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0055" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0056" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0057" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0058" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0059" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0060" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0061" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0062" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0063" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0064" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Transformation0065" x="4374" y="2816" width="215" height="402" frameX="-14" frameY="-25" frameWidth="229" frameHeight="427" />
+<SubTexture name="Up Normal0000" x="2502" y="1049" width="373" height="506" frameX="-10" frameY="0" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0001" x="1992" y="1025" width="376" height="489" frameX="0" frameY="-17" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0002" x="1992" y="1025" width="376" height="489" frameX="0" frameY="-17" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0003" x="1489" y="538" width="371" height="486" frameX="-3" frameY="-20" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0004" x="1489" y="538" width="371" height="486" frameX="-3" frameY="-20" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0005" x="1489" y="538" width="371" height="486" frameX="-3" frameY="-20" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0006" x="1489" y="538" width="371" height="486" frameX="-3" frameY="-20" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0007" x="1489" y="538" width="371" height="486" frameX="-3" frameY="-20" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0008" x="1489" y="538" width="371" height="486" frameX="-3" frameY="-20" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0009" x="1489" y="538" width="371" height="486" frameX="-3" frameY="-20" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0010" x="2071" y="1671" width="357" height="477" frameX="-11" frameY="-29" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0011" x="2071" y="1671" width="357" height="477" frameX="-11" frameY="-29" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0012" x="3130" y="2742" width="328" height="462" frameX="-26" frameY="-45" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0013" x="3130" y="2742" width="328" height="462" frameX="-26" frameY="-45" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0014" x="3517" y="460" width="307" height="453" frameX="-35" frameY="-55" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Normal0015" x="3517" y="460" width="307" height="453" frameX="-35" frameY="-55" frameWidth="384" frameHeight="508" />
+<SubTexture name="Up Oblivion0000" x="0" y="0" width="366" height="591" frameX="-19" frameY="0" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0001" x="366" y="0" width="374" height="554" frameX="-12" frameY="-21" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0002" x="740" y="0" width="374" height="554" frameX="-12" frameY="-22" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0003" x="740" y="0" width="374" height="554" frameX="-12" frameY="-22" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0004" x="740" y="0" width="374" height="554" frameX="-12" frameY="-22" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0005" x="1114" y="0" width="375" height="551" frameX="-13" frameY="-27" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0006" x="1114" y="0" width="375" height="551" frameX="-13" frameY="-27" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0007" x="0" y="591" width="378" height="542" frameX="-14" frameY="-38" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0008" x="0" y="591" width="378" height="542" frameX="-14" frameY="-38" frameWidth="392" frameHeight="591" />
+<SubTexture name="Up Oblivion0009" x="378" y="591" width="392" height="539" frameX="0" frameY="-47" frameWidth="392" frameHeight="591" />
+<SubTexture name="You've got this0000" x="924" y="4463" width="451" height="374" frameX="0" frameY="-38" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0001" x="4806" y="780" width="417" height="390" frameX="-8" frameY="-23" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0002" x="4806" y="1170" width="417" height="390" frameX="-8" frameY="-23" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0003" x="2809" y="4065" width="414" height="391" frameX="-9" frameY="-22" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0004" x="3223" y="4065" width="414" height="391" frameX="-9" frameY="-22" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0005" x="1548" y="4065" width="409" height="394" frameX="-10" frameY="-19" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0006" x="1957" y="4065" width="409" height="394" frameX="-10" frameY="-19" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0007" x="0" y="4065" width="401" height="398" frameX="-12" frameY="-15" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0008" x="401" y="4065" width="401" height="398" frameX="-12" frameY="-15" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0009" x="4374" y="3619" width="390" height="401" frameX="-15" frameY="-11" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0010" x="3984" y="3655" width="390" height="401" frameX="-15" frameY="-11" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0011" x="1650" y="3655" width="369" height="407" frameX="-19" frameY="-5" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0012" x="2019" y="3655" width="369" height="407" frameX="-19" frameY="-5" frameWidth="452" frameHeight="414" />
+<SubTexture name="You've got this0013" x="4023" y="825" width="336" height="412" frameX="-24" frameY="0" frameWidth="452" frameHeight="414" />
+<SubTexture name="ugh lowblow0000" x="3517" y="913" width="262" height="448" frameX="-7" frameY="-27" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0001" x="3276" y="485" width="236" height="479" frameX="-19" frameY="-9" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0002" x="1453" y="2742" width="243" height="471" frameX="-15" frameY="-13" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0003" x="1453" y="2742" width="243" height="471" frameX="-15" frameY="-13" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0004" x="963" y="2742" width="243" height="472" frameX="-15" frameY="-12" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0005" x="963" y="2742" width="243" height="472" frameX="-15" frameY="-12" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0006" x="1696" y="2742" width="244" height="471" frameX="-14" frameY="-12" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0007" x="1696" y="2742" width="244" height="471" frameX="-14" frameY="-12" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0008" x="1940" y="2742" width="244" height="471" frameX="-14" frameY="-11" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0009" x="1940" y="2742" width="244" height="471" frameX="-14" frameY="-11" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0010" x="3272" y="1450" width="245" height="473" frameX="-13" frameY="-9" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0011" x="3272" y="1450" width="245" height="473" frameX="-13" frameY="-9" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0012" x="1206" y="2742" width="247" height="472" frameX="-11" frameY="-8" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0013" x="1206" y="2742" width="247" height="472" frameX="-11" frameY="-8" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0014" x="2619" y="2207" width="248" height="475" frameX="-10" frameY="-6" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0015" x="2619" y="2207" width="248" height="475" frameX="-10" frameY="-6" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0016" x="1518" y="1133" width="251" height="478" frameX="-7" frameY="-4" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0017" x="1518" y="1133" width="251" height="478" frameX="-7" frameY="-4" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0018" x="3018" y="1450" width="254" height="481" frameX="-4" frameY="-2" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0019" x="3018" y="1450" width="254" height="481" frameX="-4" frameY="-2" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0020" x="3018" y="485" width="258" height="484" frameX="0" frameY="0" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0021" x="3018" y="485" width="258" height="484" frameX="0" frameY="0" frameWidth="269" frameHeight="489" />
+<SubTexture name="ugh lowblow0022" x="3018" y="485" width="258" height="484" frameX="0" frameY="0" frameWidth="269" frameHeight="489" />
+</TextureAtlas>

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				1100
+			],
+			"anim": "intro",
+			"fps": 24,
+			"name": "Intro instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				200,
+				-90
+			],
+			"anim": "bye",
+			"fps": 12,
+			"name": "bye bitch instance 1",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DeathBendy instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				-161
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				140
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				20
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "FUCK YOU instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				70,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left instance 1"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/NMB",
+	"position": [
+		100,
+		0
+	],
+	"healthicon": "NMBendy",
+	"flip_x": false,
+	"healthbar_colors": [
+		230,
+		255,
+		0
+	],
+	"camera_position": [
+		-400,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -119,6 +119,8 @@ function optimizeStage(subPath,stage)
 
             stages = {'TordBG','skiBG'}
 
+            removeFromMemory('anims/ycbu_lightning');
+
         elseif stage == 'closetYuri' then
 
             stages = {'closetBG'}
@@ -171,7 +173,7 @@ function optimizeStage(subPath,stage)
 
         elseif stage == 'act3' then
 
-            stages = {'act3Spotlight','act3'}
+            stages = {'act3Spotlight'}
 
         elseif stage == 'mansion' then
             
@@ -180,6 +182,52 @@ function optimizeStage(subPath,stage)
         elseif stage == 'cavern' then
             
             stages = {'BackWall','Ground','BGSKULL'}
+
+        elseif stage == 'restaurant' then
+            
+            stages = {'BG','bubble_tea'}
+
+        elseif stage == 'space' then
+            
+            stages = {'BG'}
+
+        elseif stage == 'building' then
+            
+            stages = {'City','h-neo3'}
+
+        elseif stage == 'jungle' then
+            
+            stages = {'mystic_jungle_BG','infinitespeed','infinitelight'}
+
+        elseif stage == 'phantasm' then
+            
+            stages = {'sonicBG'}
+
+        elseif stage == 'clubroom' then
+
+            stages = {'BG','vignetteend'}
+
+        elseif stage == 'winter' then
+
+            stages = {'BG'}
+
+        elseif stage == 'act4' then
+
+            stages = {'BF-behind','act2_abyss_gradient'}
+
+        elseif stage == 'smoke' then
+
+            stages = {'stare'}
+            removeFromMemory('characters/legs');
+            removeFromMemory('characters/scrimbo-run-reanimated');
+
+        elseif stage == 'bundle' then
+            
+            stages = {'grassBG','grassBG2','dxcomicP1','dxcomicP2','dxcomicP3','TailsDollBGFlipped'}
+
+        elseif stage == 'pibby' then
+            
+            stages = {'realBackground','RoomBG','VoidBG'}
 
         else
             return;

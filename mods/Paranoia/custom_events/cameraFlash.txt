@@ -1,0 +1,2 @@
+v1: camera (camGame, camHUD, camOther)
+v2: color in HEX

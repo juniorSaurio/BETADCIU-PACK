@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="BulletMario_NOTE_assets.png">
-	<SubTexture name="blue0000" x="240" y="0" width="84" height="156" frameX="-35" frameY="-2" frameWidth="161" frameHeight="158"/>
-	<SubTexture name="green0000" x="0" y="0" width="84" height="156" frameX="-42" frameY="0" frameWidth="161" frameHeight="158"/>
-	<SubTexture name="purple0000" x="0" y="156" width="156" height="84" frameX="0" frameY="-35" frameWidth="158" frameHeight="161"/>
-	<SubTexture name="red0000" x="84" y="0" width="156" height="84" frameX="-2" frameY="-35" frameWidth="158" frameHeight="161"/>
-</TextureAtlas>

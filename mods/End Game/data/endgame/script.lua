@@ -1,4 +1,8 @@
 local enableSingBilly = false;
+local enableSingYuriCrazy = false;
+local tweenX = 0;
+local disableShake = false;
+local enableRunGF = false;
 
 function preloadImages()
     precacheImage('backgrounds/act1/All_Stars_Intro')
@@ -113,10 +117,74 @@ function preloadCharacters(act)
 
         addCharacterToList('lune','boyfriend')
         addCharacterToList('qt-kb','dad')
+
+        addCharacterToList('tess','boyfriend')
+        addCharacterToList('tioda','dad')
+        addCharacterToList('mami','gf')
+
+        precacheImage('characters/maid rosie')
+        callScript('extra_scripts/extraCharacter','createCharacter',{'rosie','maid_rosie',400,-250})
+        setProperty('rosie.alpha',0.001)
+
+        addCharacterToList('unknown','dad')
+        addCharacterToList('nyancat','gf')
+
+        addCharacterToList('Neonight_heli','dad')
+        addCharacterToList('denki-reb','boyfriend')
+
+        addCharacterToList('infinite-masked','dad')
+        addCharacterToList('sonic','boyfriend')
+
+        addCharacterToList('fleetway','dad')
+        addCharacterToList('sonic-phantasm','boyfriend')
+
+        addCharacterToList('bigmonika','dad')
+        addCharacterToList('sadsayo','boyfriend')
+        addCharacterToList('natsuki-home','gf')
+
+        precacheImage('characters/Doki_Crazy_Yuri_Assets')
+        callScript('extra_scripts/extraCharacter','createCharacter',{'yuri_crazy','yuri-crazy',150,200})
+        setProperty('yuri_crazy.alpha',0.001)
+
+        addCharacterToList('Ghostcello','boyfriend')
+        addCharacterToList('B3Annie','gf')
     end
 
     if act == 4 then
+        addCharacterToList('sonicexepov','dad')
+        addCharacterToList('fleetway-anims1','gf')
+
+        addCharacterToList('scrimbo','dad')
+        addCharacterToList('gf-run','boyfriend')
+
+        addCharacterToList('DX','dad')
+        addCharacterToList('DX3','dad')
+        addCharacterToList('tailsdoll','boyfriend')
+        addCharacterToList('tailsdoll3','boyfriend')
+
+        addCharacterToList('finncawm_reveal','boyfriend')
+        addCharacterToList('gumball','dad')
+        addCharacterToList('jake','gf')
+
+        addCharacterToList('carton_bendy','boyfriend')
+        addCharacterToList('scott','dad')
+        addCharacterToList('mxV2','gf')
         
+        precacheImage('characters/SCP939')
+        callScript('extra_scripts/extraCharacter','createCharacter',{'scp939','939',-2500,-400})
+        setProperty('scp939.alpha',0.001)
+
+        precacheImage('characters/demon_sky_assets')
+        callScript('extra_scripts/extraCharacter','createCharacter',{'demon_sky','demon-sky',-2500,-400})
+        setProperty('demon_sky.alpha',0.001)
+
+        precacheImage('characters/demon_sky_assets')
+        callScript('extra_scripts/extraCharacter','createCharacter',{'nonsense','Nonsense_God',2500,-400})
+        setProperty('nonsense.alpha',0.001)
+
+        precacheImage('characters/Act_4_secondperspective')
+        callScript('extra_scripts/extraCharacter','createCharacter',{'bfUltraFinal','bf_ultrafinale2',-100,1500})
+        setProperty('bfUltraFinal.alpha',0.001)
     end
 end
 
@@ -127,6 +195,7 @@ function onCreate()
 
     precacheSound('amongKill')
     precacheSound('spinCartoon')
+    precacheSound('spook')
 
     addLuaScript('extra_scripts/camFade')
     addLuaScript('extra_scripts/extraIcon')
@@ -174,6 +243,13 @@ function onUpdate()
         end
     end
 
+    if (curStep >=3024 and curStep <= 3265) then
+        setCamPos(-600 + tweenX,100,'dad')
+        setCamPos(-600 + tweenX,100,'boyfriend')
+        setCamPos(-600 + tweenX,100,'gf')
+        tweenX = tweenX + 1;
+    end
+
     if getProperty('boyfriend.curCharacter') == 'piracy-sonic' then
         if getProperty('boyfriend.animation.curAnim.name') == 'singLEFT' then
             setProperty('dad.x',315)
@@ -201,6 +277,16 @@ function onUpdate()
             setProperty('dad.angle',30)
         end
     end 
+
+    if getProperty('dad.curCharacter') == 'unknown' then
+        songPos = getSongPosition()
+        local currentBeat = (songPos/5000)*(curBpm/60)
+        doTweenY('dadmove', 'dad', -100 - 600*math.sin((currentBeat+12*12)*math.pi), 2);
+    end
+
+	if enableRunGF then
+        setProperty('legs.x', getProperty('boyfriend.x') -490)
+	end
 end
 
 function onBeatHit()
@@ -214,6 +300,20 @@ function onBeatHit()
     if curStep >= 2024 and curStep <= 2464 then
         if curBeat % 2 == 0 then
             playAnim('cpratt','idle',false)
+        end
+    end
+
+    if curStep >=3024 and curStep <= 3265 then
+        if curBeat % 2 == 0 then
+            playAnim('rosie','idle',false)
+        end
+    end
+
+    if curStep >= 4912 and curStep <= 5104 then
+        if curBeat % 2 == 0 then
+            playAnim('scp939','idle',false)
+            playAnim('demon_sky','idle',false)
+            playAnim('nonsense','idle',false)
         end
     end
 
@@ -235,7 +335,7 @@ function onEvent(name,v1,v2)
                 removeFromMemory('mario/allfinal/act1/All_Stars_Intro')
             end
         end
-        if v1 == '2' then 
+        if v1 == '2' then  -- SUFFERING
             if v2 == '1' then
                 setProperty('cameraSpeed', 5)
                 removeFromMemory('bfnew',true)
@@ -357,7 +457,6 @@ function onEvent(name,v1,v2)
                 setZoom(0.8,'gf')
                 setZoom(0.8,'boyfriend')
         
-                addAnimationByPrefix('lighting1','idle','lightning',24,true)
                 setProperty('lighting1.alpha',1)
                 setProperty('skiBG.alpha',1)
         
@@ -774,7 +873,6 @@ function onEvent(name,v1,v2)
                 doTweenAlpha('fadeInBG', 'whitebg', 1, 0.05, 'linear')
                 doTweenAlpha('fadeInBGPrincipal', 'BgStyle', 0, 0.05, 'linear')
 
-                --setObjectOrder('billy',getObjectOrder('whitebg') + 1)
                 doTweenColor('colorBilly','billy','000000', 0.05, 'linear')
                 doTweenColor('colorInBf', 'boyfriend', '000000', 0.05, 'linear')
                 doTweenColor('colorInGf', 'gf', '000000', 0.05, 'linear')
@@ -945,10 +1043,7 @@ function onEvent(name,v1,v2)
 
             if v2 == '2' then
                 
-                doTweenAngle('rotatecamGame','camGame',50,1,'expoIn')
                 doTweenAngle('rotatecamHUD','camHUD',-30,2,'expoIn')
-
-                doTweenY('bottomcamGame','camGame',800,1,'cubeIn')
                 doTweenY('bottomcamHUD','camHUD',800,2,'cubeIn')
 
                 doTweenAlpha('fadecamGame','camGame',0,1,'linear')
@@ -1036,7 +1131,7 @@ function onEvent(name,v1,v2)
             end
         end
 
-        if v1 == '19' then
+        if v1 == '19' then -- QT
             if v2 == '1' then
                 cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
                 removeFromMemory('Alexis',true)
@@ -1044,15 +1139,656 @@ function onEvent(name,v1,v2)
 
                 triggerEvent('Change Character','boyfriend','lune')
                 triggerEvent('Change Character','dad','qt-kb')
+                setObjectOrder('dad',getObjectOrder('groundCavern') + 1)
 
                 setZoom(0.7,'dad')
-                setZoom(0.5,'boyfriend')
+                setZoom(0.6,'boyfriend')
 
-                setCamPos(-300,300,'dad')
-                setCamPos(0,300,'boyfriend')
+                setCamPos(-400,300,'dad')
+                setCamPos(-100,100,'boyfriend')
 
                 setOffs(50,'dad')
                 setOffs(50,'boyfriend')
+            end
+        end
+
+        if v1 == '20' then -- RESTAURANT
+            if v2 == '1' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+
+                doTweenZoom('instantZoom','camGame',1,0.001,'linear')
+
+                removeFromMemory('lune',true)
+                removeFromMemory('qt-kb',true)
+                removeFromMemory('gx',true)
+
+                triggerEvent('Change Character','gf','mami')
+                triggerEvent('Change Character','boyfriend','tess')
+                triggerEvent('Change Character','dad','tioda')
+                setProperty('rosie.alpha',1)
+                setProperty('gf.alpha',1)
+                setProperty('dad.alpha',1)
+     
+                setProperty('dad.x',-800)
+                setProperty('dad.y',-200)
+
+                setProperty('gf.x',-600)
+                setProperty('gf.y',-250)
+
+                setProperty('boyfriend.x',300)
+                setProperty('boyfriend.y',0)
+
+                setOffs(0,'dad')
+                setOffs(0,'boyfriend')
+                setOffs(0,'gf')
+
+                setCamPos(-600,100,'dad')
+                setCamPos(-600,100,'boyfriend')
+                setCamPos(-600,100,'gf')
+
+                setZoom(1,'dad')
+                setZoom(1,'boyfriend')
+                setZoom(1,'gf')
+
+                doTweenAlpha('enableHUDTea','hudBubble',0.9,10,'linear')
+                disableShake = true;
+            end
+        end
+
+        if v1 == '21' then --SPACE
+            if v2 == '1' then
+                removeFromMemory('mami',true)
+                removeFromMemory('tioda',true)
+                callScript('extra_scripts/extraCharacter','removeCharacter',{'rosie',true})
+
+                triggerEvent('Change Character','gf','nyancat')
+                triggerEvent('Change Character','dad','unknown')
+
+                setProperty('boyfriend.alpha',0)
+
+                setProperty('dad.x',-100)
+                setProperty('dad.y',-100)
+
+                setProperty('gf.x',500)
+                setProperty('gf.y',-1500)
+
+                setOffs(50,'dad')
+                setOffs(50,'boyfriend')
+                setOffs(50,'gf')
+
+                setZoom(0.5,'boyfriend')
+                setZoom(0.5,'dad')
+                setZoom(0.5,'gf')
+
+                setProperty('iconP1.alpha',0.001)
+            end
+
+            if v2 == '2' then
+                addExtraIcon('gfIcon','nyan',false)
+                setObjectOrder('gfIcon', getObjectOrder('iconP1') + 1)
+                
+                doTweenY('bottomNyan','gf',-350,0.3,'linear')
+                setZoom(0.7,'dad')
+                setZoom(0.7,'gf')
+            end
+        end
+
+        if v1 == '22' then --CITY
+            if v2 == '1' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+
+                removeExtraIcon('gfIcon',true)
+                removeFromMemory('unknown',true)
+                removeFromMemory('tess',true)
+
+                triggerEvent('Change Character','boyfriend','denki-reb')
+                triggerEvent('Change Character','dad','Neonight_heli')
+
+                setProperty('gf.alpha',0)
+                setProperty('boyfriend.alpha',1)
+
+                setProperty('dad.x',650)
+                setProperty('dad.y',-150)
+
+                setProperty('boyfriend.x',1000)
+                setProperty('boyfriend.y',150)
+
+                setOffs(10,'dad')
+                setOffs(10,'boyfriend')
+
+                setZoom(0.5,'boyfriend')
+                setZoom(0.5,'dad')
+                setZoom(0.5,'gf')
+
+                setCamPos(700,100,'dad')
+                setCamPos(700,100,'boyfriend')
+                setCamPos(700,100,'gf')
+
+                setProperty('iconP1.alpha',1)
+            end
+        end
+
+        if v1 == '23' then --JUNGLE
+            if v2 == '1' then
+                removeFromMemory('denki-reb',true)
+                removeFromMemory('Neonight_heli',true)
+    
+                triggerEvent('Change Character','boyfriend','sonic')
+                triggerEvent('Change Character','dad','infinite-masked')
+    
+                setProperty('dad.x',-500)
+                setProperty('dad.y',-300)
+    
+                setProperty('boyfriend.x',600)
+                setProperty('boyfriend.y',-100)
+
+                
+                setZoom(0.7,'boyfriend')
+                setZoom(0.7,'dad')
+                setZoom(0.7,'gf')
+    
+                setOffs(50,'dad')
+                setOffs(50,'boyfriend')
+    
+                setCamPos(300,100,'dad')
+                setCamPos(500,100,'boyfriend')    
+            end
+
+            if v2 == '2' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.2)
+                setProperty('mysticJungle.alpha',0.001)
+                setProperty('infiniteLight.alpha',1)
+                setProperty('infiniteSpeed.alpha',1)
+
+                                
+                setZoom(0.5,'boyfriend')
+                setZoom(0.5,'dad')
+                setZoom(0.5,'gf')
+            end
+        end
+
+        if v1 == '24' then --PHANTASM
+            if v2 == '1' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.2)
+                removeFromMemory('infinite-masked',true)
+                removeFromMemory('sonic',true)
+    
+                triggerEvent('Change Character','boyfriend','sonic-phantasm')
+                triggerEvent('Change Character','dad','fleetway')
+
+                setOffs(0,'dad')
+                setOffs(0,'boyfriend')
+                setOffs(0,'gf')
+
+                setProperty('dad.alpha',0.4)
+                setObjectCamera('dad','camHUD')
+
+                setCamPos(400,200,'dad')
+                setCamPos(400,200,'boyfriend')
+                setCamPos(400,200,'gf')   
+
+                setProperty('dad.x',900)
+                setProperty('dad.y',200)
+                doTweenX('moveCamDad','dad',100,20,'linear')
+            end
+        end
+
+        if v1 == '25' then --DOKIS
+            if v2 == '1' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.2)
+                removeFromMemory('sonic-phantasm',true)
+                removeFromMemory('fleetway',true)
+                removeFromMemory('nyancat',true)
+    
+                triggerEvent('Change Character','boyfriend','sadsayo')
+                triggerEvent('Change Character','dad','bigmonika')
+                triggerEvent('Change Character','gf','natsuki-home')
+                setProperty('yuri_crazy.alpha',1)
+
+                setProperty('dad.alpha',0.4)
+                setProperty('gf.alpha',1)
+                setObjectCamera('dad','camHUD')
+
+                setCamPos(550,400,'dad')
+                setCamPos(550,400,'boyfriend')
+                setCamPos(550,400,'gf')
+
+                setProperty('dad.x',100)
+                setProperty('dad.y',0)
+                doTweenX('moveCamDad','dad',900,20,'linear')
+                doTweenZoom('camz6','camGame',1.2,20,'sineInOut')
+
+                enableSingYuriCrazy = true;
+            end
+
+            if v2 == '2' then
+                doTweenAlpha('chauCamGame','camGame',0,2,'linear')
+            end
+
+            if v2 == '3' then
+                characterPlayAnim('dad','lastNOTE_end',false)
+                setProperty('dad.specialAnim',true)
+            end
+        end
+
+        if v1 == '26' then --GARCELO
+            if v2 == '1' then
+
+                enableSingYuriCrazy = false;
+                removeFromMemory('sadsayo',true)
+                removeFromMemory('natsuki-home',true)
+                setProperty('dad.alpha',0.001)
+
+                callScript('extra_scripts/extraCharacter','removeCharacter',{'yuri_crazy',true})
+
+                triggerEvent('Change Character','gf','B3Annie')
+                setProperty('gf.alpha',0.001)
+                setProperty('iconP2.alpha',0.001)
+                triggerEvent('Change Character','boyfriend','Ghostcello')
+
+                setCamPos(600,100,'dad')
+                setCamPos(600,100,'boyfriend')
+                setCamPos(550,100,'gf')
+
+                setProperty('boyfriend.x',100)
+                setProperty('boyfriend.y',0)
+
+                setProperty('gf.x',0)
+                setProperty('gf.y',0)
+
+                setZoom(1,'boyfriend')
+                setZoom(1,'dad')
+                setZoom(1,'gf')
+
+                doTweenAlpha('enableCamGame','camGame',1,10,'linear')
+            end
+
+            if v2 == '2' then
+
+                addExtraIcon('gfIcon','annie',true)
+                setObjectOrder('gfIcon', getObjectOrder('iconP1') + 1)
+
+                doTweenAlpha('enableAnnie','gf',1,10,'linear')
+                doTweenAlpha('enableWinterBG','winterBG',1,10,'linear')
+                setZoom(0.7,'boyfriend')
+                setZoom(0.7,'dad')
+                setZoom(0.7,'gf')
+
+                setCamPos(500,300,'dad')
+                setCamPos(500,300,'boyfriend')
+                setCamPos(500,300,'gf')
+
+                doTweenZoom('camz7','camGame',0.3,10,'sineInOut')
+            end
+
+            if v2 == '3' then
+                doTweenAlpha('disableCamGame','camGame',0,1,'linear')
+                doTweenAlpha('disableCamHUD','camHUD',0,1,'linear')
+            end
+        end
+
+        if v1 == '27' then --  YOU CANT WIN
+            if v2 == '1' then
+                preloadCharacters(4)
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+
+                removeFromMemory('bigmonika',true)
+                removeFromMemory('B3Annie',true)
+                setProperty('boyfriend.alpha',0.001)
+                removeExtraIcon('gfIcon',true)
+
+                triggerEvent('Change Character','dad','sonicexepov')
+                triggerEvent('Change Character','gf','fleetway-anims1')
+
+                doTweenColor('colorFleet','gf','FFAA30', 0.01, 'linear')
+                doTweenColor('colorXeno', 'dad', 'FF0000', 0.01, 'linear')
+                doTweenColor('colorBF', 'BFbehind', '31B0D1', 0.01, 'linear')
+
+                setProperty('camGame.alpha',1) 
+                setObjectOrder('gf',getObjectOrder('gradientFloor') + 1)
+
+                setCamPos(300,-700,'dad')
+                setCamPos(300,-700,'boyfriend')
+                setCamPos(300,-700,'gf')
+
+                setProperty('dad.x',-400)
+                setProperty('dad.y',-1500)
+
+                setProperty('gf.x',-1500)
+                setProperty('gf.y',-600)
+
+                setZoom(0.3,'boyfriend')
+                setZoom(0.3,'dad')
+                setZoom(0.3,'gf')
+
+                characterPlayAnim('gf','Shut up',false)
+                setProperty('gf.specialAnim',true)
+            end
+
+            if v2 == '2' then
+                doTweenX('moveFleetAnim','gf',1000,0.3,'linear')
+                setProperty('gf.flipX',true)
+                characterPlayAnim('gf','Step it up',false)
+                setProperty('gf.specialAnim',true)
+            end
+
+            if v2 == '3' then
+                characterPlayAnim('gf','fatphobia',false)
+                setProperty('gf.specialAnim',true)
+            end
+
+            if v2 == '4' then
+                doTweenX('moveFleetAnim','gf',-1500,0.4,'linear')
+                setProperty('gf.flipX',false)
+                characterPlayAnim('gf','Finished',false)
+                setProperty('gf.specialAnim',true)
+            end
+
+            if v2 == '5' then
+                characterPlayAnim('gf','Step it up',false)
+                setProperty('gf.specialAnim',true)
+            end
+
+            if v2 == '6' then
+                characterPlayAnim('gf','Shut up',false)
+                setProperty('gf.specialAnim',true)
+            end
+        end
+
+        if v1 == '28' then -- SCRIMBO
+            if v2 == '1' then
+
+                doTweenZoom('instant','camGame',0.6,0.01,'linear')
+                removeFromMemory('Ghostcello',true)
+                removeFromMemory('sonicexepov',true)
+                
+                triggerEvent('Change Character','dad','scrimbo')
+                triggerEvent('Change Character','boyfriend','gf-run')
+
+                setProperty('gf.alpha',0.001)
+                setProperty('legs.alpha',1)
+                setProperty('boyfriend.alpha',1)
+                setProperty('iconP2.alpha',1)
+                setProperty('iconP1.alpha',1)
+                setObjectOrder('boyfriend',getObjectOrder('clone4') + 1)
+
+                setCamPos(-100,300,'dad')
+                setCamPos(600,200,'boyfriend')
+                setCamPos(0,300,'gf')
+
+                setZoom(0.5,'boyfriend')
+                setZoom(0.6,'dad')
+                setZoom(0.6,'gf')
+
+                setProperty('camGame.alpha',1)
+                enableRunGF = true;
+            end
+
+            if v2 == '2' then
+                playSound('spook',1)
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                setProperty('clone1.alpha',1)
+                setProperty('clone2.alpha',1)
+                setProperty('clone3.alpha',1)
+                setProperty('clone4.alpha',1)
+
+                setProperty('dad.alpha',0)
+            end
+
+            if v2 == '3' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                setProperty('clone1.alpha',0)
+                setProperty('clone2.alpha',0)
+                setProperty('clone3.alpha',0)
+                setProperty('clone4.alpha',0)
+
+                setProperty('dad.alpha',1)
+                doTweenX('moveScrimbo','dad',2000,3,'linear')
+                doTweenX('moveGFRerun','boyfriend',2000,3,'linear')
+
+                setZoom(0.8,'boyfriend')
+                setZoom(0.8,'dad')
+                setZoom(0.8,'gf')
+
+                setCamPos(500,400,'dad')
+                setCamPos(500,400,'boyfriend')
+                setCamPos(500,400,'gf')
+
+                
+            end
+        end
+
+        if v1 == '29' then -- GAMEBREAKER
+            if v2 == '1' then
+                removeFromMemory('scrimbo',true)
+                removeFromMemory('gf-run',true)
+
+                triggerEvent('Change Character','dad','DX')
+                triggerEvent('Change Character','boyfriend','tailsdoll')
+
+                setZoom(0.6,'dad')
+                setCamPos(100,-200,'dad')
+                setOffs(50,'dad')
+
+                setProperty('dad.x',-300)
+                setProperty('dad.y',-180)
+                setProperty('boyfriend.x',600)
+                setProperty('boyfriend.y',300)
+            end
+
+            if v2 == '2' then
+                setProperty('camGame.alpha',0.001)
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                setProperty('dxphase1.alpha',1)
+            end
+
+            if v2 == '3' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                setProperty('dxphase1.alpha',0.001)
+                setProperty('dxphase2.alpha',1)
+            end
+            
+            if v2 == '4' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                setProperty('dxphase2.alpha',0.001)
+                setProperty('dxphase3.alpha',1)
+            end
+
+            if v2 == '5' then
+                setProperty('camGame.alpha',1)
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                setProperty('dxphase3.alpha',0.001)
+                removeFromMemory('DX',true)
+
+                triggerEvent('Change Character','dad','DX3')
+                setProperty('gamebreakerBG1.alpha',0.001)
+                setProperty('gamebreakerBG2.alpha',1)
+
+                setProperty('dad.x',-300)
+                setProperty('dad.y',-180)
+
+                setOffs(50,'dad')
+                setCamPos(100,-100,'dad')
+                setZoom(0.45,'dad')
+            end
+
+            if v2 == '6' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                setProperty('camGame.alpha',0.001)
+                setProperty('BGFlipTailsDoll.alpha',1)
+                triggerEvent('Change Character','boyfriend','tailsdoll3')
+                setObjectCamera('boyfriend','hud')
+                setProperty('boyfriend.x',500)
+                setProperty('boyfriend.y',300)
+            end
+
+            if v2 == '7' then
+                triggerEvent('Change Character','boyfriend','tailsdoll')
+                setObjectCamera('boyfriend','camGame')
+
+                setProperty('camGame.alpha',1)
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                setProperty('BGFlipTailsDoll.alpha',0.001)
+
+                setProperty('boyfriend.x',600)
+                setProperty('boyfriend.y',300)
+
+                setOffs(50,'boyfriend')
+            end
+        end
+
+        if v1 == '30' then --PIBBY
+            if v2 == '1' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+
+                removeFromMemory('tailsdoll',true)
+                removeFromMemory('DX3',true)
+                removeFromMemory('tailsdoll3',true)
+                removeFromMemory('fleetway-anims1',true)
+
+                triggerEvent('Change Character','gf','jake')
+                triggerEvent('Change Character','boyfriend','finncawm_reveal')
+                triggerEvent('Change Character','dad','gumball')
+
+                setProperty('gf.alpha',1)
+                setObjectOrder('gf',getObjectOrder('roomBG') + 1)
+                setObjectOrder('dad',getObjectOrder('voidBG') + 1)
+
+                setProperty('boyfriend.x',-600)
+                setProperty('boyfriend.y',-280)
+
+                setProperty('dad.x',-600)
+                setProperty('dad.y',1500)
+
+                setProperty('gf.x',150)
+                setProperty('gf.y',1500)
+
+                setCamPos(100,315,'dad')
+                setCamPos(100,315,'boyfriend')
+                setCamPos(100,315,'gf')
+
+                setZoom(0.8,'dad')
+                setZoom(0.8,'boyfriend')
+                setZoom(0.8,'gf')
+            end
+
+            if v2 == '2' then
+                doTweenY('upPibbys1','dad',240,0.5,'linear')
+                doTweenY('upPibbys1BG','voidBG',250,0.5,'linear')
+
+                doTweenY('upPibbys2','gf',180,0.5,'linear')
+                doTweenY('upPibbys2BG','roomBG',270,0.5,'linear')
+            end
+        end
+
+        if v1 == '31' then --FINAL
+            if v2 == '1' then
+                cameraFlash('camHUD', '0xFFFFFFFF', 0.3)
+                removeFromMemory('finncawm_reveal',true)
+                removeFromMemory('gumball-anims1',true)
+                removeFromMemory('jake',true)
+
+                triggerEvent('Change Character','dad','scott')
+                triggerEvent('Change Character','gf','mxV2')
+                triggerEvent('Change Character','boyfriend','carton_bendy')
+
+                setProperty('scp939.alpha',1)
+                setProperty('demon_sky.alpha',1)
+                setProperty('nonsense.alpha',1)
+                setProperty('bfUltraFinal.alpha',1)
+                setProperty('act3front.alpha',1)
+
+                setObjectOrder('act4line',getObjectOrder('slideBG') + 1)
+                setObjectOrder('gf',getObjectOrder('act4line') + 2)
+                setObjectOrder('nonsense',getObjectOrder('act4line') + 4)
+                setObjectOrder('boyfriend',getObjectOrder('act4line') + 5)
+
+                setObjectOrder('pipeBF',getObjectOrder('act4line') + 6)
+                setObjectOrder('bfUltraFinal',getObjectOrder('act4line') + 7)
+
+                setProperty('gf.y',0)
+                setProperty('gf.x',1500)
+
+                setZoom(0.55,'dad')
+                setZoom(0.55,'boyfriend')
+                setZoom(0.55,'gf')
+
+                setOffs(50,'dad')
+                setOffs(50,'boyfriend')
+                setOffs(50,'gf')
+
+                
+                setCamPos(0,280,'dad')
+                setCamPos(0,280,'boyfriend')
+                setCamPos(0,280,'gf')
+            end
+
+            if v2 == '2' then
+                doTweenX('enterMX','gf',550,0.3,'linear')
+                doTweenX('enterSCP','scp939',-1200,0.3,'linear')
+
+                addExtraIcon('gfIcon','2MX',true)
+                setObjectOrder('gfIcon', getObjectOrder('iconP1') + 1)
+
+                addExtraIcon('SCPIcon','939',false)
+                setObjectOrder('SCPIcon', getObjectOrder('iconP2') + 1)
+            end
+
+            if v2 == '3' then
+                doTweenX('enterNuSky','demon_sky',-300,0.3,'linear')
+                doTweenX('enterNonsense','nonsense',500,0.3,'linear')
+
+                addExtraIcon('NuSkyIcon','demon-sky',false)
+                setObjectOrder('NuSkyIcon', getObjectOrder('iconP2') + 1)
+
+                addExtraIcon('nonsenseIcon','nonsenseGod',true)
+                setObjectOrder('nonsenseIcon', getObjectOrder('iconP1') + 1)
+                setProperty('nonsenseIcon.offset.y',getProperty('iconP1.offset.y') + 80)
+            end
+
+            if v2 == '4' then
+                doTweenY('enterBFFinal','bfUltraFinal',-10,0.3,'linear')
+                doTweenY('enterPipe','pipeBF',500,0.3,'linear')
+                doTweenZoom('finalZoom','camGame',1,5,'linear')
+            end
+
+            if v2 == '5' then
+                cancelTween('finalZoom')
+                setProperty('camGame.zoom',0.8)
+                setProperty('camZooming',false)
+                cameraFlash('game','FF0000',1)
+
+                setProperty('boyfriend.visible',false)
+                setProperty('dad.visible',false)
+                setProperty('demon_sky.visible',false)
+                setProperty('nonsense.visible',false)
+                setProperty('bfUltraFinal.visible',false)
+                setProperty('scp939.visible',false)
+                setProperty('gf.visible',false)
+                setProperty('act4line.visible',false)
+                setProperty('pipeBF.visible',false)
+                setProperty('slideBG.visible',false)
+                setProperty('act3front.visible',false)
+
+                setProperty('camHUD.visible',false)
+
+                setProperty('act4end.alpha',1)
+                playAnim('act4end','anim',true)
+                setProperty('redbg.alpha', 1)
+            end
+
+            if v2 == '6' then
+                doTweenAlpha('act4endalpha','act4end',0,3,'sineIn')
+                doTweenX('act4endscalex','act4end.scale',0.6,3,'sineIn')
+                doTweenY('act4endscaley','act4end.scale',0.6,3,'sineIn')
+            end
+
+            if v2 == '7' then
+                doTweenAlpha('gameoveralpha','gameover',1,3,'sineOut')
+            end
+
+            if v2 == '8' then
+                cameraFade('game','000000',3)
             end
         end
     end
@@ -1060,36 +1796,72 @@ end
 
 function opponentNoteHit(id,data,type,sus)
     if type == 'Teuthida Note' then
-        playAnim('teuthida',getProperty('singAnimations['..data..']'),true)
+        playAnim('teuthida',getProperty('singAnimations['..data..']'),false)
         setProperty('teuthida.holdTimer',0)
     end
 
     if type == 'Billy Note' or (type == 'BOTHSING' and enableSingBilly) then
-        playAnim('billy',getProperty('singAnimations['..data..']'),true)
+        playAnim('billy',getProperty('singAnimations['..data..']'),false)
         setProperty('billy.holdTimer',0)
     end
 
     if type == 'Bowser Note' then
-        playAnim('bowser',getProperty('singAnimations['..data..']'),true)
+        playAnim('bowser',getProperty('singAnimations['..data..']'),false)
         setProperty('bowser.holdTimer',0)
     end
 
-    if type == 'BOTHSING' then
+    if type == 'BOTHSING' and not disableShake then
         cameraShake('camGame', 0.01, 0.4)
     end
 
     if type == 'ChrisPratt Note' then
-        playAnim('cpratt',getProperty('singAnimations['..data..']'),true)
-        characterPlayAnim('dad',getProperty('singAnimations['..data..']'),true)
-        characterPlayAnim('gf',getProperty('singAnimations['..data..']'),true)
-
+        playAnim('cpratt',getProperty('singAnimations['..data..']'),false)
+        characterPlayAnim('dad',getProperty('singAnimations['..data..']'),false)
+        characterPlayAnim('gf',getProperty('singAnimations['..data..']'),false)
         setProperty('cpratt.holdTimer',0)
-    end 
+    end
+
+    if type == 'SCP939 Note' then
+        playAnim('scp939',getProperty('singAnimations['..data..']'),false)
+        setProperty('scp939.holdTimer',0)
+    end
+
+    if type == 'NuSky Note' then
+        playAnim('demon_sky',getProperty('singAnimations['..data..']'),false)
+        setProperty('demon_sky.holdTimer',0)
+    end
+
+    if curStep >= 5076 and curStep <= 5104 then
+        playAnim('demon_sky',getProperty('singAnimations['..data..']'),false)
+        setProperty('demon_sky.holdTimer',0)
+        playAnim('scp939',getProperty('singAnimations['..data..']'),false)
+        setProperty('scp939.holdTimer',0)
+    end
 end
 
-function onSectionHit()
-    if getSongPosition() > 323000 and getSongPosition() < 348000 then
-        --setProperty('defaultCamZoom',getProperty('defaultCamZoom')+0.05)
+function goodNoteHit(id,data,type,sus)
+    if type == 'RosieMaid Note' then
+        playAnim('rosie',getProperty('singAnimations['..data..']'),false)
+        characterPlayAnim('boyfriend',getProperty('singAnimations['..data..']'),false)
+        setProperty('bowser.holdTimer',0)
+    end
+
+    if enableSingYuriCrazy and type == 'BOTHSING' then
+        playAnim('yuri_crazy',getProperty('singAnimations['..data..']'),false)
+        setProperty('yuri_crazy.holdTimer',0)
+    end
+
+    if type == 'Nonsense Note' then
+        playAnim('nonsense',getProperty('singAnimations['..data..']'),false)
+        setProperty('nonsense.holdTimer',0)
+    end
+
+    if curStep >= 5076 and curStep <= 5104 then
+        playAnim('nonsense',getProperty('singAnimations['..data..']'),false)
+        setProperty('nonsense.holdTimer',0)
+        playAnim('bfUltraFinal',getProperty('singAnimations['..data..']'),false)
+        setProperty('bfUltraFinal.holdTimer',0)
+        characterPlayAnim('gf',getProperty('singAnimations['..data..']'),false)
     end
 end
 

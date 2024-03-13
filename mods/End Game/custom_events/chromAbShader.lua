@@ -1,5 +1,5 @@
 function onCreatePost()
-    callShader('createShader',{'ca', 'ChromAbEffect'})
+    callShader('createShader',{'ca', 'ChromAbEffect',true})
     callShader('runShader',{{'camGame'},'ca'})
     shaderVar('ca', 'strength', 0)
 end

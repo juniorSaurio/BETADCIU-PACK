@@ -17,14 +17,28 @@ local nameStage16 = 'stream'
 local nameStage17 = 'act3'
 local nameStage18 = 'mansion'
 local nameStage19 = 'cavern'
+local nameStage20 = 'restaurant'
+local nameStage21 = 'space'
+local nameStage22 = 'building'
+local nameStage23 = 'jungle'
+local nameStage24 = 'phantasm'
+local nameStage25 = 'clubroom'
+local nameStage26 = 'winter'
+local nameStage27 = 'act4'
+local nameStage28 = 'smoke'
+local nameStage29 = 'bundle'
+local nameStage30 = 'pibby'
+local nameStage31 = 'final'
 
 local trhowAnimation1 = false
 local trhowAnimation2 = false
 local trhowAnimation3 = false
 local trhowAnimation4 = false
 local trhowAnimation5 = false
+local trhowAnimation6 = false
 
 local enableShaderWiggles = false;
+local enableShaderScroll = false;
 local disableChat = false;
 
 local names = {
@@ -191,11 +205,90 @@ function preloadImages(nameStage)
         precacheImage('backgrounds/cavern/Ground')
         precacheImage('backgrounds/cavern/BGSKULL')
     end
+
+    if nameStage == nameStage20 then
+        precacheImage('backgrounds/restaurant/BG')
+        precacheImage('backgrounds/restaurant/bubble_tea')
+    end
+
+    if nameStage == nameStage21 then
+        precacheImage('backgrounds/space/BG')
+    end
+
+    if nameStage == nameStage22 then
+        precacheImage('backgrounds/building/City')
+        precacheImage('backgrounds/building/h-neo3')
+    end
+
+    if nameStage == nameStage23 then
+        precacheImage('backgrounds/jungle/infinitespeed')
+        precacheImage('backgrounds/jungle/mystic_jungle_BG')
+        precacheImage('backgrounds/jungle/infinitelight')
+    end
+
+    if nameStage == nameStage24 then
+        precacheImage('backgrounds/phantasm/sonicBG')
+    end
+
+    if nameStage == nameStage25 then
+        precacheImage('backgrounds/clubroom/BG')
+        precacheImage('backgrounds/clubroom/vignetteend')
+    end
+
+    if nameStage == nameStage26 then
+        precacheImage('backgrounds/winter/BG')
+    end
+
+    if nameStage == nameStage27 then
+        precacheImage('backgrounds/act4/BF-behind')
+        precacheImage('backgrounds/act4/act2_abyss_gradient')
+        precacheImage('characters/scrimbolaugh')
+    end
+
+    if nameStage == nameStage28 then
+        precacheImage('backgrounds/smoke/stare')
+        precacheImage('characters/legs')
+        precacheImage('characters/scrimbo-run-reanimated')
+    end
+
+    if nameStage == nameStage29 then
+        precacheImage('backgrounds/bundle/grassBG')
+        precacheImage('backgrounds/bundle/grassBG2')
+        precacheImage('backgrounds/bundle/dxcomicP1')
+        precacheImage('backgrounds/bundle/dxcomicP2')
+        precacheImage('backgrounds/bundle/dxcomicP3')
+        precacheImage('backgrounds/bundle/TailsDollBGFlipped')
+    end
+
+    if nameStage == nameStage30 then
+        precacheImage('backgrounds/pibby/realBackground')
+        precacheImage('backgrounds/pibby/RoomBG')
+        precacheImage('backgrounds/pibby/VoidBG')
+    end
+
+    if nameStage == nameStage31 then
+        precacheImage('backgrounds/final/Act_4_FINALE_Lightingmcqueen')
+        precacheImage('backgrounds/final/Act_4_FINALE_Gameover')
+        precacheImage('backgrounds/final/Act_4_FINALE_DEATH')
+        precacheImage('backgrounds/final/bf pipe final')
+        precacheImage('backgrounds/final/bf pipe final')
+    end
 end
 
 function onCreate()
 
     addLuaScript('extra_scripts/loadingStage')
+    
+    preloadImages(nameStage1)
+    preloadImages(nameStage2)
+    preloadImages(nameStage4)
+
+    makeLuaSprite('redbg', '', 0, 0)
+    setScrollFactor('redbg', 0, 0)
+    makeGraphic('redbg', 4440, 3000, 'FF0000')
+    setProperty('redbg.alpha', 0.001)
+    screenCenter('redbg', 'xy')
+        addLuaSprite('redbg', false)
 
     precacheImage('backgrounds/zardy/maze')
     makeAnimatedLuaSprite('BgMaze','backgrounds/zardy/maze',-1350,-200)
@@ -204,9 +297,10 @@ function onCreate()
 
     precacheImage('anims/ycbu_lightning')
 	makeAnimatedLuaSprite('lighting1','anims/ycbu_lightning',1800,-500)
+    addAnimationByPrefix('lighting1','idle','lightning',24,true)
 	scaleObject('lighting1',2,2)
     setProperty('lighting1.alpha',0.001)
-				addLuaSprite('lighting1',false)
+		addLuaSprite('lighting1',false)
 
     precacheImage('anims/warning')
     makeAnimatedLuaSprite('warningMouse','anims/warning',0,0)
@@ -223,7 +317,6 @@ function onCreate()
     setProperty('explosion.alpha',0.001)
        addLuaSprite('explosion',true)
 
-    preloadImages(nameStage1)
     createStage(nameStage1)
 
 end
@@ -465,12 +558,23 @@ function createStage(nameStage)
         setProperty('act3front.alpha',0.8)
             addLuaSprite('act3front',false)
 
-	    makeAnimatedLuaSprite("skull", "backgrounds/cavern/BGSKULL", -1460, -350)
+	    makeAnimatedLuaSprite("skull", "backgrounds/cavern/BGSKULL", -3400, -1300)
 	    addAnimationByPrefix("skull", "idle", "WholeSkull", 24, true)
 	    scaleObject("skull", 1.8, 1.8)
         setProperty('skull.alpha',0.001)
 	        addLuaSprite("skull")
-	
+
+        makeAnimatedLuaSprite("h3", "backgrounds/building/h-neo3", -860, -720)
+        addAnimationByPrefix("h3", "idle", "a", 24, true)
+        scaleObject("h3", 2, 2)
+        setProperty('h3.alpha',0.001)
+            addLuaSprite("h3",false)
+
+        makeAnimatedLuaSprite("infiniteSpeed", "backgrounds/jungle/infinitespeed", -1200, -850)
+        addAnimationByPrefix("infiniteSpeed", "idle", "RedSpeed", 24, true)
+        scaleObject('infiniteSpeed',3,3)
+        setProperty('infiniteSpeed.alpha',0.001)
+            addLuaSprite("infiniteSpeed",false)
     end
 
     if nameStage == nameStage18 then
@@ -479,20 +583,219 @@ function createStage(nameStage)
     end
 
     if nameStage == nameStage19 then
-        makeLuaSprite("bgWall", "backgrounds/cavern/BackWall", -1400, -900)
+        makeLuaSprite("bgWall", "backgrounds/cavern/BackWall", -1650, -900)
 	    scaleObject("bgWall", 1.2, 1.2)
 	        addLuaSprite("bgWall")
 
         setObjectOrder('skull',getObjectOrder('bgWall') + 1)
         
-        makeLuaSprite("groundCavern", "backgrounds/cavern/Ground", -1400, -1200)
+        makeLuaSprite("groundCavern", "backgrounds/cavern/Ground", -1650, 200)
         scaleObject("groundCavern", 1.2, 1.2)
             addLuaSprite("groundCavern")
-        setProperty("groundCavern.y", getProperty("bgWall.height")-getProperty("groundCavern.height"))
+
+        setObjectOrder('groundCavern',getObjectOrder('skull') + 1)
 
         setProperty('skull.alpha',1)
     end
 
+    if nameStage == nameStage20 then
+        makeLuaSprite('restBG','backgrounds/restaurant/BG',-1300,-800)
+            addLuaSprite('restBG',false)
+
+        makeLuaSprite('hudBubble','backgrounds/restaurant/bubble_tea',0,0)
+        setObjectCamera('hudBubble','hud')
+        setProperty('hudBubble.alpha',0.001)
+            addLuaSprite('hudBubble',false)
+    end
+
+    if nameStage == nameStage21 then
+        makeLuaSprite('spaceBG','backgrounds/space/BG',-800,-700)
+        scaleObject('spaceBG',1.5,1.5)
+            addLuaSprite('spaceBG',false)
+    end
+
+    if nameStage == nameStage22 then
+        makeLuaSprite('cityNeo','backgrounds/building/City',-1500,-800)
+        scaleObject('cityNeo',1.2,1.2)
+            addLuaSprite('cityNeo',false)
+
+        setProperty('h3.alpha',1)
+        setObjectOrder('h3',getObjectOrder('cityNeo') + 1)
+
+    end
+
+    if nameStage == nameStage23 then
+        makeLuaSprite('mysticJungle','backgrounds/jungle/mystic_jungle_BG',-900,-900)
+        scaleObject('mysticJungle',2.2,2.2)
+            addLuaSprite('mysticJungle',false)
+
+        makeLuaSprite('infiniteLight','backgrounds/jungle/infinitelight',0,0)
+        setObjectCamera('infiniteLight','hud')
+        screenCenter('infiniteLight','xy')
+        setProperty('infiniteLight.alpha',0.001)
+            addLuaSprite('infiniteLight',false)
+    end
+
+    if nameStage == nameStage24 then
+        makeLuaSprite('sonicBG','backgrounds/phantasm/sonicBG',-550,-350)
+            addLuaSprite('sonicBG',false)
+    end
+
+    if nameStage == nameStage25 then
+        makeLuaSprite('clubRoom','backgrounds/clubroom/BG',-850,-300)
+        scaleObject('clubRoom',1.5,1.5)
+            addLuaSprite('clubRoom',false)
+
+        makeLuaSprite('vigenetteBlood','backgrounds/clubroom/vignetteend',0,0)
+        setObjectCamera('vigenetteBlood','hud')
+        screenCenter('vigenetteBlood','xy')
+            addLuaSprite('vigenetteBlood',false)
+    end
+
+    if nameStage == nameStage26 then
+        makeLuaSprite('winterBG','backgrounds/winter/BG',-1700,-1850)
+        scaleObject('winterBG',2,2)
+        setProperty('winterBG.alpha',0.001)
+            addLuaSprite('winterBG',false)
+    end
+
+    if nameStage == nameStage27 then
+
+        makeLuaSprite('gradientFloor','backgrounds/act4/act2_abyss_gradient',-1000,-2200)
+        scaleObject('gradientFloor',2,2)
+            addLuaSprite('gradientFloor',true)
+
+        makeLuaSprite('BFbehind','backgrounds/act4/BF-behind',-200,-200)
+        scaleObject('BFbehind',1.5,1.5)
+            addLuaSprite('BFbehind',true)
+
+        makeAnimatedLuaSprite('scrimboLaugh', 'characters/scrimbolaugh', -650, -350);
+        addAnimationByPrefix('scrimboLaugh', 'laugh', 'laughstart', 24, false);
+        scaleObject('scrimboLaugh', 2, 2);
+        setProperty('scrimboLaugh.alpha',0.001)
+        setObjectCamera('scrimboLaugh','hud')
+            addLuaSprite('scrimboLaugh',false);
+
+        makeAnimatedLuaSprite('legs', 'characters/legs', 0, 200);
+	    addAnimationByPrefix('legs', 'idle', 'run', 40, true);
+	    scaleObject('legs', 2, 2);
+        setProperty('legs.alpha',0.001)
+	        addLuaSprite('legs',true);
+
+        makeAnimatedLuaSprite('clone1', 'characters/scrimbo-run-reanimated', -400, -540);
+	    addAnimationByPrefix('clone1', 'idle', 'idle', 24, true);
+	    scaleObject('clone1', 0.6, 0.6);
+	    setProperty('clone1.color', getColorFromHex('A36161'))
+	    setProperty('clone1.alpha', 0.001);
+            addLuaSprite('clone1',true);
+
+	    makeAnimatedLuaSprite('clone2', 'characters/scrimbo-run-reanimated', -700, -100);
+	    addAnimationByPrefix('clone2', 'idle', 'idle', 24, true);
+	    scaleObject('clone2', 0.6, 0.6);
+	    setProperty('clone2.color', getColorFromHex('A36161'))
+	    setProperty('clone2.alpha', 0.001);
+            addLuaSprite('clone2',true);
+
+	    makeAnimatedLuaSprite('clone3', 'characters/scrimbo-run-reanimated', 800, -540);
+	    addAnimationByPrefix('clone3', 'idle', 'idle', 24, true);
+	    scaleObject('clone3', 0.6, 0.6);
+	    setPropertyLuaSprite('clone3', 'flipX', true);
+	    setProperty('clone3.color', getColorFromHex('A36161'))
+	    setProperty('clone3.alpha', 0.001);
+            addLuaSprite('clone3',true);
+
+	    makeAnimatedLuaSprite('clone4', 'characters/scrimbo-run-reanimated', 1000, -100);
+	    addAnimationByPrefix('clone4', 'idle', 'idle', 24, true);
+	    scaleObject('clone4', 0.6, 0.6);
+	    setPropertyLuaSprite('clone4', 'flipX', true);
+	    setProperty('clone4.color', getColorFromHex('A36161'))
+	    setProperty('clone4.alpha', 0.001);
+            addLuaSprite('clone4',true);
+
+        makeAnimatedLuaSprite('act4line','backgrounds/final/Act_4_FINALE_Lightingmcqueen',-990,-1150)
+        scaleObject('act4line',3,3)
+        addAnimationByPrefix('act4line','anim','line',24,true)
+        setProperty('act4line.alpha',0.001)
+            addLuaSprite('act4line',true)
+
+        makeAnimatedLuaSprite('act4end','backgrounds/final/Act_4_FINALE_DEATH',100)
+        addAnimationByPrefix('act4end','anim','Death',24,false)
+        scaleObject('act4end',0.8,0.8)
+        setScrollFactor('act4end',0,0)
+        setProperty('act4end.alpha',0.001)
+            addLuaSprite('act4end',true)
+
+        makeLuaSprite('gameover','backgrounds/final/Act_4_FINALE_Gameover')
+        setScrollFactor('gameover',0,0)
+        setProperty('gameover.alpha',0.001)
+        setProperty('gameover.antialiasing',false)
+        screenCenter('gameover')
+            addLuaSprite('gameover',true)
+    end
+
+    if nameStage == nameStage28 then
+        makeLuaSprite('mirrors', 'backgrounds/smoke/stare', -1600, -1500);
+            addLuaSprite('mirrors',false);
+    end
+
+    if nameStage == nameStage29 then
+        makeLuaSprite('gamebreakerBG1', 'backgrounds/bundle/grassBG', -1600, -900);
+            addLuaSprite('gamebreakerBG1',false);
+
+        makeLuaSprite('gamebreakerBG2', 'backgrounds/bundle/grassBG2', -1600, -900);
+        setProperty('gamebreakerBG2.alpha',0.001)
+            addLuaSprite('gamebreakerBG2',false);
+
+        makeLuaSprite('dxphase1', 'backgrounds/bundle/dxcomicP1', 0, 0);
+        setObjectCamera('dxphase1','hud')
+        screenCenter('dxphase1','xy')
+        setProperty('dxphase1.alpha',0.001)
+            addLuaSprite('dxphase1',false);
+
+        makeLuaSprite('dxphase2', 'backgrounds/bundle/dxcomicP2', 0, 0);
+        setObjectCamera('dxphase2','hud')
+        screenCenter('dxphase2','xy')
+        setProperty('dxphase2.alpha',0.001)
+            addLuaSprite('dxphase2',false);
+
+        makeLuaSprite('dxphase3', 'backgrounds/bundle/dxcomicP3', 0, 0);
+        setObjectCamera('dxphase3','hud')
+        screenCenter('dxphase3','xy')
+        setProperty('dxphase3.alpha',0.001)
+            addLuaSprite('dxphase3',false);
+
+        makeLuaSprite('BGFlipTailsDoll', 'backgrounds/bundle/TailsDollBGFlipped', 0, 0);
+        setObjectCamera('BGFlipTailsDoll','hud')
+        screenCenter('BGFlipTailsDoll','xy')
+        setProperty('BGFlipTailsDoll.alpha',0.001)
+            addLuaSprite('BGFlipTailsDoll',false);
+    end
+    
+    if nameStage == nameStage30 then
+        makeLuaSprite('revealBG', 'backgrounds/pibby/realBackground', -900,-200);
+            addLuaSprite('revealBG',false);
+
+        makeLuaSprite('roomBG', 'backgrounds/pibby/RoomBG', 200,1500);
+        scaleObject('roomBG',0.8,0.8)
+        setProperty('roomBG.flipX',true)
+            addLuaSprite('roomBG',true);
+
+        makeLuaSprite('voidBG', 'backgrounds/pibby/VoidBG', -900,1500);
+        scaleObject('voidBG',0.8,0.8)
+            addLuaSprite('voidBG',true);
+    end
+
+    if nameStage == nameStage31 then
+        setProperty('act4line.alpha',1)
+
+        makeLuaSprite('slideBG', 'backgrounds/final/slide', -990,-1150);
+        scaleObject('slideBG',3,3)
+            addLuaSprite('slideBG',true);
+
+        makeLuaSprite('pipeBF', 'backgrounds/final/bf pipe final', -200,2000);
+        scaleObject('pipeBF',3,3)
+            addLuaSprite('pipeBF',true);
+    end
 end
 
 function removeStage(stage,destroy)
@@ -527,7 +830,7 @@ function removeStage(stage,destroy)
     if stage == nameStage4 then
         removeLuaSprite('tordBG',destroy)
         removeLuaSprite('skiBG',destroy)
-        setProperty('lighting1.alpha',0.001)
+        removeLuaSprite('lighting1',destroy)
         callScript('scripts/optimization','optimizeStage',{'tord',stage})
     end
 
@@ -615,7 +918,7 @@ function removeStage(stage,destroy)
 
     if stage == nameStage17 then
         removeLuaSprite('act3smoke',destroy)
-        removeLuaSprite('act3front',destroy)
+        setProperty('act3front.alpha',0.001)
         callScript('scripts/optimization','optimizeStage',{'act3',stage})
     end
 
@@ -630,14 +933,88 @@ function removeStage(stage,destroy)
         removeLuaSprite('skull',destroy)
         callScript('scripts/optimization','optimizeStage',{'cavern',stage})
     end
+
+    if stage == nameStage20 then
+        removeLuaSprite('restBG',destroy)
+        removeLuaSprite('hudBubble',destroy)
+        callScript('scripts/optimization','optimizeStage',{'restaurant',stage})
+    end
+
+    if stage == nameStage21 then
+        removeLuaSprite('spaceBG',destroy)
+        callScript('scripts/optimization','optimizeStage',{'space',stage})
+    end
+
+    if stage == nameStage22 then
+        removeLuaSprite('h3',destroy)
+        removeLuaSprite('cityNeo',destroy)
+        callScript('scripts/optimization','optimizeStage',{'building',stage})
+    end
+
+    if stage == nameStage23 then
+        removeLuaSprite('infiniteSpeed',destroy)
+        removeLuaSprite('mysticJungle',destroy)
+        removeLuaSprite('infiniteLight',destroy)
+        callScript('scripts/optimization','optimizeStage',{'jungle',stage})
+    end
+
+    if stage == nameStage24 then
+        removeLuaSprite('sonicBG',destroy)
+        callScript('scripts/optimization','optimizeStage',{'phantasm',stage})
+    end
+
+    if stage == nameStage25 then
+        removeLuaSprite('clubRoom',destroy)
+        removeLuaSprite('vigenetteBlood',destroy)
+        callScript('scripts/optimization','optimizeStage',{'clubroom',stage})
+    end
+
+    if stage == nameStage26 then
+        removeLuaSprite('winterBG',destroy)
+        callScript('scripts/optimization','optimizeStage',{'winter',stage})
+    end
+
+    if stage == nameStage27 then
+        removeLuaSprite('BFbehind',destroy)
+        removeLuaSprite('gradientFloor',destroy)
+
+        callScript('scripts/optimization','optimizeStage',{'act4',stage})
+    end 
+
+    if stage == nameStage28 then
+        removeLuaSprite('legs',destroy)
+        removeLuaSprite('clone1',destroy)
+        removeLuaSprite('clone2',destroy)
+        removeLuaSprite('clone3',destroy)
+        removeLuaSprite('clone4',destroy)
+        removeLuaSprite('mirrors',destroy)
+        
+        callScript('scripts/optimization','optimizeStage',{'smoke',stage})
+    end
+
+    if stage == nameStage29 then
+        removeLuaSprite('gamebreakerBG1',destroy)
+        removeLuaSprite('gamebreakerBG2',destroy)
+        removeLuaSprite('dxphase1',destroy)
+        removeLuaSprite('dxphase2',destroy)
+        removeLuaSprite('dxphase3',destroy)
+        removeLuaSprite('BGFlipTailsDoll',destroy)
+
+        callScript('scripts/optimization','optimizeStage',{'bundle',stage})
+    end
+
+     if stage == nameStage30 then
+        removeLuaSprite('revealBG',destroy)
+        removeLuaSprite('roomBG',destroy)
+        removeLuaSprite('voidBG',destroy)
+
+        callScript('scripts/optimization','optimizeStage',{'pibby',stage})
+     end
 end
 
 function onCreatePost()
-	setTextString('botplayTxt','')
-	setProperty("showComboNum", false)
-	setProperty("showRating", false)
     initLuaShader('pincushion')
-
+    initLuaShader('scroll')
 end
 
 function onUpdate(elapsed)
@@ -646,12 +1023,8 @@ function onUpdate(elapsed)
         setShaderFloat('amusiaBG','time',os.clock())
     end
 
-    if curStep == 294 then
-        preloadImages(nameStage2)
-    end
-
-    if curStep == 620 then
-        preloadImages(nameStage4)
+    if enableShaderScroll then
+        setShaderFloat('mirrors','iTime',os.clock())
     end
 
     if curStep == 751 then
@@ -672,20 +1045,32 @@ function onUpdate(elapsed)
         preloadImages(nameStage10)
     end
 
-    if curStep == 1418 then
-        preloadImages(nameStage11)
-    end
-
-    if curStep == 1920 then
-        preloadImages(nameStage13)
-    end
-
     if curStep == 2300 then
         preloadImages(nameStage15)
     end
 
     if curStep == 2352 then
         preloadImages(nameStage16)
+    end
+
+    if curStep == 3008 then
+        preloadImages(nameStage20)
+    end
+
+    if curStep == 3264 then
+        preloadImages(nameStage21)
+    end
+
+    if curStep == 3552 then
+        preloadImages(nameStage24)
+    end
+
+    if curStep == 3824 then
+        preloadImages(nameStage25)
+    end
+
+    if curStep == 4128 then
+        preloadImages(nameStage26)
     end
 
     if getProperty('warningMouse.animation.curAnim.name') == 'anim' and getProperty('warningMouse.animation.curAnim.finished') and trhowAnimation1 then
@@ -709,13 +1094,19 @@ function onUpdate(elapsed)
     if getProperty('jumpscareSans.animation.curAnim.name') == 'jump' and getProperty('jumpscareSans.animation.curAnim.finished') and trhowAnimation4 then
         removeLuaSprite('jumpscareSans',true)
         removeFromMemory('backgrounds/nightmare/NightmareJumpscares02',false)
-        trhowAnimation3 = false
+        trhowAnimation4 = false
     end
 
     if getProperty('jumpscareBendy.animation.curAnim.name') == 'jump' and getProperty('jumpscareBendy.animation.curAnim.finished') and trhowAnimation5 then
         removeLuaSprite('jumpscareBendy',true)
         removeFromMemory('backgrounds/nightmare/NightmareJumpscares03',false)
-        trhowAnimation3 = false
+        trhowAnimation5 = false
+    end
+
+    if getProperty('scrimboLaugh.animation.curAnim.name') == 'laugh' and getProperty('scrimboLaugh.animation.curAnim.finished') and trhowAnimation6 then
+        removeLuaSprite('scrimboLaugh',true)
+        removeFromMemory('characters/scrimbolaugh',false)
+        trhowAnimation6 = false
     end
 end
 
@@ -776,6 +1167,9 @@ function onEvent(n,v1,v2)
         if v1 == '7' then
             if v2 == '0' then
                 callScript('extra_scripts/loadingStage','startLoading')
+                preloadImages(nameStage11)
+                preloadImages(nameStage12)
+                preloadImages(nameStage13)
                 preloadImages(nameStage14)
                 removeStage(nameStage6,true)
                 createStage(nameStage7)
@@ -821,10 +1215,6 @@ function onEvent(n,v1,v2)
 
         if v1 == '12' then
             if v2 == '0' then
-                --callScript('extra_scripts/loadingStage','startLoading')
-                preloadImages(nameStage12)
-                
-
                 removeStage(nameStage11,true)
                 createStage(nameStage12)
             end
@@ -887,6 +1277,8 @@ function onEvent(n,v1,v2)
                 preloadImages(nameStage17)
                 preloadImages(nameStage18)
                 preloadImages(nameStage19)
+                preloadImages(nameStage22)
+                preloadImages(nameStage23)
                 
                 removeStage(nameStage16,true)
                 createStage(nameStage17)
@@ -897,9 +1289,6 @@ function onEvent(n,v1,v2)
 
                 setProperty('camHUD.y',0)
                 setProperty('camHUD.angle',0)
-
-                setProperty('camGame.y',0)
-                setProperty('camGame.angle',0)
             end
         end
 
@@ -914,6 +1303,112 @@ function onEvent(n,v1,v2)
             if v2 == '0' then
                 removeStage(nameStage18,true)
                 createStage(nameStage19)
+            end
+        end
+
+        if v1 == '20' then
+            if v2 == '0' then
+                removeStage(nameStage19,true)
+                createStage(nameStage20)
+            end
+        end
+
+        if v1 == '21' then
+            if v2 == '0' then
+                removeStage(nameStage20,true)
+                createStage(nameStage21)
+            end
+        end
+
+        if v1 == '22' then
+            if v2 == '0' then
+                removeStage(nameStage21,true)
+                createStage(nameStage22)               
+            end
+        end
+
+        if v1 == '23' then
+            if v2 == '0' then
+                removeStage(nameStage22,true)
+                createStage(nameStage23)               
+            end
+        end
+
+        if v1 == '24' then
+            if v2 == '0' then
+                removeStage(nameStage23,true)
+                createStage(nameStage24)               
+            end
+        end
+
+        if v1 == '25' then
+            if v2 == '0' then
+                removeStage(nameStage24,true)
+                createStage(nameStage25)               
+            end
+        end
+
+        if v1 == '26' then
+            if v2 == '0' then
+                removeStage(nameStage25,true)
+                createStage(nameStage26)               
+            end
+        end
+
+        if v1 == '27' then
+            if v2 == '0' then
+                callScript('extra_scripts/loadingStage','startLoading')
+                preloadImages(nameStage27)
+                preloadImages(nameStage28)
+                preloadImages(nameStage29)
+                preloadImages(nameStage30)
+                preloadImages(nameStage31)
+
+                removeStage(nameStage26,true)
+                createStage(nameStage27)
+            end
+
+            if v2 == '7' then
+                doTweenAlpha('disableCamGame','camGame',0,0.1,'linear')
+                doTweenAlpha('enableCamHUD','camHUD',1,0.1,'linear')
+                playAnim('scrimboLaugh','laugh',false)
+                setProperty('scrimboLaugh.alpha',1)
+
+                setProperty('iconP1.alpha',0.001)
+                trhowAnimation6 = true;
+            end
+        end
+
+        if v1 == '28' then
+            if v2 == '0' then
+                removeStage(nameStage27,true)
+                createStage(nameStage28)
+
+                setSpriteShader('mirrors', 'scroll')
+                setShaderFloat('mirrors', 'xSpeed', 4);
+
+                enableShaderScroll = true;
+            end
+        end
+
+        if v1 == '29' then
+            if v2 == '0' then
+                removeStage(nameStage28,true)
+                createStage(nameStage29)
+            end
+        end
+
+        if v1 == '30' then
+            if v2 == '0' then
+                removeStage(nameStage29,true)
+                createStage(nameStage30)
+            end
+        end
+
+        if v1 == '31' then
+            if v2 == '0' then
+                removeStage(nameStage30,true)
+                createStage(nameStage31)
             end
         end
     end

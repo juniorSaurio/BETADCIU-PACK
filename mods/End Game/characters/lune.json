@@ -61,7 +61,7 @@
 	"image": "characters/lune_sprites",
 	"position": [
 		-160,
-		-160
+		-360
 	],
 	"healthicon": "lune",
 	"flip_x": false,

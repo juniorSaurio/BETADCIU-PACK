@@ -1,0 +1,75 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"name": "ROBOIDLE",
+			"loop": false,
+			"anim": "idle"
+		},
+		{
+			"offsets": [
+				3,
+				-29
+			],
+			"fps": 24,
+			"name": "ROBODOWN",
+			"loop": false,
+			"anim": "singDOWN"
+		},
+		{
+			"offsets": [
+				-60,
+				-4
+			],
+			"fps": 24,
+			"name": "ROBORIGHT",
+			"loop": false,
+			"anim": "singRIGHT"
+		},
+		{
+			"offsets": [
+				-13,
+				46
+			],
+			"fps": 24,
+			"name": "ROBOUP",
+			"loop": false,
+			"anim": "singUP"
+		},
+		{
+			"offsets": [
+				96,
+				-1
+			],
+			"fps": 24,
+			"name": "ROBOLEFT",
+			"loop": false,
+			"anim": "singLEFT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/roboperspective",
+	"position": [
+		0,
+		0
+	],
+	"hasVictory": true,
+	"healthicon": "robo-cesar",
+	"flip_x": false,
+	"healthbar_colors": [
+		146,
+		54,
+		180
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"noteSkin": "notes/ROBO-NOTE_assets",
+	"sing_duration": 6.1,
+	"scale": 1
+}

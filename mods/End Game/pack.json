@@ -1,8 +1,10 @@
 {
-	"name": "I Hate You Cover",
-	"description": "BETADCIU of I Hate You v2",
+	"name": "EndGame BETADCIU",
+	"description": "",
 	"restart":false,
-	"color": [		66,
-	119,
-	106]
+	"color": [
+		208,
+		37,
+		55
+	]
 }

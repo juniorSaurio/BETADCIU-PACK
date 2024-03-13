@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				22
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Fleet left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				22
+			],
+			"anim": "idle",
+			"fps": 1,
+			"name": "Fleet left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Fleet down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-72,
+				-81
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Fleet up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-72,
+				8
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Fleet right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				2
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "MISS Fleet right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				54,
+				19
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "MISS Fleet left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				-16
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "MISS Fleet up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				-39
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "MISS Fleet down",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/fleetway",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "fleetway",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		170,
+		48
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 2,
+	"_editor_isPlayer": false
+}

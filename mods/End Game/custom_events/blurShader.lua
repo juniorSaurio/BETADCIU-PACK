@@ -1,6 +1,6 @@
 function onCreatePost()
 
-    callShader('createShader',{'blur', 'BlurEffect'})
+    callShader('createShader',{'blur', 'BlurEffect',true})
     callShader('runShader',{{'camGame','camHUD'},'blur'})
     shaderVar('blur', 'strength', 0)
 end

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				255,
+				935
+			],
+			"anim": "idle",
+			"fps": 15,
+			"name": "scott idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				355,
+				789
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "scott left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				510,
+				840
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "scott down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				351,
+				837
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "scott up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				903
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "scott right0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/scott",
+	"position": [
+		0,
+		380
+	],
+	"healthicon": "scott",
+	"flip_x": false,
+	"healthbar_colors": [
+		185,
+		222,
+		254
+	],
+	"camera_position": [
+		-100,
+		-920
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

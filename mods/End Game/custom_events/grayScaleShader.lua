@@ -1,9 +1,9 @@
 function onCreatePost()
-    callShader('createShader',{'greyscale', 'GreyscaleEffect'})
+    callShader('createShader',{'greyscale', 'GreyscaleEffect',true})
     callShader('runShader',{{'camGame'},'greyscale'})
     shaderVar('greyscale', 'strength', 0)
 
-    callShader('createShader',{'scanline', 'ScanlineEffect'})
+    callShader('createShader',{'scanline', 'ScanlineEffect',true})
     callShader('runShader',{{'camGame'},'scanline'})
     shaderVar('scanline', 'strength', 0)
 end

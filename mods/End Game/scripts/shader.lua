@@ -33,9 +33,6 @@ function createShader(lua,s,obrigatory)--(tag, shader, obrigatory)
             initLuaShader(s)
             makeLuaSprite(lua,nil)
             loadShader(lua,s)
-            if obrigatory and not enableShader then
-                setPropertyFromClass('ClientPrefs','shaders',false)
-            end
         end
     end
 end
@@ -144,15 +141,15 @@ function loadShaderCam(camera,shader)
         end
         runHaxeCode(
             [[
-                var voiidShaders = [];
-                var voiidLuas = ]]..getArrayAsString(sha)..[[;
-                for(s in voiidLuas){
+                var arrayShaders = [];
+                var arrayLuas = ]]..getArrayAsString(sha)..[[;
+                for(s in arrayLuas){
                     var initLua = game.getLuaObject(s).shader;
                     if(initLua != null){
-                        voiidShaders.insert(voiidShaders.length,new ShaderFilter(initLua));
+                        arrayShaders.insert(arrayShaders.length,new ShaderFilter(initLua));
                     }
                 }
-                ]]..cam..[[.setFilters(voiidShaders);
+                ]]..cam..[[.setFilters(arrayShaders);
             ]]
         )
     end
@@ -183,8 +180,8 @@ function loadShaderSprite(sprite,shader)
     end
     runHaxeCode(
         [[
-            var voiidLuas = ]]..getArrayAsString(shader)..[[;
-            game.]]..sprite..[[.shader = game.getLuaObject(voiidLuas[0]).shader;
+            var arrayLuas = ]]..getArrayAsString(shader)..[[;
+            game.]]..sprite..[[.shader = game.getLuaObject(arrayLuas[0]).shader;
         ]]
     )
 end

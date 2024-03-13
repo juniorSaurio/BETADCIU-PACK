@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				161,
+				141
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				94,
+				137
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				68,
+				105
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				144,
+				158
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				48,
+				138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				96,
+				130
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "1"
+		},
+		{
+			"offsets": [
+				61,
+				125
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "2"
+		},
+		{
+			"offsets": [
+				137,
+				160
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "4"
+		},
+		{
+			"offsets": [
+				49,
+				140
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "3"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/denki-reb",
+	"position": [
+		-110,
+		140
+	],
+	"healthicon": "den",
+	"flip_x": true,
+	"healthbar_colors": [
+		101,
+		118,
+		216
+	],
+	"camera_position": [
+		-20,
+		110
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

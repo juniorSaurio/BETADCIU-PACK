@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="h-neo3.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="a0000" x="4" y="4" width="1486" height="202" frameX="0" frameY="0" frameWidth="1487" frameHeight="203"/>
+	<SubTexture name="a0001" x="4" y="210" width="1486" height="202" frameX="-1" frameY="-1" frameWidth="1487" frameHeight="203"/>
+	<SubTexture name="a0002" x="4" y="416" width="1486" height="202" frameX="-1" frameY="-1" frameWidth="1487" frameHeight="203"/>
+</TextureAtlas>

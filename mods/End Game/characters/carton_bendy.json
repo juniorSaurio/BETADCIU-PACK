@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				377,
+				170
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right Oblivion"
+		},
+		{
+			"offsets": [
+				194,
+				161
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left Oblivion"
+		},
+		{
+			"offsets": [
+				220,
+				146
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down Oblivion"
+		},
+		{
+			"offsets": [
+				208,
+				286
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up Oblivion"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				220,
+				210
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Oblivion Bendy",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/BendyDAgames",
+	"position": [
+		150,
+		400
+	],
+	"healthicon": "carton",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		40,
+		35
+	],
+	"camera_position": [
+		-100,
+		-170
+	],
+	"sing_duration": 4.00000000000002,
+	"scale": 1.5,
+	"_editor_isPlayer": true
+}

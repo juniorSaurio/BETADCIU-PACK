@@ -13,40 +13,28 @@ end
 function goodNoteHit(id, direction, noteType, isSustainNote)
 
     if noteType == 'BOTHSING' then
-        if goodNoteHit and direction == 0 then
-            triggerEvent('Play Animation', 'singLEFT', 'gf')
-        end
-        if goodNoteHit and direction == 1 then
-            triggerEvent('Play Animation', 'singDOWN', 'gf')
-        end
-        if goodNoteHit and direction == 2 then
-            triggerEvent('Play Animation', 'singUP', 'gf')
-        end
-        if goodNoteHit and direction == 3 then
-            triggerEvent('Play Animation', 'singRIGHT', 'gf')
-        end
+        characterPlayAnim('gf',getProperty('singAnimations['..direction..']'),false)
     end
    
 end
 function opponentNoteHit(id, direction, noteType, isSustainNote)
-	-- Works the same as goodNoteHit, but for Opponent's notes being hit
- if noteType == 'BOTHSING' then
-        if opponentNoteHit and direction == 0 then
-            triggerEvent('Play Animation', 'singLEFT', 'gf')
-        end
-        if opponentNoteHit and direction == 1 then
-            triggerEvent('Play Animation', 'singDOWN', 'gf')
-        end
-        if opponentNoteHit and direction == 2 then
-            triggerEvent('Play Animation', 'singUP', 'gf')
-        end
-        if opponentNoteHit and direction == 3 then
-            triggerEvent('Play Animation', 'singRIGHT', 'gf')
-        end
+
+    if noteType == 'BOTHSING' then
+        characterPlayAnim('gf',getProperty('singAnimations['..direction..']'),false)
     end
 end
 
---debugPrint('Script started!')
 function onUpdate(elapsed)
-    
+    if getProperty('gf.animation.curAnim.name') == 'singLEFT' and getProperty('gf.animation.curAnim.finished') then
+        characterPlayAnim('gf','idle',true)
+    end
+    if getProperty('gf.animation.curAnim.name') == 'singRIGHT' and getProperty('gf.animation.curAnim.finished') then
+        characterPlayAnim('gf','idle',true)
+    end
+    if getProperty('gf.animation.curAnim.name') == 'singUP' and getProperty('gf.animation.curAnim.finished') then
+        characterPlayAnim('gf','idle',true)
+    end
+    if getProperty('gf.animation.curAnim.name') == 'singDOWN' and getProperty('gf.animation.curAnim.finished') then
+        characterPlayAnim('gf','idle',true)
+    end
 end

@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				28,
+				-51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "TessRightPose"
+		},
+		{
+			"offsets": [
+				70,
+				-64
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "TessPoseDown"
+		},
+		{
+			"offsets": [
+				-35,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "TessPoseUp"
+		},
+		{
+			"offsets": [
+				-26,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "OffBiBotLeftPose"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "OffBiBotIdle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/tess",
+	"position": [
+		0,
+		130
+	],
+	"healthicon": "tess",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		231,
+		20
+	],
+	"camera_position": [
+		-40,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

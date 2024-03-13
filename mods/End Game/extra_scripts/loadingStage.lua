@@ -5,7 +5,7 @@ function startLoading(time)
     end
     
     if time == nil then
-        time = 0.07
+        time = 0.06
     end
     runTimer('LoadedStage',time)
     runHaxeCode(
@@ -18,12 +18,12 @@ function startLoading(time)
     )
 end
 function onStepHit()
-    if enableLoading and (curStep == 910 or curStep == 2495) then
+    if enableLoading and (curStep == 910 or curStep == 2495 or curStep == 4401) then
         addLoadingText()
     end
 end
 function addLoadingText()
-    makeLuaText('loadingTxt','Loading characters, please wait...',screenWidth,0,0)
+    makeLuaText('loadingTxt','Loading characters for next ACT, please wait...',screenWidth,0,0)
     setTextFont('loadingTxt','arial-rounded-mt-bold.ttf')
     setTextSize('loadingTxt',100)
     screenCenter('loadingTxt')

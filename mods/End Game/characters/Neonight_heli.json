@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "NEO IDLE0"
+		},
+		{
+			"offsets": [
+				120,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "NEO NIGHT0"
+		},
+		{
+			"offsets": [
+				88,
+				-95
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "NEO DOWN0"
+		},
+		{
+			"offsets": [
+				40,
+				35
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "NEO UP0"
+		},
+		{
+			"offsets": [
+				25,
+				-95
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "NEO LEFT0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Neonight_heli",
+	"position": [
+		70,
+		210
+	],
+	"healthicon": "Neonight",
+	"flip_x": false,
+	"healthbar_colors": [
+		204,
+		51,
+		153
+	],
+	"camera_position": [
+		-300,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

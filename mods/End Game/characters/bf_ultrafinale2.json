@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BFIdleALT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				86,
+				13
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BFLeftALT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BFRightALT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				160
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BFUpALT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				25,
+				-100
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BFDownALT",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Act_4_secondperspective",
+	"position": [
+		-10,
+		190
+	],
+	"healthicon": "bf4",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-80,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

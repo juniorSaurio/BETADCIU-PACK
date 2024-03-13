@@ -11,11 +11,10 @@ function onEvent(name, value1, value2)
 		makeLuaSprite('image2', 'jumpscare/Wigglytuff_jumpscare', 0, 0)
 		scaleObject('image2', 0.4, 0.4)
 		screenCenter('image2','xy')
-        addLuaSprite('image2', true);
-        setObjectCamera('image2', 'other');
+        addLuaSprite('image2', false);
+        setObjectCamera('image2', 'hud');
 		setObjectOrder('image2', 1)
 		setProperty('camGame.visible',false)
-		setProperty('camHUD.visible',false)
 		runTimer('terminated', value1);
 		duration = value1;
 	    stopShake = false
@@ -26,7 +25,7 @@ end
 
 function onStepHit()
 	if stopShake == false then
-		cameraShake('other', 0.0115, 0.5)
+		cameraShake('hud', 0.0115, 0.5)
 	end
 end
 

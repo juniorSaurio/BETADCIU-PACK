@@ -1,0 +1,84 @@
+function onCreate()
+	setupCamShit()
+
+	addHaxeLibrary('FlxCamera', 'flixel')
+	addHaxeLibrary('FlxObject', 'flixel')
+	runHaxeCode([[
+	public var myCam:FlxCamera;
+	var Posicion;
+	myCam = new FlxCamera();
+	
+	Posicion = new FlxObject(1280, 750, 1, 1);
+	myCam.follow(Posicion);
+	
+	add(Posicion);
+	FlxG.cameras.add(myCam, true);
+	
+	game.variables.set("myCam", myCam);
+
+	]])
+
+	
+
+end
+
+function onCreatePost()
+	setObjectCamera('bg','myCam')
+end
+
+
+function setupCamShit()
+
+    makeLuaSprite("fakeScreen", "white", 1400, 0);
+	setProperty("fakeScreen.angle", -2)
+    scaleObject("fakeScreen", 0.25, 0.25, true)
+    setProperty("fakeScreen.antialiasing", false)
+    setProperty("fakeScreen.alpha", 0)
+    addLuaSprite("fakeScreen", true);
+
+
+end
+
+function onUpdate(elapsed)
+	if curStep == 75  then
+		triggerEvent("Play Animation", "singRIGHT", "dad")
+		runHaxeCode(
+			[[ 
+				for (i in game.comboGroup){
+					i.visible = false;
+				}
+
+				var sprite =  game.modchartSprites.get("fakeScreen");
+				var pixels = sprite.pixels;
+				pixels.draw(FlxG.camera.canvas);
+			]]
+		)
+		setObjectCamera("boyfriend", "myCam")
+		setProperty('fakeScreen.alpha',1)
+	end
+
+	if curStep == 25 then
+		runHaxeCode([[
+			var tag = "]].."matCamWidth"..[[";
+			var tag2 = "]].."matCamHeight"..[[";
+			
+			game.modchartTweens.set(tag, FlxTween.tween(game.camGame, {width: 650}, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+					onComplete: function(twn:FlxTween) {
+						PlayState.instance.callOnLuas("onTweenCompleted",tag);
+					}
+				}
+			)); 
+
+			game.modchartTweens.set(tag2, FlxTween.tween(game.camGame, {height: 480 }, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+					onComplete: function(twn:FlxTween) {
+						PlayState.instance.callOnLuas("onTweenCompleted", tag);
+					}
+				}
+			)); 
+	   ]])
+
+		doTweenX("matCamX", "camGame", 550, (stepCrochet*4)/1000, "circout")
+		doTweenY("matCamY", "camGame", 100, (stepCrochet*4)/1000, "circout")
+		doTweenZoom("matCamZoom", "camGame", 0.5, (stepCrochet*4)/1000, "circout")
+	end
+end
