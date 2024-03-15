@@ -6,6 +6,9 @@ function onCreate()
     end
 end
 function onCreatePost()
+
+    setProperty('scoreTxt.visible',false)
+    
     if timeStyle == 'world' then
         makeLuaText('timeTxtWorld','TIME',screenWidth,0,not downscroll and 15 or screenHeight-60)
         setObjectCamera('timeTxtWorld','hud')

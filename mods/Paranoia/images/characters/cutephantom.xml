@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="cutephantom.png">
+<SubTexture name="cutephantom rightdance0000" x="2887" y="1263" width="591" height="1246" frameX="-651" frameY="-98" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom rightdance0001" x="3489" y="1256" width="596" height="1246" frameX="-644" frameY="-98" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom rightdance0002" x="0" y="2602" width="609" height="1252" frameX="-630" frameY="-92" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom rightdance0003" x="609" y="2602" width="611" height="1248" frameX="-628" frameY="-96" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom leftdance0000" x="4095" y="0" width="616" height="1232" frameX="-609" frameY="-112" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom leftdance0001" x="1963" y="2602" width="615" height="1243" frameX="-616" frameY="-101" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom leftdance0002" x="3489" y="0" width="606" height="1256" frameX="-628" frameY="-88" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom leftdance0003" x="2887" y="0" width="602" height="1263" frameX="-632" frameY="-81" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom down0000" x="734" y="3854" width="742" height="1128" frameX="-539" frameY="-225" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom down0001" x="0" y="3854" width="734" height="1132" frameX="-541" frameY="-221" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom down0002" x="4711" y="2368" width="717" height="1137" frameX="-545" frameY="-217" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom down0003" x="4711" y="1230" width="712" height="1138" frameX="-545" frameY="-216" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom right0000" x="2578" y="2602" width="744" height="1243" frameX="-758" frameY="-93" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom right0001" x="1220" y="2602" width="743" height="1244" frameX="-757" frameY="-92" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom right0002" x="3322" y="2602" width="724" height="1236" frameX="-756" frameY="-100" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom right0003" x="4711" y="0" width="717" height="1230" frameX="-756" frameY="-106" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom left0000" x="674" y="1324" width="668" height="1277" frameX="-339" frameY="-78" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom left0001" x="1342" y="1324" width="671" height="1277" frameX="-356" frameY="-79" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom left0002" x="0" y="1324" width="674" height="1278" frameX="-361" frameY="-78" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom left0003" x="2013" y="1324" width="674" height="1276" frameX="-361" frameY="-80" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom up0000" x="0" y="0" width="700" height="1324" frameX="-612" frameY="-15" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom up0001" x="700" y="0" width="731" height="1294" frameX="-619" frameY="-46" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom up0002" x="1431" y="0" width="731" height="1283" frameX="-628" frameY="-57" frameWidth="1720" frameHeight="1469" />
+<SubTexture name="cutephantom up0003" x="2162" y="0" width="725" height="1283" frameX="-634" frameY="-57" frameWidth="1720" frameHeight="1469" />
+</TextureAtlas>

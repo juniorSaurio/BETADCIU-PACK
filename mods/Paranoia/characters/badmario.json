@@ -1,257 +1,257 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-136,
 				-84
 			],
+			"loop": false,
+			"fps": 10,
 			"anim": "idle",
-			"fps": 10,
-			"name": "idle",
-			"indices": []
+			"indices": [],
+			"name": "idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
+				-60,
 				0
 			],
+			"loop": false,
+			"fps": 10,
 			"anim": "singLEFT",
-			"fps": 10,
-			"name": "badmario left",
-			"indices": []
+			"indices": [],
+			"name": "badmario left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
+				-62,
 				0
 			],
+			"loop": false,
+			"fps": 10,
 			"anim": "singRIGHT",
-			"fps": 10,
-			"name": "badmario right",
-			"indices": []
+			"indices": [],
+			"name": "badmario right"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
+				-60,
 				0
 			],
+			"loop": false,
+			"fps": 10,
 			"anim": "singUP",
-			"fps": 10,
-			"name": "badmario up",
-			"indices": []
+			"indices": [],
+			"name": "badmario up"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
+				-60,
 				0
 			],
+			"loop": false,
+			"fps": 10,
 			"anim": "singDOWN",
-			"fps": 10,
-			"name": "badmario down",
-			"indices": []
+			"indices": [],
+			"name": "badmario down"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				16,
+				-74,
 				0
 			],
+			"loop": true,
+			"fps": 10,
 			"anim": "lets",
-			"fps": 10,
-			"name": "badmario lets",
-			"indices": []
+			"indices": [],
+			"name": "badmario lets"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				16,
+				-74,
 				0
 			],
+			"loop": true,
+			"fps": 10,
 			"anim": "a",
-			"fps": 10,
-			"name": "badmario a0",
-			"indices": []
+			"indices": [],
+			"name": "badmario a0"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				16,
+				-74,
 				0
 			],
+			"loop": true,
+			"fps": 10,
 			"anim": "go",
-			"fps": 10,
-			"name": "badmario go",
-			"indices": []
+			"indices": [],
+			"name": "badmario go"
 		},
 		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "shell",
-			"fps": 10,
-			"name": "badmario shell kick",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-134,
-				-84
-			],
-			"anim": "shroom",
-			"fps": 10,
-			"name": "badmario poison kick",
-			"indices": []
-		},
-		{
-			"loop": true,
-			"offsets": [
-				-116,
-				-84
-			],
-			"anim": "sad",
-			"fps": 10,
-			"name": "badmario scared as fuck",
-			"indices": []
-		},
-		{
-			"loop": true,
-			"offsets": [
-				8,
-				0
-			],
-			"anim": "death",
-			"fps": 10,
-			"name": "badmario die",
-			"indices": []
-		},
-		{
-			"loop": true,
 			"offsets": [
 				-80,
+				0
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "shell",
+			"indices": [],
+			"name": "badmario shell kick"
+		},
+		{
+			"offsets": [
+				-154,
+				-84
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "shroom",
+			"indices": [],
+			"name": "badmario poison kick"
+		},
+		{
+			"offsets": [
+				-156,
+				-84
+			],
+			"loop": true,
+			"fps": 10,
+			"anim": "sad",
+			"indices": [],
+			"name": "badmario scared as fuck"
+		},
+		{
+			"offsets": [
+				-72,
+				0
+			],
+			"loop": true,
+			"fps": 10,
+			"anim": "death",
+			"indices": [],
+			"name": "badmario die"
+		},
+		{
+			"offsets": [
+				-105,
 				-48
 			],
-			"anim": "walk",
+			"loop": true,
 			"fps": 10,
-			"name": "walking",
-			"indices": []
+			"anim": "walk",
+			"indices": [],
+			"name": "walking"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				-80,
+				-100,
 				-52
 			],
-			"anim": "skid",
+			"loop": true,
 			"fps": 20,
-			"name": "skid",
-			"indices": []
+			"anim": "skid",
+			"indices": [],
+			"name": "skid"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				-80,
+				-105,
 				-48
 			],
-			"anim": "run",
+			"loop": true,
 			"fps": 20,
-			"name": "running",
-			"indices": []
+			"anim": "run",
+			"indices": [],
+			"name": "running"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				0,
+				-60,
 				0
 			],
+			"loop": true,
+			"fps": 10,
 			"anim": "jump1",
-			"fps": 10,
-			"name": "badmario jump0",
-			"indices": []
+			"indices": [],
+			"name": "badmario jump0"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				0,
+				-50,
 				0
 			],
-			"anim": "jump2",
+			"loop": true,
 			"fps": 10,
-			"name": "badmario FALL",
-			"indices": []
+			"anim": "jump2",
+			"indices": [],
+			"name": "badmario FALL"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-68,
 				-52
 			],
-			"anim": "jump3",
-			"fps": 10,
-			"name": "run jump",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-76,
-				-48
-			],
-			"anim": "yahoo",
-			"fps": 20,
-			"name": "YAHOO",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-80,
-				-48
-			],
-			"anim": "hey",
-			"fps": 24,
-			"name": "silllyspins",
-			"indices": []
-		},
-		{
 			"loop": true,
+			"fps": 10,
+			"anim": "jump3",
+			"indices": [],
+			"name": "run jump"
+		},
+		{
 			"offsets": [
-				-120,
+				-107,
+				-48
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "yahoo",
+			"indices": [],
+			"name": "YAHOO"
+		},
+		{
+			"offsets": [
+				-107,
+				-48
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "silllyspins"
+		},
+		{
+			"offsets": [
+				-70,
 				-76
 			],
-			"anim": "dance",
+			"loop": true,
 			"fps": 10,
-			"name": "jig",
-			"indices": []
+			"anim": "dance",
+			"indices": [],
+			"name": "jig"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				-68,
+				-98,
 				-48
 			],
-			"anim": "vile creature",
+			"loop": true,
 			"fps": 0,
-			"name": "imjackingoff",
-			"indices": []
+			"anim": "vile creature",
+			"indices": [],
+			"name": "imjackingoff"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				12,
+				-68,
 				0
 			],
-			"anim": "vile creature2",
+			"loop": true,
 			"fps": 0,
-			"name": "badmario Acephalous",
-			"indices": []
+			"anim": "vile creature2",
+			"indices": [],
+			"name": "badmario Acephalous"
 		}
 	],
 	"vocals_file": "",

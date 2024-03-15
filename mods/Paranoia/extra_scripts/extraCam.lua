@@ -3,26 +3,42 @@ function createExtraCam(tag)
     if tag == nil then
         tag = 'extraCam'
     end
+
+    local tag2 = 'camFNAF'
+
     for i, cams in pairs(camerasCreated) do
         if cams == tag then
             return
         end
     end
     table.insert(camerasCreated,tag)
+    table.insert(camerasCreated,tag2)
     runHaxeCode(
         [[
             var cam = new FlxCamera();
             cam.bgColor = 0x00000000;
             setVar(']]..tag..[[',cam);
+
+            var cam2 = new FlxCamera();
+            cam2.bgColor = 0x00000000;
+            setVar(']]..tag2..[[',cam2);
+
             FlxG.cameras.add(cam,false);
+            FlxG.cameras.add(cam2,false);
+
+            FlxG.cameras.remove(game.camGame,false);
+            FlxG.cameras.add(game.camGame);
+
             FlxG.cameras.remove(game.camHUD,false);
             FlxG.cameras.add(game.camHUD,false);
+            
             FlxG.cameras.remove(game.camOther,false);
             FlxG.cameras.add(game.camOther,false);
             return;
         ]]
     )
 end
+
 function removeExtraCam(tag)
     local camDestroyed = runHaxeCode(
         [[
@@ -42,6 +58,7 @@ function removeExtraCam(tag)
         end
     end
 end
+
 function onDestroy()
     local cams = '['
     for i, cameras in pairs(camerasCreated) do
@@ -63,6 +80,7 @@ function onDestroy()
         ]]
     )
 end
+
 function insertObjectOnCam(object,cam)
     if cam == nil then
         cam = 'extraCam'
@@ -72,7 +90,7 @@ function insertObjectOnCam(object,cam)
             var cam = getVar(']]..cam..[[');
             if(cam == null){
                 for(lua in game.luaArray){
-                    if(lua.scriptName == "mods/Mario Madness V2 - Lua Port/extra_scripts/extraCam.lua"){
+                    if(lua.scriptName == "mods/Paranoia/extra_scripts/extraCam.lua"){
                         lua.call('createExtraCam',["]]..cam..[["]);
                         cam = getVar("]]..cam..[[");
                         break;
@@ -91,6 +109,33 @@ function insertObjectOnCam(object,cam)
                 }]] or '')..[[
 
             }
+            return;
+        ]]
+    )
+end
+
+function rezizeCam(cam,width,height)
+    runHaxeCode(
+        [[
+            var cam = getVar(']]..cam..[[');
+            
+            var tag = "]].."funCamWidth"..[[";
+            var tag2 = "]].."funCamHeight"..[[";
+            
+            game.modchartTweens.set(tag, FlxTween.tween(cam, {width: ]]..width..[[}, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                    onComplete: function(twn:FlxTween) {
+                        PlayState.instance.callOnLuas("onTweenCompleted",tag);
+                    }
+                }
+            )); 
+
+            game.modchartTweens.set(tag2, FlxTween.tween(cam, {height: ]]..height..[[ }, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                    onComplete: function(twn:FlxTween) {
+                        PlayState.instance.callOnLuas("onTweenCompleted", tag);
+                    }
+                }
+            )); 
+
             return;
         ]]
     )

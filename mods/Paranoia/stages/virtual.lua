@@ -4,9 +4,26 @@ local nameStage3 = 'feverPico'
 local nameStage4 = 'madness'
 local nameStage5 = 'dad7'
 local nameStage6 = 'starman'
+local nameStage7 = 'adventure'
+local nameStage8  = 'exe'
+local nameStage9 = 'port'
+local nameStage10 = 'wtf'
+local nameStage11 = 'giffany'
+local nameStage13 = 'shitno'
+local nameStage14 = 'marioD'
+
+local startWindowX = 0
+local startWindowY = 0
+
+local maxWidth = 0
+local maxHeight = 0
+
+local windowWidth = 0
+local windowHeight = 0
 
 local trhowAnimation1 = false;
 local trhowAnimation2 = false;
+local trhowAnimation3 = false;
 local finalizeAnimation2 = false;
 
 function preloadImages(nameStage)
@@ -38,6 +55,38 @@ function preloadImages(nameStage)
         precacheImage('backgrounds/starman/SS_midplatforms')
         precacheImage('backgrounds/starman/SS_POWblock')
         precacheImage('backgrounds/starman/Starman_BG_Fire_Assets')
+    end
+
+    if nameStage == nameStage7 then
+        precacheImage('backgrounds/adventure/bg')
+        precacheImage('backgrounds/adventure/bg2')
+        precacheImage('backgrounds/adventure/waterfall')
+    end
+
+    if nameStage == nameStage8 then
+        precacheImage('backgrounds/exe/TooLate')
+        precacheImage('backgrounds/exe/FireBG')
+        precacheImage('backgrounds/exe/floor')
+        precacheImage('backgrounds/exe/sonicJUMPSCARE')
+    end
+
+    if nameStage == nameStage9 then
+        precacheImage('backgrounds/port/floor')
+        precacheImage('backgrounds/port/three_lights')
+    end
+
+    if nameStage == nameStage10 then
+        precacheImage('backgrounds/wtf/shell')
+        precacheImage('backgrounds/wtf/poopie')
+        precacheImage('backgrounds/wtf/zalgo')
+    end
+
+    if nameStage == nameStage11 then
+        precacheImage('backgrounds/giffany/gif_BG3_codes')
+    end
+
+    if nameStage == nameStage13 then
+        precacheImage('backgrounds/shitno/floor')
     end
 end
 
@@ -91,25 +140,24 @@ function createStage(nameStage)
     
     if nameStage == nameStage5 then
 
-        makeLuaSprite('bgGranDad',nil,-2000,-1500)
-        makeGraphic('bgGranDad',screenWidth,screenHeight,'155FD9')
-        scaleObject('bgGranDad',5,5)
-        setScrollFactor('bgGranDad',0,0)
+        makeLuaSprite('bgGranDad',nil,-2000,-1000)
+        makeGraphic('bgGranDad',1270, 720,'155FD9')
+        scaleObject('bgGranDad',4,4)
         setProperty('bgGranDad.alpha',0.001)
-        addLuaSprite('bgGranDad',false)
+            addLuaSprite('bgGranDad',false)
 
         makeLuaSprite('title','backgrounds/dad7/gdtitle',750,0)
         scaleObject('title',0.8,0.8)
-        addLuaSprite('title',true)
+            addLuaSprite('title',true)
 
         makeLuaSprite('hamster','backgrounds/dad7/hamster',900,0)
         scaleObject('hamster',0.8,0.8)
-        addLuaSprite('hamster',true)
+            addLuaSprite('hamster',true)
 
         makeLuaSprite('pressStart','backgrounds/dad7/start',-600,1000)
         scaleObject('pressStart',4,4)
         setProperty('pressStart.antialiasing',false)
-        addLuaSprite('pressStart',false)
+            addLuaSprite('pressStart',false)
     end
 
     if nameStage == nameStage6 then
@@ -121,15 +169,15 @@ function createStage(nameStage)
         setProperty('fireLeft.alpha',1)
         setProperty('fireRight.alpha',1)
 
-        setObjectOrder('fireLeft',getObjectOrder('bgCastle') + 1)
-        setObjectOrder('fireRight',getObjectOrder('bgCastle') + 1)
+        setObjectOrder('fireLeft',getObjectOrder('bgCastle'))
+        setObjectOrder('fireRight',getObjectOrder('bgCastle'))
 
         makeLuaSprite('farPlatform','backgrounds/starman/SS_farplatforms',-2100,-1200)
         setScrollFactor('farPlatform',0.6,0.6)
         scaleObject('farPlatform',1.5,1.5)
             addLuaSprite('farPlatform',false)
 
-        makeLuaSprite('pow','backgrounds/starman/SS_POWblock',670,600)
+        makeLuaSprite('pow','backgrounds/starman/SS_POWblock',620,700)
         scaleObject('pow',1.1,1.1)
         setScrollFactor('pow',0.6,0.6)
             addLuaSprite('pow',false)
@@ -141,6 +189,101 @@ function createStage(nameStage)
         makeLuaSprite('floorExe','backgrounds/starman/SS_floor',-1020,-700)
         scaleObject('floorExe',1.05,1.05)
             addLuaSprite('floorExe',true)
+    end
+
+    if nameStage == nameStage7 then
+        makeLuaSprite('bgAdventure1','backgrounds/adventure/bg2',-1550,-900)
+            addLuaSprite('bgAdventure1',false)
+
+        setProperty('waterfall.alpha',1)
+
+        makeLuaSprite('bgAdventure2','backgrounds/adventure/bg',-1550,-900)
+            addLuaSprite('bgAdventure2',true)
+    end
+
+    if nameStage == nameStage8 then
+
+        makeLuaSprite('headBG','backgrounds/virtual/headbg',-700,-400)
+        setScrollFactor('headBG',0,0)
+        scaleObject('headBG',1.4,1.4)
+        setProperty('headBG.alpha',0.001)
+            addLuaSprite('headBG',false)
+
+        callScript('extra_scripts/extraCam','insertObjectOnCam',{'headBG','extraCam'})
+        screenCenter('headBG','xy')
+
+        makeLuaSprite('poopieBG','backgrounds/wtf/poopie',0,0)
+            addLuaSprite('poopieBG',false)
+
+        callScript('extra_scripts/extraCam','insertObjectOnCam',{'poopieBG','camFNAF'})
+            scaleObject('poopieBG',0.3,0.3)
+            screenCenter('poopieBG','xy')
+
+        setProperty('camFNAF.alpha',0.001)
+        setProperty('camFNAF.x',100)
+        setProperty('camFNAF.y',700)
+
+        setProperty('poopieBG.x',getProperty('poopieBG.x') - 300)
+        setProperty('poopieBG.y',getProperty('poopieBG.y') - 200)
+
+
+        makeAnimatedLuaSprite('fireBG','backgrounds/exe/FireBG',-1550,-400)
+        addAnimationByPrefix('fireBG','idle','FIRE instancia 1',24,true)
+            addLuaSprite('fireBG',false)
+
+        makeLuaSprite('floorExe','backgrounds/exe/floor',-1550,-900)
+            addLuaSprite('floorExe',false)
+
+        makeAnimatedLuaSprite('sonicJumpscare','backgrounds/exe/sonicJUMPSCARE',0,0)
+        addAnimationByPrefix('sonicJumpscare','spook','sonicSPOOK',24,false)
+        setObjectCamera('sonicJumpscare','camHUD')
+        screenCenter('sonicJumpscare','xy')
+        setProperty('sonicJumpscare.alpha',0.001)
+            addLuaSprite('sonicJumpscare',true)
+
+            setProperty('sonicJumpscare.y', getProperty('sonicJumpscare.y') + 350)
+
+        makeAnimatedLuaSprite('codes','backgrounds/giffany/gif_BG3_codes',0,0)
+        --addAnimationByPrefix('codes','idle','codes_brokenbg',24,true)
+        scaleObject('codes',4,4)
+        screenCenter('codes','xy')
+        setProperty('codes.alpha',0.001)
+        setProperty('codes.y',getProperty('codes.y') + 400)
+                addLuaSprite('codes',false)
+    end
+
+    if nameStage == nameStage9 then
+        makeLuaSprite('portFloor','backgrounds/port/floor',-1550,1000)
+            addLuaSprite('portFloor',false)
+
+        makeLuaSprite('portLights','backgrounds/port/three_lights',-1400,-500)
+        scaleObject('portLights',0.85,0.85)
+        setProperty('portLights.alpha',0.001)
+            addLuaSprite('portLights',true)
+    end
+
+    if nameStage == nameStage10 then
+        makeLuaSprite('shell','backgrounds/wtf/shell',-500,200)
+        setProperty('shell.antialiasing',false)
+        scaleObject('shell',4,4)
+        setObjectCamera('shell','camHUD')
+            addLuaSprite('shell',true)
+
+        makeLuaSprite('zalgoHUD','backgrounds/wtf/zalgo',0,0)
+        setObjectCamera('zalgoHUD','camHUD')
+        screenCenter('zalgoHUD','xy')
+        setProperty('zalgoHUD.alpha',0.001)
+            addLuaSprite('zalgoHUD',false)
+    end
+
+    if nameStage == nameStage11 then
+        addAnimationByPrefix('codes','idle','codes_brokenbg',24,true)
+        setProperty('codes.alpha',1)
+    end
+    
+    if nameStage == nameStage13 then
+        makeLuaSprite('shitnoFloor','backgrounds/shitno/floor',-400,300)
+            addLuaSprite('shitnoFloor',false)
     end
  end
 
@@ -182,6 +325,39 @@ function createStage(nameStage)
         removeLuaSprite('pow',destroy)
         removeLuaSprite('midPlatform',destroy)
         removeLuaSprite('floorExe',destroy)
+        removeLuaSprite('fleetwayAnim1',destroy)
+        removeLuaSprite('fleetwayAnim2',destroy)
+
+    end
+
+    if stage == nameStage7 then
+        removeLuaSprite('bgAdventure1',destroy)
+        removeLuaSprite('waterfall',destroy)
+        removeLuaSprite('bgAdventure2',destroy)
+    end
+
+    if stage == nameStage8 then
+        removeLuaSprite('fireBG',destroy)
+        removeLuaSprite('floorExe',destroy)
+    end
+
+    if stage == nameStage9 then
+        removeLuaSprite('portFloor',destroy)
+        removeLuaSprite('portLights',destroy)
+    end
+    
+    if stage == nameStage10 then
+        removeLuaSprite('shell',destroy)
+        removeLuaSprite('poopieBG',destroy)
+        removeLuaSprite('zalgoHUD',destroy)
+    end
+
+    if stage == nameStage11 then
+        removeLuaSprite('codes',destroy)
+    end
+
+    if stage == nameStage13 then
+        removeLuaSprite('shitnoFloor',destroy)
     end
 
     callScript('scripts/optimization','optimizeStage',{stage})
@@ -190,12 +366,23 @@ function createStage(nameStage)
 
  function onCreate()
 
+    maxWidth = getPropertyFromClass('openfl.Lib','application.window.stage.fullScreenWidth')
+    maxHeight = getPropertyFromClass('openfl.Lib','application.window.stage.fullScreenHeight')
+
+    startWindowX = maxWidth - windowWidth
+    startWindowY = maxHeight - windowHeight
+
     addLuaScript('extra_scripts/loadingStage')
+
+    addLuaScript('extra_scripts/extraCam')
+    callScript('extra_scripts/extraCam','createExtraCam',{'extraCam'})
+
     preloadImages(nameStage2)
     preloadImages(nameStage3)
     preloadImages(nameStage4)
     preloadImages(nameStage5)
     preloadImages(nameStage6)
+    preloadImages(nameStage7)
 
     createStage(nameStage1)
 
@@ -233,6 +420,26 @@ function createStage(nameStage)
     setScrollFactor('fireRight',0.6,0.6)
     setProperty('fireRight.alpha',0.001)
         addLuaSprite('fireRight',false)
+
+    precacheImage('characters/fleetway1')
+    makeAnimatedLuaSprite('fleetwayAnim1','characters/fleetway1',800,-350)
+    addAnimationByPrefix('fleetwayAnim1','step it up','Fleetway StepItUp',24,false)
+    addAnimationByPrefix('fleetwayAnim1','laser','Fleetway Laser Blast',24,false)
+    setProperty('fleetwayAnim1.flipX',true)
+    setProperty('fleetwayAnim1.alpha',0.001)
+        addLuaSprite('fleetwayAnim1',true)
+
+    precacheImage('characters/fleetway3')
+    makeAnimatedLuaSprite('fleetwayAnim2','characters/fleetway3',-1200,-750)
+    addAnimationByPrefix('fleetwayAnim2','laser','Fleetway Laser Blast',24,false)
+    setProperty('fleetwayAnim2.flipX',true)
+    setProperty('fleetwayAnim2.alpha',0.001)
+        addLuaSprite('fleetwayAnim2',true)
+
+    makeAnimatedLuaSprite('waterfall','backgrounds/adventure/waterfall',-1550,-600)
+    addAnimationByPrefix('waterfall','idle','agua',24,true)
+    setProperty('waterfall.alpha',0.001)
+        addLuaSprite('waterfall',true)
 
     setPropertyFromClass('states.PlayState','SONG.arrowSkin','noteSkins/Virtual_NOTE_assets')
     setPropertyFromClass('states.PlayState','SONG.splashSkin','noteSplashes/noteSplashes-Virtual')
@@ -285,11 +492,24 @@ function onUpdate(elapsed)
         removeFromMemory('backgrounds/madness/HP GREMLIN',false)
         trhowAnimation2 = false
     end
+
+    if getProperty('sonicJumpscare.animation.curAnim.name') == 'spook' and getProperty('sonicJumpscare.animation.curAnim.finished') and trhowAnimation3 then
+        removeLuaSprite('sonicJumpscare',true)
+        removeFromMemory('backgrounds/exe/sonicJUMPSCARE',false)
+        trhowAnimation3 = false
+    end
 end
 
 function onBeatHit()
     if luaSpriteExists('pressStart') then
         setProperty('pressStart.visible',not getProperty('pressStart.visible'))
+    end
+
+    if luaSpriteExists('headBG') and getProperty('headBG.alpha') > 0.01 and curBeat % 4 == 0 then
+        setProperty('headBG.y',-450)
+        setProperty('headBG.alpha',0.8)
+        doTweenY('headBGY','headBG',getProperty('headBG.y')+50,stepCrochet*0.004,'circOut')
+        doTweenAlpha('headBGalpha','headBG',0.3,stepCrochet*0.004,'circOut')
     end
 end
 
@@ -300,6 +520,7 @@ function onDestroy()
 end
 
 function onEvent(name,v1,v2)
+
     if name == 'Triggers BETADCIU' then
         if v1 == '2' then
             if v2 == '0' then
@@ -363,6 +584,175 @@ function onEvent(name,v1,v2)
 
             if v2 == '3' then
                 setProperty('pow.alpha',0.001)
+            end
+        end
+
+        if v1 == '7' then
+            if v2 == '0' then
+                removeStage(nameStage6,true)
+                createStage(nameStage7)
+            end
+        end
+
+        if v1 == '8' then
+            if v2 == '0' then
+                callScript('extra_scripts/loadingStage','startLoading')
+                preloadImages(nameStage8)
+                preloadImages(nameStage9)
+                preloadImages(nameStage10)
+                preloadImages(nameStage11)
+                preloadImages(nameStage13)
+                preloadImages(nameStage14)
+                removeStage(nameStage7,true)
+                createStage(nameStage8)
+            end
+
+            if v2 == '2' then
+                setProperty('sonicJumpscare.alpha',1)
+                playAnim('sonicJumpscare','spook',false)
+                trhowAnimation3 = true;
+            end
+        end
+
+        if v1 == '9' then
+            if v2 == '0' then
+                removeStage(nameStage8,true)
+                createStage(nameStage9)
+
+                doTweenAlpha('fadeInPortLights','portLights',1,1,'linear')
+            end
+        end
+
+        if v1 == '10' then
+            if v2 == '0' then
+                createStage(nameStage10)
+                setProperty('headBG.alpha',1)
+
+                runHaxeCode([[
+                    var tag = "]].."funCamWidth"..[[";
+                    var tag2 = "]].."funCamHeight"..[[";
+                    
+                    game.modchartTweens.set(tag, FlxTween.tween(game.camGame, {width: 500}, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                            onComplete: function(twn:FlxTween) {
+                                PlayState.instance.callOnLuas("onTweenCompleted",tag);
+                            }
+                        }
+                    )); 
+        
+                    game.modchartTweens.set(tag2, FlxTween.tween(game.camGame, {height: 480 }, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                            onComplete: function(twn:FlxTween) {
+                                PlayState.instance.callOnLuas("onTweenCompleted", tag);
+                            }
+                        }
+                    )); 
+               ]])
+        
+                doTweenX("funCamX", "camGame", 400, (stepCrochet*4)/1000, "circout")
+                doTweenY("funCamY", "camGame", 100, (stepCrochet*4)/1000, "circout")
+            end
+
+            if v2 == '4' then
+                runHaxeCode([[
+                    var tag = "]].."funCamWidth"..[[";
+                    
+                    game.modchartTweens.set(tag, FlxTween.tween(game.camGame, {width: 800}, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                            onComplete: function(twn:FlxTween) {
+                                PlayState.instance.callOnLuas("onTweenCompleted",tag);
+                            }
+                        }
+                    )); 
+               ]])
+            end
+
+            if v2 == '7' then
+                doTweenX("funCamX", "camGame", 150, (stepCrochet*4)/1000, "circout")
+                runHaxeCode([[
+                    var tag = "]].."funCamWidth"..[[";
+                    
+                    game.modchartTweens.set(tag, FlxTween.tween(game.camGame, {width: 480}, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                            onComplete: function(twn:FlxTween) {
+                                PlayState.instance.callOnLuas("onTweenCompleted",tag);
+                            }
+                        }
+                    )); 
+               ]])
+            end
+
+            if v2 == '9' then
+                doTweenX("funCamFNAFX", "camFNAF", 700, (stepCrochet*4)/1000, "circout")
+                doTweenY("funCamFNAFY", "camFNAF", 290, (stepCrochet*4)/1000, "circout")
+                setProperty('camFNAF.alpha',1)
+
+                callScript('extra_scripts/extraCam','rezizeCam',{'camFNAF',400,400})
+            end
+
+            if v2 == '10' then
+
+                doTweenX("funCamY", "camGame", 50, (stepCrochet*4)/1000, "circout")
+                
+                runHaxeCode([[
+                    var tag = "]].."funCamHeight"..[[";
+                    
+                    game.modchartTweens.set(tag, FlxTween.tween(game.camGame, {height: 300}, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                            onComplete: function(twn:FlxTween) {
+                                PlayState.instance.callOnLuas("onTweenCompleted",tag);
+                            }
+                        }
+                    )); 
+               ]])
+            end
+
+            if v2 == '14' then
+                runHaxeCode([[
+                    var tag = "]].."funCamWidth"..[[";
+                    var tag2 = "]].."funCamHeight"..[[";
+                    
+                    game.modchartTweens.set(tag, FlxTween.tween(game.camGame, {width: 1280 }, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                            onComplete: function(twn:FlxTween) {
+                                PlayState.instance.callOnLuas("onTweenCompleted",tag);
+                            }
+                        }
+                    )); 
+        
+                    game.modchartTweens.set(tag2, FlxTween.tween(game.camGame, {height: 720 }, ]]..(stepCrochet*4/1000)..[[, {ease: FlxEase.circOut,
+                            onComplete: function(twn:FlxTween) {
+                                PlayState.instance.callOnLuas("onTweenCompleted", tag);
+                            }
+                        }
+                    )); 
+               ]])
+        
+                doTweenX("funCamXFin", "camGame", 0, (stepCrochet*4)/1000, "circout")
+                doTweenY("funCamYFin", "camGame", 0, (stepCrochet*4)/1000, "circout")
+    
+                setProperty('camFNAF.alpha',0.001)
+    
+                doTweenAlpha('fadeOutDad','dad',0.001,0.5,'linear')
+                doTweenAlpha('fadeOutExtracamera','extraCam',0.001,0.5,'linear')
+            end
+
+            if v2 == '15' then
+                setProperty('zalgoHUD.alpha',1)
+            end
+        end
+
+        if v1 == '11' then
+            if v2 == '0' then
+                removeStage(nameStage9,true)
+                removeStage(nameStage10,true)
+                createStage(nameStage11)
+            end
+        end
+
+        if v1 == '12' then
+            if v2 == '0' then
+                removeStage(nameStage11,true)
+            end
+        end
+
+        if v1 == '13' then
+            if v2 == '0' then
+                createStage(nameStage13)
             end
         end
     end

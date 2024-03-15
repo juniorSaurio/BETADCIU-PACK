@@ -50,7 +50,7 @@
 				0
 			],
 			"loop": true,
-			"fps": 24,
+			"fps": 20,
 			"anim": "idle",
 			"indices": [],
 			"name": "idle"

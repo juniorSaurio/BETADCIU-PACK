@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rogermonochrome.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="roger down0000" x="5" y="5" width="357" height="492" pivotX="-3.55" pivotY="8.7" frameX="0" frameY="-5" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0001" x="5" y="5" width="357" height="492" frameX="0" frameY="-5" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0002" x="368" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0003" x="368" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0004" x="730" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0005" x="730" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0006" x="368" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0007" x="368" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0008" x="730" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0009" x="730" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0010" x="368" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0011" x="368" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0012" x="730" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger down0013" x="730" y="5" width="356" height="498" frameX="-3" frameY="0" frameWidth="359" frameHeight="498"/>
+	<SubTexture name="roger idle0000" x="1092" y="5" width="381" height="643" pivotX="6.45" pivotY="-20.9"/>
+	<SubTexture name="roger idle0001" x="1092" y="5" width="381" height="643"/>
+	<SubTexture name="roger idle0002" x="1479" y="5" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger idle0003" x="1479" y="5" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger idle0004" x="1865" y="5" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger idle0005" x="1865" y="5" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger idle0006" x="2251" y="5" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger idle0007" x="2251" y="5" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger left0000" x="2637" y="5" width="451" height="633" pivotX="8.8" pivotY="-5.75" frameX="0" frameY="-6" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0001" x="2637" y="5" width="451" height="633" frameX="0" frameY="-6" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0002" x="3094" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0003" x="3094" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0004" x="3558" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0005" x="3558" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0006" x="3094" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0007" x="3094" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0008" x="3558" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0009" x="3558" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0010" x="3094" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0011" x="3094" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0012" x="3558" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger left0013" x="3558" y="5" width="458" height="639" frameX="-2" frameY="0" frameWidth="460" frameHeight="639"/>
+	<SubTexture name="roger right0000" x="5" y="654" width="406" height="630" pivotX="5.2" pivotY="10.6" frameX="-13" frameY="-5" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0001" x="5" y="654" width="406" height="630" frameX="-13" frameY="-5" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0002" x="417" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0003" x="417" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0004" x="840" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0005" x="840" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0006" x="417" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0007" x="417" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0008" x="840" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0009" x="840" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0010" x="417" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0011" x="417" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0012" x="840" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger right0013" x="840" y="654" width="417" height="635" frameX="0" frameY="0" frameWidth="419" frameHeight="635"/>
+	<SubTexture name="roger spawn0000" x="1263" y="654" width="381" height="643" pivotX="6.45" pivotY="-20.9"/>
+	<SubTexture name="roger spawn0001" x="1263" y="654" width="381" height="643"/>
+	<SubTexture name="roger spawn0002" x="1650" y="654" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0003" x="1650" y="654" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0004" x="2036" y="654" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0005" x="2036" y="654" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0006" x="1650" y="654" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0007" x="2422" y="654" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0008" x="2808" y="654" width="381" height="643"/>
+	<SubTexture name="roger spawn0009" x="3195" y="654" width="381" height="643"/>
+	<SubTexture name="roger spawn0010" x="3582" y="654" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0011" x="5" y="1303" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0012" x="391" y="1303" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0013" x="777" y="1303" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0014" x="1163" y="1303" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0015" x="1549" y="1303" width="380" height="642" frameX="-1" frameY="-1" frameWidth="381" frameHeight="643"/>
+	<SubTexture name="roger spawn0016" x="1935" y="1303" width="381" height="643"/>
+	<SubTexture name="roger spawn0017" x="1092" y="5" width="381" height="643"/>
+	<SubTexture name="roger up0000" x="2322" y="1303" width="400" height="693" pivotX="-12.25" pivotY="-12.25" frameX="0" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0001" x="2322" y="1303" width="400" height="693" frameX="0" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0002" x="2728" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0003" x="2728" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0004" x="3135" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0005" x="3135" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0006" x="2728" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0007" x="2728" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0008" x="3135" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0009" x="3135" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0010" x="2728" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0011" x="2728" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0012" x="3135" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+	<SubTexture name="roger up0013" x="3135" y="1303" width="401" height="692" frameX="-2" frameY="0" frameWidth="403" frameHeight="693"/>
+</TextureAtlas>

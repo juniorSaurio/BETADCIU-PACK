@@ -4,7 +4,7 @@ function startLoading(time)
         return
     end
     if time == nil then
-        time = 0.1
+        time = 0.6
     end
     runTimer('LoadedStage',time)
     runHaxeCode(
@@ -17,14 +17,12 @@ function startLoading(time)
     )
 end
 function onStepHit()
-    if enableLoading and (
-        songName == 'All-Stars' and (curStep == 1071 or curStep == 2237 or curStep == 3503) or
-        songName == 'Overdue' and (curStep == 1074)) then
-        addLoadingText()
+    if enableLoading and curStep == 1038 then
+        --addLoadingText()
     end
 end
 function addLoadingText()
-    makeLuaText('loadingTxt','Loading Stage, please wait.',screenWidth,0,0)
+    makeLuaText('loadingTxt','Loading Characters, please wait . . .',screenWidth,0,0)
     setTextFont('loadingTxt','arial-rounded-mt-bold.ttf')
     setTextSize('loadingTxt',100)
     screenCenter('loadingTxt')

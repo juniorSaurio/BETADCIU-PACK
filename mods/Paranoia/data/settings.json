@@ -1,0 +1,9 @@
+[
+	{
+		"save": "forceWindow",
+		"name": "Window Effects",
+		"type": "bool",
+		"description": "Uncheck this to disable window effects, like movement and resolution.(WINDOWS ONLY)\n[Example: No Party & Somari, window resolution]\nThis also disable Paranoia Modchart",
+		"value": true
+	}
+]

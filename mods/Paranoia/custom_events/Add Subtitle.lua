@@ -17,6 +17,8 @@ function onEvent(name,v1,v2)
                     color = '0000FF'
                 elseif color == 'yellow' then
                     color = 'FFFF00'
+                elseif color == 'white' then
+                    color = 'FFFFFF'
                 else
                     color = string.gsub(v2,'0xFF','')
                 end

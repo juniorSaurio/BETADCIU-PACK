@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				23,
+				-261
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				355,
+				-70
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				150,
+				-290
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-112,
+				-40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-94,
+				0
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-94,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				10,
+				-280
+			],
+			"loop": false,
+			"anim": "hitRIGHT",
+			"fps": 24,
+			"name": "right-hit",
+			"indices": []
+		},
+		{
+			"offsets": [
+				345,
+				-62
+			],
+			"loop": false,
+			"anim": "hitUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				630,
+				-290
+			],
+			"loop": false,
+			"anim": "hitLEFT",
+			"fps": 24,
+			"name": "left-hit",
+			"indices": []
+		},
+		{
+			"offsets": [
+				69,
+				-60
+			],
+			"loop": false,
+			"anim": "hitDOWN",
+			"fps": 24,
+			"name": "down-hit",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/taki-monofrenzy",
+	"position": [
+		-160,
+		-50
+	],
+	"healthicon": "taki-monochr",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-320,
+		-170
+	],
+	"sing_duration": 6.1,
+	"scale": 2.4,
+	"_editor_isPlayer": true
+}

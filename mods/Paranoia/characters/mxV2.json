@@ -1,61 +1,62 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				12,
-				-61
+				662,
+				19
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "MXRight",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "MXRight"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				76,
 				246
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "MXIdle",
-			"indices": []
+			"indices": [],
+			"name": "MXIdle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				167,
-				1042
+				197,
+				842
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "MXUp",
-			"indices": []
+			"indices": [],
+			"name": "MXUp"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				191,
-				700
+				-189,
+				560
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "MXLeft",
-			"indices": []
+			"indices": [],
+			"name": "MXLeft"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				61,
-				-106
+				252,
+				-6
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "MXDown",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "MXDown"
 		}
 	],
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/MX_v2_NEW_Assets",
 	"position": [
@@ -63,7 +64,7 @@
 		-600
 	],
 	"healthicon": "2MX",
-	"flip_x": false,
+	"flip_x": true,
 	"healthbar_colors": [
 		75,
 		20,
@@ -74,5 +75,6 @@
 		-250
 	],
 	"sing_duration": 4,
-	"scale": 1.1
+	"scale": 0.8,
+	"_editor_isPlayer": false
 }

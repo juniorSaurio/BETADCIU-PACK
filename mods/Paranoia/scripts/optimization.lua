@@ -126,8 +126,35 @@ function optimizeStage(nameStage)
         elseif nameStage == 'starman' then
             
             stages = {'SS_1','SS_farplatforms','SS_floor','SS_midplatforms','SS_POWblock','Starman_BG_Fire_Assets'}
+            removeFromMemory('characters/fleetway3');
+            removeFromMemory('characters/fleetway1');
 
-        else 
+        elseif nameStage == 'adventure' then
+            
+            stages = {'bg','bg2','waterfall'}
+            
+        elseif nameStage == 'exe' then
+            
+            stages = {'FireBG','floor'}
+            
+        elseif nameStage == 'port' then
+            
+            stages = {'floor','three_lights'}
+            
+        elseif nameStage == 'wtf' then
+            
+            stages = {'poopie','shell','zalgo'}
+            
+        elseif nameStage == 'giffany' then
+            
+            stages = {'gif_BG3_codes'}
+            
+        elseif nameStage == 'shitno' then
+            
+            stages = {'floor'}
+            
+        else  
+
             return;
         end
 

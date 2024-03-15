@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-182,
+				-45
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "monkia.exe right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				49,
+				63
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "monkia.exe Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				-177
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "monkia.exe Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				102,
+				-70
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "monkia.exe left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "monkia.exe IDLE"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/AsmodeusZenith",
+	"position": [
+		-150,
+		-110
+	],
+	"healthicon": "asmo3",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		80,
+		55
+	],
+	"camera_position": [
+		0,
+		-70
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

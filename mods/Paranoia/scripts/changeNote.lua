@@ -1,5 +1,6 @@
 local playState = 'states.PlayState'
 function onCreate()
+
     if version < '0.7' then
         playState = 'PlayState'
     else

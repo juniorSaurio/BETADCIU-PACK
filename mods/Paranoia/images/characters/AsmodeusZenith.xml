@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monkia.exe.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="monkia.exe Down0000" x="100" y="100" width="459" height="706" frameX="-3" frameY="-42" frameWidth="471" frameHeight="748"/>
+	<SubTexture name="monkia.exe Down0001" x="100" y="100" width="459" height="706" frameX="-3" frameY="-42" frameWidth="471" frameHeight="748"/>
+	<SubTexture name="monkia.exe Down0002" x="633" y="100" width="467" height="728" frameX="-1" frameY="-20" frameWidth="471" frameHeight="748"/>
+	<SubTexture name="monkia.exe Down0003" x="633" y="100" width="467" height="728" frameX="-1" frameY="-20" frameWidth="471" frameHeight="748"/>
+	<SubTexture name="monkia.exe Down0004" x="1174" y="100" width="471" height="748"/>
+	<SubTexture name="monkia.exe Down0005" x="1174" y="100" width="471" height="748"/>
+	<SubTexture name="monkia.exe Down0006" x="1174" y="100" width="471" height="748"/>
+	<SubTexture name="monkia.exe Down0007" x="1174" y="100" width="471" height="748"/>
+	<SubTexture name="monkia.exe Down0008" x="1174" y="100" width="471" height="748"/>
+	<SubTexture name="monkia.exe Down0009" x="1174" y="100" width="471" height="748"/>
+	<SubTexture name="monkia.exe IDLE0000" x="1719" y="100" width="492" height="909" frameX="-11" frameY="-15" frameWidth="540" frameHeight="924"/>
+	<SubTexture name="monkia.exe IDLE0001" x="1719" y="100" width="492" height="909" frameX="-11" frameY="-15" frameWidth="540" frameHeight="924"/>
+	<SubTexture name="monkia.exe IDLE0002" x="2285" y="100" width="507" height="914" frameX="-7" frameY="-10" frameWidth="540" frameHeight="924"/>
+	<SubTexture name="monkia.exe IDLE0003" x="2285" y="100" width="507" height="914" frameX="-7" frameY="-10" frameWidth="540" frameHeight="924"/>
+	<SubTexture name="monkia.exe IDLE0004" x="2866" y="100" width="525" height="919" frameX="-4" frameY="-5" frameWidth="540" frameHeight="924"/>
+	<SubTexture name="monkia.exe IDLE0005" x="2866" y="100" width="525" height="919" frameX="-4" frameY="-5" frameWidth="540" frameHeight="924"/>
+	<SubTexture name="monkia.exe IDLE0006" x="100" y="1093" width="537" height="923" frameX="-1" frameY="-1" frameWidth="540" frameHeight="924"/>
+	<SubTexture name="monkia.exe IDLE0007" x="100" y="1093" width="537" height="923" frameX="-1" frameY="-1" frameWidth="540" frameHeight="924"/>
+	<SubTexture name="monkia.exe IDLE0008" x="711" y="1093" width="540" height="924"/>
+	<SubTexture name="monkia.exe IDLE0009" x="711" y="1093" width="540" height="924"/>
+	<SubTexture name="monkia.exe IDLE0010" x="711" y="1093" width="540" height="924"/>
+	<SubTexture name="monkia.exe IDLE0011" x="711" y="1093" width="540" height="924"/>
+	<SubTexture name="monkia.exe Up0000" x="1325" y="1093" width="538" height="979" frameX="-9" frameY="0" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0001" x="1325" y="1093" width="538" height="979" frameX="-9" frameY="0" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0002" x="1937" y="1093" width="550" height="966" frameX="0" frameY="-13" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0003" x="1937" y="1093" width="550" height="966" frameX="0" frameY="-13" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0004" x="2561" y="1093" width="550" height="949" frameX="0" frameY="-30" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0005" x="2561" y="1093" width="550" height="949" frameX="0" frameY="-30" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0006" x="2561" y="1093" width="550" height="949" frameX="0" frameY="-30" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0007" x="2561" y="1093" width="550" height="949" frameX="0" frameY="-30" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0008" x="2561" y="1093" width="550" height="949" frameX="0" frameY="-30" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe Up0009" x="2561" y="1093" width="550" height="949" frameX="0" frameY="-30" frameWidth="550" frameHeight="979"/>
+	<SubTexture name="monkia.exe left0000" x="3185" y="1093" width="667" height="856" frameX="0" frameY="0" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0001" x="3185" y="1093" width="667" height="856" frameX="0" frameY="0" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0002" x="100" y="2146" width="664" height="854" frameX="-11" frameY="-2" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0003" x="100" y="2146" width="664" height="854" frameX="-11" frameY="-2" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0004" x="838" y="2146" width="664" height="854" frameX="-18" frameY="-2" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0005" x="838" y="2146" width="664" height="854" frameX="-18" frameY="-2" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0006" x="838" y="2146" width="664" height="854" frameX="-18" frameY="-2" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0007" x="838" y="2146" width="664" height="854" frameX="-18" frameY="-2" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0008" x="838" y="2146" width="664" height="854" frameX="-18" frameY="-2" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe left0009" x="838" y="2146" width="664" height="854" frameX="-18" frameY="-2" frameWidth="682" frameHeight="856"/>
+	<SubTexture name="monkia.exe right0000" x="1576" y="2146" width="643" height="874" frameX="-6" frameY="0" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0001" x="1576" y="2146" width="643" height="874" frameX="-6" frameY="0" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0002" x="2293" y="2146" width="631" height="871" frameX="0" frameY="-3" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0003" x="2293" y="2146" width="631" height="871" frameX="0" frameY="-3" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0004" x="2998" y="2146" width="621" height="870" frameX="0" frameY="-4" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0005" x="2998" y="2146" width="621" height="870" frameX="0" frameY="-4" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0006" x="2998" y="2146" width="621" height="870" frameX="0" frameY="-4" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0007" x="2998" y="2146" width="621" height="870" frameX="0" frameY="-4" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0008" x="2998" y="2146" width="621" height="870" frameX="0" frameY="-4" frameWidth="649" frameHeight="874"/>
+	<SubTexture name="monkia.exe right0009" x="2998" y="2146" width="621" height="870" frameX="0" frameY="-4" frameWidth="649" frameHeight="874"/>
+</TextureAtlas>
