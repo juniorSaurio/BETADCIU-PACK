@@ -122,9 +122,9 @@
 	"healthicon": "sayorisad",
 	"flip_x": false,
 	"healthbar_colors": [
-		89,
-		122,
-		142
+		255,
+		0,
+		0
 	],
 	"camera_position": [
 		-120,

@@ -88,6 +88,10 @@ function preloadImages(nameStage)
     if nameStage == nameStage13 then
         precacheImage('backgrounds/shitno/floor')
     end
+
+    if nameStage == nameStage14 then
+        precacheImage('backgrounds/marioD/itsame_pov')
+    end
 end
 
 function createStage(nameStage)
@@ -282,8 +286,13 @@ function createStage(nameStage)
     end
     
     if nameStage == nameStage13 then
-        makeLuaSprite('shitnoFloor','backgrounds/shitno/floor',-400,300)
+        makeLuaSprite('shitnoFloor','backgrounds/shitno/floor',-100,1050)
             addLuaSprite('shitnoFloor',false)
+    end
+
+    if nameStage == nameStage14 then
+        makeLuaSprite('povMarioBg','backgrounds/marioD/itsame_pov',-400,300)
+            addLuaSprite('povMarioBg',false)
     end
  end
 
@@ -649,6 +658,7 @@ function onEvent(name,v1,v2)
         
                 doTweenX("funCamX", "camGame", 400, (stepCrochet*4)/1000, "circout")
                 doTweenY("funCamY", "camGame", 100, (stepCrochet*4)/1000, "circout")
+                doTweenAlpha('fadeOutPortFloor','portFloor',0.001,0.2,'linear')
             end
 
             if v2 == '4' then
@@ -753,6 +763,13 @@ function onEvent(name,v1,v2)
         if v1 == '13' then
             if v2 == '0' then
                 createStage(nameStage13)
+            end
+        end
+
+        if v1 == '14' then
+            if v2 == '0' then
+                removeStage(nameStage13)
+                createStage(nameStage14)
             end
         end
     end

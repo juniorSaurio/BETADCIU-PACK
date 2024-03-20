@@ -89,6 +89,9 @@ function preloadCharacters(part)
         addCharacterToList('shitno','dad')
         addCharacterToList('rosa','boyfriend')
         addCharacterToList('luigi_fountain3d','gf')
+
+        addCharacterToList('marioexedpov','dad')
+        addCharacterToList('M1KU_FS','boyfriend')
     end
 end
 
@@ -1242,18 +1245,44 @@ function onEvent(n,v1,v2)
                 setZoom(0.7,'boyfriend')
                 setZoom(1,'dad')
                 setZoom(1,'gf')
+
+                addExtraIcon('gfIcon','wdwluigi3D',false)
             end
 
             if v2 == '4' then
-                callScript('extra_scripts/createShader','doShaderTween',{'mirrorShader','zoom',0,0.2,'circOut'})
+                callScript('extra_scripts/createShader','doShaderTween',{'mirrorShader','zoom',0.5,0.2,'circOut'})
             end
         end
 
         if v1 == '14' then
             if v2 == '1' then
                 setShaderFloat('glitchShader','intensity',0.03)
-                callScript('extra_scripts/createShader','doShaderTweenGlitch',{'glitchShader','intensity',0,stepCrochet*0.0035,'circOut'})
-                callScript('extra_scripts/createShader','doShaderTweenMirror',{'mirrorShader','zoom',0,1,'circOut'})
+                callScript('extra_scripts/createShader','doShaderTween',{'glitchShader','intensity',0,stepCrochet*0.0035,'circOut'})
+                callScript('extra_scripts/createShader','doShaderTween',{'mirrorShader','zoom',1,0.3,'circOut'})
+
+                removeExtraIcon('gfIcon',true)
+                removeFromMemory('shitno',true)
+                removeFromMemory('rosa',true)
+
+                triggerEvent('Change Character','dad','marioexedpov')
+                triggerEvent('Change Character','boyfriend','M1KU_FS')
+
+                
+                setProperty('dad.x',450)
+                setProperty('dad.y',300)
+
+                setProperty('boyfriend.x',1050)
+                setProperty('boyfriend.y',750)
+
+                setProperty('gf.alpha',0.001)
+
+                setZoom(0.8,'boyfriend')
+                setZoom(0.8,'dad')
+                setZoom(0.8,'gf')
+
+                setCamPos(900,850,'boyfriend')
+                setCamPos(900,850,'dad')
+                setCamPos(900,850,'gf')
             end
         end
     end

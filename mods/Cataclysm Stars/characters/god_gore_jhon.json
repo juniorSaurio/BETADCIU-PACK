@@ -1,0 +1,157 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "JON IDLE"
+		},
+		{
+			"offsets": [
+				24,
+				-47
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "JON DOWN"
+		},
+		{
+			"offsets": [
+				36,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "JON LEFT"
+		},
+		{
+			"offsets": [
+				9,
+				56
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "JON UP"
+		},
+		{
+			"offsets": [
+				3,
+				12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "JON RIGHT"
+		},
+		{
+			"offsets": [
+				45,
+				-83
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "JON MISS DOWN"
+		},
+		{
+			"offsets": [
+				35,
+				-48
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "JON MISS LEFT"
+		},
+		{
+			"offsets": [
+				-29,
+				-34
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "JON MISS RIGHT"
+		},
+		{
+			"offsets": [
+				8,
+				-2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "JON MISS UP"
+		},
+		{
+			"offsets": [
+				44,
+				62
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "JON DEATH"
+		},
+		{
+			"offsets": [
+				-35,
+				15
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": false,
+			"name": "JON RETRY LOOP"
+		},
+		{
+			"offsets": [
+				89,
+				33
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "JON RETRY CONFIRM"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/JON_GOD",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "godfield_jon",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

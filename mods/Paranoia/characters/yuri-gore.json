@@ -76,9 +76,9 @@
 	"healthicon": "yuri-crazy",
 	"flip_x": false,
 	"healthbar_colors": [
-		158,
-		114,
-		230
+		255,
+		0,
+		0
 	],
 	"camera_position": [
 		-190,

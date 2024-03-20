@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				-120
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "GOD CAT DOWN",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "GOD CAT IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-86,
+				49
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "GOD CAT LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				141,
+				7
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "GOD CAT RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				224
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "GOD CAT UP",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/GOD_CAT_LASSAGNA",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "LB_GOREFIELD_GOD",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

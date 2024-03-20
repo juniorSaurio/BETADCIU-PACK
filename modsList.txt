@@ -1,4 +1,5 @@
-Paranoia|1
+Cataclysm Stars|1
+Paranoia|0
 End Game|0
 Overdue|0
 Nacreus Snowmelt|0

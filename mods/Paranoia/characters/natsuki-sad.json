@@ -77,9 +77,9 @@
 	"healthicon": "glitchnatsuki",
 	"flip_x": false,
 	"healthbar_colors": [
-		192,
-		89,
-		131
+		255,
+		0,
+		0
 	],
 	"camera_position": [
 		-130,
