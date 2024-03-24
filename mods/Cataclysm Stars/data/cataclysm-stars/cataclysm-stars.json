@@ -73,7 +73,7 @@
 					[
 						"Song Name",
 						"CATACLYSM-STARS (ACT 2)",
-						"IKENNY"
+						"SANDI FT. IKENNY"
 					],
 					[
 						"Ocultar HUD",
@@ -93,6 +93,16 @@
 				]
 			],
 			[
+				158100,
+				[
+					[
+						"Triggers All Stars",
+						"0",
+						"1"
+					]
+				]
+			],
+			[
 				158400,
 				[
 					[
@@ -108,12 +118,32 @@
 				]
 			],
 			[
+				164500,
+				[
+					[
+						"Triggers All Stars",
+						"0",
+						"1"
+					]
+				]
+			],
+			[
 				164800,
 				[
 					[
 						"Triggers All Stars",
 						"2",
 						"3"
+					]
+				]
+			],
+			[
+				170900,
+				[
+					[
+						"Triggers All Stars",
+						"0",
+						"1"
 					]
 				]
 			],
@@ -288,22 +318,12 @@
 					[
 						"Song Name",
 						"CATACLYSM-STARS (ACT 3)",
-						"IKENNY"
+						"SCRUMBO_ FT. FRIEDFRICK"
 					]
 				]
 			],
 			[
 				232600,
-				[
-					[
-						"Song Name",
-						"",
-						""
-					]
-				]
-			],
-			[
-				236800,
 				[
 					[
 						"Song Name",
@@ -2113,7 +2133,7 @@
 					[
 						"Song Name",
 						"CATACLYSM-STARS (ACT 4)",
-						"IKENNY"
+						"FRIEDFRICK FT. THEWAHBOX AND REDTV53"
 					]
 				]
 			],
@@ -2214,6 +2234,11 @@
 						"Triggers All Stars",
 						"4",
 						"5"
+					],
+					[
+						"Triggers All Stars",
+						"6",
+						"1"
 					]
 				]
 			],
@@ -2293,42 +2318,22 @@
 				]
 			],
 			[
-				505600,
+				507200,
 				[
 					[
-						"Triggers All Stars",
-						"8",
+						"Play Sound",
+						"destroy_woods",
 						"1"
 					]
 				]
 			],
 			[
-				509000,
+				515200,
 				[
 					[
 						"Triggers All Stars",
-						"8",
-						"2"
-					]
-				]
-			],
-			[
-				512000,
-				[
-					[
-						"Triggers All Stars",
-						"8",
-						"3"
-					]
-				]
-			],
-			[
-				514300,
-				[
-					[
-						"Triggers All Stars",
-						"8",
-						"4"
+						"4",
+						"9"
 					]
 				]
 			]
@@ -12210,7 +12215,7 @@
 					[
 						252800,
 						6,
-						2100
+						950
 					],
 					[
 						253200,
@@ -12241,6 +12246,11 @@
 						254200,
 						0,
 						0
+					],
+					[
+						253900,
+						5,
+						1200
 					]
 				],
 				"typeOfSection": 0,

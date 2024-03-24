@@ -3,11 +3,20 @@ local nameStage2 = 'god_gorefield'
 local nameStage3 = 'god_gorefield_lassagna'
 local nameStage4 = 'god_sansfield'
 local nameStage5 = 'cryfield_p1'
-local nameStage6 = 'godfield_final_1'
+local nameStage6 = 'godfield_final'
 
 function onCreate()
 
-    makeLuaSprite('BG_GOD','backgrounds/act1/BG_GOD',-1250,-940)
+    precacheSound('level_transition')
+
+    addLuaScript('extra_scripts/createShader')
+    callScript('extra_scripts/createShader','createShader',{'warpShader','warp'})
+    callScript('extra_scripts/createShader','createShader',{'chromaticWarpShader','chromaticWarp'})
+    callScript('extra_scripts/createShader','createShader',{'drunkShader','drunk'})
+    callScript('extra_scripts/createShader','createShader',{'glowShader','glow'})
+    callScript('extra_scripts/createShader','runShader',{'game',{'warpShader','chromaticWarpShader','drunkShader','glowShader'}})
+
+    makeLuaSprite('BG_GOD','backgrounds/act1/BG_GOD',-1250,-1630)
     scaleObject('BG_GOD',0.75,0.75)
     addLuaSprite('BG_GOD',false)
 
@@ -53,8 +62,7 @@ function onCreate()
     setProperty('NERMALL_CRUCIFICCION.alpha',0.001)
     addLuaSprite('NERMALL_CRUCIFICCION',true)
 
-    makeAnimatedLuaSprite('NERMALL_END','characters/NERMALL_END',34,-350)
-    addAnimationByPrefix('NERMALL_END','anim','NERMALL END0',24,false)
+    makeAnimatedLuaSprite('NERMALL_END','characters/NERMALL_END',262,200)
     setProperty('NERMALL_END.alpha',0.001)
     addLuaSprite('NERMALL_END',true)
 
@@ -62,6 +70,21 @@ function onCreate()
     preloadImages(nameStage3)
     preloadImages(nameStage4)
     preloadImages(nameStage5)
+    preloadImages(nameStage6)
+
+    createShader('warpShader','warp')
+end
+
+function onCreatePost()
+    initLuaShader('pincushion')
+
+    setSpriteShader('BG_GOD','pincushion')
+    setShaderFloat('BG_GOD','distort',3)
+    setShaderFloat('BG_GOD','prob',2)
+end
+
+function onUpdate(elapsed)
+    setShaderFloat('BG_GOD','time',(getSongPosition()/1000) * (bpm/60) * (stepCrochet/1000) * 8)
 end
 
 function preloadImages(stage)
@@ -81,6 +104,12 @@ function preloadImages(stage)
     if stage == nameStage5 then
         precacheImage('backgrounds/act3/BG_C')
     end
+
+    if stage == nameStage6 then
+        precacheImage('backgrounds/act4/Act_4_FINALE_Gameover')
+        precacheImage('backgrounds/act4/memories1')
+        precacheImage('backgrounds/act4/memories2')
+    end
 end
 
 function createStage(stage)
@@ -90,6 +119,7 @@ function createStage(stage)
 
         makeLuaSprite('tv_GOD','backgrounds/act2/tv_GOD',-250,-300)
         addLuaSprite('tv_GOD',true)
+
     end
 
     if stage == nameStage3 then
@@ -122,13 +152,37 @@ function createStage(stage)
         addLuaSprite('redbg', false)
         setProperty('redbg.alpha', 0.001)
         screenCenter('redbg', 'xy')
+
+        makeLuaSprite('memories1','backgrounds/act4/memories1',-300,0)
+        setProperty('memories1.alpha',0.001)
+        addLuaSprite('memories1',false)
+
+        makeLuaSprite('memories2','backgrounds/act4/memories2',700,0)
+        setProperty('memories2.alpha',0.001)
+        addLuaSprite('memories2',false)
+
+        makeLuaSprite('gameover','backgrounds/act4/Act_4_FINALE_Gameover')
+        setScrollFactor('gameover',0,0)
+        setProperty('gameover.alpha',0.001)
+        setProperty('gameover.antialiasing',false)
+        screenCenter('gameover')
+            addLuaSprite('gameover',true)
     end
 
 end
 
+function onTimerCompleted(tag, loops, loopsLeft)
+    if tag == 'endTweenDistortion1' then
+        callScript('extra_scripts/createShader','doShaderTween',{'chromaticWarpShader','distortion',0.2,(stepCrochet / 1000 * 4),'quadOut'})
+    end
+
+    if tag == 'endTweenDimension1' then
+        callScript('extra_scripts/createShader','doShaderTween',{'glowShader','dim',1.8,(stepCrochet / 1000 * 2.5)})
+    end
+end
+
 function removeStage(stage,destroy)
     if stage == nameStage1 then
-        removeLuaSprite('BG_GOD',destroy)
         removeLuaSprite('ANGEL_BG',destroy)
         removeLuaSprite('ALO1',destroy)
         removeLuaSprite('ALO2',destroy)
@@ -150,6 +204,7 @@ function removeStage(stage,destroy)
 
     if stage == nameStage5 then
         removeLuaSprite('BG_C',destroy)
+        removeLuaSprite('BG_GOD',destroy)
     end
 
     if stage == nameStage6 then
@@ -161,7 +216,6 @@ function removeStage(stage,destroy)
     callScript('scripts/optimization','optimizeStage',{stage})
 end
 
-
 function onDestroy()
     runHaxeCode(
         [[
@@ -171,16 +225,14 @@ function onDestroy()
     )
 end
 
-function onUpdate(el)
-
-end
-
-function onBeatHit()
-
-end
-
 function onEvent(name,v1,v2)
     if name == 'Triggers All Stars' then
+
+        if v1 == '0' then
+            if v2 == '1' then
+                psychedelicTransition()
+            end    
+        end
 
         if v1 == '2' then
 
@@ -219,4 +271,12 @@ function onEvent(name,v1,v2)
             end
         end
     end
+end
+
+function psychedelicTransition()
+    playSound('level_transition',0.7)
+    callScript('extra_scripts/createShader','doShaderTween',{'chromaticWarpShader','distortion',6,(stepCrochet / 1000 * 4),'quadOut'})
+    callScript('extra_scripts/createShader','doShaderTween',{'glowShader','dim',0.2,(stepCrochet / 1000 * 2.5)})
+    runTimer('endTweenDistortion1',(stepCrochet / 1000 * 4))
+    runTimer('endTweenDimension1',(stepCrochet / 1000 * 2.5))
 end

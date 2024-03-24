@@ -45,6 +45,7 @@ function onCreatePost()
             ]]
         )
     end
+
 end
 
 function onUpdateScore()

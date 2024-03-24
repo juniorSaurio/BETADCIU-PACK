@@ -77,6 +77,8 @@ function loadShaderVars(lua,shader)
     elseif shader == 'GlitchEffect' then
         setShaderFloat(lua,'uTime',0)
         setShaderFloat(lua,'intensity',0)
+    elseif shader == 'warp' then
+        setShaderFloat(lua,'distortion',3)
     end
 end
 

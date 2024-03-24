@@ -50,33 +50,16 @@ end
 
 function loadShaderVars(lua,shader)
     runningShaders[lua] = shader
-    if shader == 'TvEffect' then
-        setShaderFloat(lua,'vignetteIntensity',0) --0.025
-        setShaderFloat(lua,'chromIntensity',0) --0.004
-        setShaderFloat(lua,'tvIntensity',0) --0.001
-        setShaderFloat(lua,'tvFrequency',0)--0.1
-        setShaderFloat(lua,'tvDistorcion',0)--0.2
-        setShaderBool(lua,'lineTv',true) --false
-        setShaderFloat(lua,'lineFrequency',0) --0.4
-        setShaderFloat(lua,'lineSize',0) --0.025
-        setShaderFloat(lua,'lineOffset',0) --0.005
-        setShaderFloat(lua,'lineSpace',0) --0.7
-        setShaderFloat(lua,'multiply',1) --1
-        setShaderBool(lua,'vignetteFollowAlpha',true)
-    elseif shader == "MirrorEffect" then
-        setShaderFloat(lua,'zoom',1)
-        setShaderFloat(lua,'x',0)
-        setShaderFloat(lua,'y',0)
-    elseif shader == 'MosaicEffect' then
-        setShaderFloat(lua,'pixelStrength',0)
-    elseif shader== 'ColorFillShader' then
-        setShaderFloat(lua,'red',255)
-        setShaderFloat(lua,'blue',255)
-        setShaderFloat(lua,'green',255)
-        setShaderFloat(lua,'fade',1)
-    elseif shader == 'GlitchEffect' then
-        setShaderFloat(lua,'uTime',0)
-        setShaderFloat(lua,'intensity',0)
+    if shader == 'warp' then
+        setShaderFloat(lua,'distortion',1)
+    elseif shader == 'drunk' then
+        setShaderFloat(lua,'strength',0.35)
+        setShaderFloat(lua,'time',0)
+    elseif shader == 'chromaticWarp' then
+        setShaderFloat(lua,'distortion',0.2)
+    elseif shader == 'glow' then
+        setShaderFloat(lua,'size',8.0)
+        setShaderFloat(lua,'dim',1.8)
     end
 end
 
@@ -263,9 +246,11 @@ end
 local elapTime = 0
 function onUpdate(el)
     elapTime = elapTime + el
+    local xd = (getSongPosition()/1000) * (bpm/60) * (stepCrochet/1000) * 16
     for lua, shader in pairs(runningShaders) do
-        if shader == 'TvEffect' then
-            setShaderFloat(lua,'uTime',elapTime)
+
+        if shader == 'drunk' then
+            setShaderFloat(lua,'time',xd/2)
         end
     end
     for i, shaders in pairs(shaderTweens) do

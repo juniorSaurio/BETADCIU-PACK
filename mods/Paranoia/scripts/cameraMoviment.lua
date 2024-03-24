@@ -66,16 +66,7 @@ function detectStage(stage,resetCamPos)
 end
 
 function detectOfs(stage)
-    setOffs(40)
-    if stage == 'nesbeat' then
-        setOffs(35)
-    elseif stage == 'directstream' then
-        setOffs(0)
-    elseif stage == 'hatebg' then
-        setOffs(50)
-    elseif stage == 'warioworld' then
-        setOffs(30,'dad')
-    end
+    setOffs(20)
 end
 
 function setOffs(ofs,target)

@@ -1,0 +1,14 @@
+hscriptBase/Interp.hx (line 387)
+hscriptBase/Interp.hx (line 724)
+flixel/tweens/misc/NumTween.hx (line 53)
+flixel/tweens/FlxTween.hx (line 1263)
+flixel/FlxGame.hx (line 750)
+flixel/FlxGame.hx (line 682)
+flixel/FlxGame.hx (line 556)
+openfl/events/EventDispatcher.hx (line 444)
+openfl/display/DisplayObject.hx (line 1400)
+
+Uncaught Error: Invalid field:distortion
+Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine
+
+> Crash Handler written by: sqirra-rng

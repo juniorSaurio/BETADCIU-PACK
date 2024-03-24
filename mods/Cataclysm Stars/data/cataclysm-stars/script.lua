@@ -65,8 +65,8 @@ function onCreatePost()
     setProperty('dad.x',220)
     setProperty('dad.y',-400)
 
-    setCamPos(400,-300,'dad')
-    setCamPos(400,0,'boyfriend')
+    setCamPos(400,-200,'dad')
+    setCamPos(400,100,'boyfriend')
 
     setZoom(0.5,'dad')
     setZoom(0.65,'boyfriend')
@@ -191,15 +191,15 @@ function onUpdate(elapsed)
     if isAct2pt2 then
         if singsTrioTogether then
             setZoom(0.5,'dad')
-            setCamPos(200,-200,'dad')
+            setCamPos(200,-100,'dad')
         else
             setZoom(0.7,'dad')
-            setCamPos(-200,-200,'dad')
+            setCamPos(-200,-100,'dad')
         end
 
         if singsTrioPlayerTogether then
             setZoom(0.7,'boyfriend')
-            setCamPos(200,100,'boyfriend')
+            setCamPos(200,200,'boyfriend')
         end
     end
 
@@ -237,7 +237,7 @@ function onEvent(name,v1,v2)
 
         if v1 == '1' then
             if v2 == '1' then
-                --makeVideoSprite('cutsceneIntro', 'intro', 0, 0, 'camOther', false)
+                makeVideoSprite('cutsceneIntro', 'intro', 0, 0, 'camOther', false)
                 setProperty('cutsceneIntro_video.alpha', 1)
             end
         end
@@ -256,11 +256,10 @@ function onEvent(name,v1,v2)
                 setProperty('dad.x',-270)
                 setProperty('dad.y',-950)
 
-                runTimer('waitToFadeHUD',0.7)  
+                runTimer('waitToFadeHUD',1.5)  
             end
 
             if v2 == '2' then
-                cameraFlash('camHUD', '0xFFFFFFFF', 0.4)
                 triggerEvent('Toggle Godly Trail', 'dad', 'off');
 
                 removeFromMemory('god_nermall',true)
@@ -271,11 +270,11 @@ function onEvent(name,v1,v2)
 
                 setProperty('nermalldPhase1Icon.alpha',0.001)
 
-                setProperty('dad.x',200)
-                setProperty('dad.y',-550)
+                setProperty('dad.x',-150)
+                setProperty('dad.y',-500)
 
                 setProperty('boyfriend.x',-200)
-                setProperty('boyfriend.y',-150)
+                setProperty('boyfriend.y',-140)
 
                 setProperty('iconP1.alpha',1)
                 setProperty('iconP2.alpha',1)
@@ -283,15 +282,13 @@ function onEvent(name,v1,v2)
                 setZoom(0.9,'dad')
                 setZoom(1,'boyfriend')
                 
-                setCamPos(600,-200,'dad')
+                setCamPos(600,-100,'dad')
                 setCamPos(350,-100,'boyfriend')
 
-                enableFloatingDad = false;
-                
+                enableFloatingDad = false;  
             end
 
             if v2 == '3' then
-                cameraFlash('camHUD', '0xFFFFFFFF', 0.4)
 
                 triggerEvent('Change Character','gf','god_cat_lassagna')
                 setProperty('jhon-lassagna.alpha',1)
@@ -310,19 +307,18 @@ function onEvent(name,v1,v2)
                 setProperty('dad.alpha',0.001)
                 setProperty('boyfriend.alpha',0.001)
                 
-                setZoom(0.6,'dad')
-                setZoom(0.6,'boyfriend')
+                setZoom(0.7,'dad')
+                setZoom(0.7,'boyfriend')
                 
-                setCamPos(600,-200,'dad')
-                setCamPos(300,0,'gf')
-                setCamPos(500,0,'boyfriend')
+                setCamPos(600,-100,'dad')
+                setCamPos(300,100,'gf')
+                setCamPos(400,100,'boyfriend')
 
                 setProperty('gf.x',-500)
                 setProperty('gf.y',-200)
             end
 
             if v2 == '4' then
-                cameraFlash('camHUD', '0xFFFFFFFF', 0.4)
 
                 addExtraIcon('BFSIcon','BF_sansfield_ingame',true)
                 extraIcon('setIconProperty',{'BFSIcon','followAlpha',false})
@@ -347,13 +343,13 @@ function onEvent(name,v1,v2)
                 setZoom(0.6,'dad')
                 setZoom(0.9,'bf')
 
-                setCamPos(-200,-200,'dad')
-                setCamPos(600,-200,'gf')
-                setCamPos(200,-200,'sansfield')
+                setCamPos(-200,-100,'dad')
+                setCamPos(600,-100,'gf')
+                setCamPos(200,-100,'sansfield')
 
-                setCamPos(0,100,'boyfriend')
-                setCamPos(200,100,'bf_sans')
-                setCamPos(400,100,'jhon-lassagna')
+                setCamPos(0,200,'boyfriend')
+                setCamPos(200,200,'bf_sans')
+                setCamPos(400,200,'jhon-lassagna')
 
             end
 
@@ -384,7 +380,7 @@ function onEvent(name,v1,v2)
                 setProperty('gf.x',1500)
                 setProperty('gf.y',-650)
 
-                doTweenX('moveLBGorefieldRight','gf',500,0.3,'linear')
+                doTweenX('moveLBGorefieldRight','gf',600,0.3,'linear')
             end
 
             if v2 == '7' then
@@ -458,9 +454,9 @@ function onEvent(name,v1,v2)
                 setProperty('iconP1.alpha',1)
                 setProperty('iconP2.alpha',1)
 
-                setCamPos(60,200,'dad')
-                setCamPos(600,0,'gf')
-                setCamPos(300,200,'boyfriend')
+                setCamPos(60,300,'dad')
+                setCamPos(600,100,'gf')
+                setCamPos(300,300,'boyfriend')
 
                 setProperty('dad.x',-600)
                 setProperty('dad.y',0)
@@ -496,8 +492,8 @@ function onEvent(name,v1,v2)
                 setProperty('gf.alpha',0.8)
                 setObjectCamera('gf','camHUD')
 
-                setCamPos(60,200,'dad')
-                setCamPos(700,450,'boyfriend')
+                setCamPos(60,300,'dad')
+                setCamPos(700,550,'boyfriend')
 
                 setProperty('dad.x',-600)
                 setProperty('dad.y',0)
@@ -525,14 +521,14 @@ function onEvent(name,v1,v2)
             end
 
             if v2 == '6' then
-                doTweenZoom('camZoomTween','camGame',3,0.6,'linear')
+                doTweenZoom('camZoomTween','camGame',5,0.4,'linear')
             end
         end
 
         if v1 == '4' then
             if v2 == '1' then
-                --makeVideoSprite('cutsceneCinematic', 'GODFIELD_CINEMATIC', 0, 0, 'camOther', false)
-                --setProperty('cutsceneCinematic_video.alpha', 1)
+                makeVideoSprite('cutsceneCinematic', 'GODFIELD_CINEMATIC', 0, 0, 'camOther', false)
+                setProperty('cutsceneCinematic_video.alpha', 1)
             end
 
             if v2 == '2' then
@@ -553,8 +549,8 @@ function onEvent(name,v1,v2)
                 setProperty('boyfriend.x',200)
                 setProperty('boyfriend.y',-450)
             
-                setCamPos(400,50,'dad')
-                setCamPos(400,50,'boyfriend')
+                setCamPos(400,0,'dad')
+                setCamPos(400,0,'boyfriend')
             
                 setZoom(0.55,'dad')
                 setZoom(0.55,'boyfriend')
@@ -580,7 +576,7 @@ function onEvent(name,v1,v2)
             end
 
             if v2 == '5' then
-                doTweenZoom('camGameZoomScene','camGame',0.7,3,'linear')
+                doTweenZoom('camGameZoomScene','camGame',0.6,3,'linear')
             end
 
             if v2 == '6' then
@@ -611,25 +607,39 @@ function onEvent(name,v1,v2)
 
                 setZoom(0.85,'dad')
                 setZoom(0.85,'boyfriend')
-                setCamPos(390,0,'dad')
-                setCamPos(390,0,'boyfriend')
+                setCamPos(390,100,'dad')
+                setCamPos(390,100,'boyfriend')
             end
 
             if v2 == '8' then
-                doTweenZoom('camZoomEnd','camGame',1.3,1,'linear')
+                doTweenZoom('camZoomEnd','camGame',1.6,1,'linear')
 
                 doTweenAlpha('finalFade','dad',0,2,'linear')
                 doTweenAlpha('finalFadeInBG','redbg',1,2,'linear')
                 doTweenColor('colorBF','boyfriend','000000',2,'linear')
                 doTweenColor('colorEnd','NERMALL_END','000000',2,'linear')
 
-                setCamPos(390,300,'dad')
-                setCamPos(390,300,'boyfriend')
+                setCamPos(390,280,'dad')
+                setCamPos(390,280,'boyfriend')
+
+                doTweenAlpha('camHUDFade','camHUD',0,2,'linear')
+                setObjectCamera('vignette','camOther')
+            end
+
+            if v2 == '9' then
+                doTweenAlpha('finCam','camGame',0,2,'linear')
             end
         end
 
         if v1 == '5' then
             addExtraIconFinal(v2)
+        end
+
+        if v1 == '6' then
+            if v2 == '1' then
+                doTweenAlpha('showMemories1','memories1',1,3,'linear')
+                setProperty('memories1.velocity.y',-100)
+            end
         end
     end
 end
@@ -646,6 +656,10 @@ function addExtraIconFinal(name)
     setProperty('extraIconDad.angle',-360)
     doTweenAngle('extraIconAngle','extraIconDad',0,0.25,'backOut')
     setObjectOrder('extraIconDad',getObjectOrder('godfieldPhase2Icon') + 1)
+
+    if downscroll then
+        setProperty('extraIconDad.offset.y',getProperty('extraIconDad.offset.y') - 100)
+    end
 end
 
 function onTimerCompleted(tag, loops, loopsLeft)
@@ -663,12 +677,21 @@ function onTimerCompleted(tag, loops, loopsLeft)
             runTimer('tweenMoveDad', 6.5)
         end
     end
+
+    if tag == 'final' then
+        doTweenAlpha('fadeEndAnim','NERMALL_END',0,0.3,'linear')
+        runTimer('gameover',2)
+    end
+
+    if tag == 'gameover'then
+        doTweenAlpha('gameoveralpha','gameover',1,3,'sineOut')
+    end
 end
 
 function onTweenCompleted(tag)
     if tag == 'camZoomTween' then
-        --setProperty('camGame.visible',false)
-        --setProperty('camHUD.visible',false)
+        setProperty('camGame.visible',false)
+        setProperty('camHUD.visible',false)
     end
 
     if tag == 'camGameZoomFinal' then
@@ -676,13 +699,33 @@ function onTweenCompleted(tag)
     end
 
     if tag == 'camGameZoomScene' then
-        setZoom(0.7,'boyfriend')
+        setZoom(0.6,'boyfriend')
+    end
+
+    if tag == 'showMemories1' then
+        doTweenAlpha('fadeMemories1','memories1',0,2,'linear')
+    end
+
+    if tag == 'fadeMemories1' then
+        doTweenAlpha('showMemories2','memories2',1,3,'linear')
+        setProperty('memories2.velocity.y',-100)
+    end
+
+    if tag == 'showMemories2' then
+        doTweenAlpha('fadeMemories2','memories2',0,2,'linear')
+    end
+
+    if tag == 'camZoomEnd' then
+        setZoom(1.6,'dad')
+        setZoom(1.6,'boyfriend')
     end
 
     if tag == 'colorEnd' then
         setProperty('NERMALL_END.alpha',1)
+        addAnimationByPrefix('NERMALL_END','anim','NERMALL END0',12,false)
         playAnim('NERMALL_END','anim',true)
-        setProperty('boyfriend.alpha',0.01)
+        setProperty('boyfriend.visible',false)
+        runTimer('final',1)
     end
 end
 

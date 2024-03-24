@@ -103,7 +103,7 @@ function optimizeStage(nameStage)
 
     if nameStage == 'principal' then
 
-        removeFromMemory('backgrounds/act1/BG_GOD');
+        --removeFromMemory('backgrounds/act1/BG_GOD');
         removeFromMemory('backgrounds/act1/ANGEL_BG');
         removeFromMemory('backgrounds/act1/ALO');
         
@@ -121,7 +121,7 @@ function optimizeStage(nameStage)
     elseif nameStage == 'cryfield_p1' then
         removeFromMemory('backgrounds/act3/BG_C')
 
-    elseif nameStage == 'godfield_final_1' then
+    elseif nameStage == 'godfield_final' then
         removeFromMemory('backgrounds/act4/viento')
         removeFromMemory('backgrounds/act4/viento')
         removeFromMemory('characters/NERMALL_CRUCIFICCION')

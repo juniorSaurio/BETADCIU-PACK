@@ -4,11 +4,17 @@ function onEvent(n,v1,v2)
             texts = {'song', 'composer','extras'}
 
             y = 250
+            local extraY = 0;
+            
+            if v1 == 'CATACLYSM-STARS (ACT 4)' then
+                extraY = 50
+            end
+
             yOff = 20
             for i = 1, #texts do
                 
                 if texts[i] == 'extras' then
-                    makeLuaText(texts[i], '', 1000, 0, y - yOff + (i)*50)
+                    makeLuaText(texts[i], '', 1000, 0, y - yOff + (i)*50 + extraY)
                 else
                     makeLuaText(texts[i], '', 1000, 0, y - yOff + (i-1)*80)
                 end
@@ -20,6 +26,7 @@ function onEvent(n,v1,v2)
                 setProperty(texts[i]..'.alpha', 0)
                 setObjectCamera(texts[i], 'other')
             end
+
             makeLuaSprite('barBG', '', 0, y + 70 - yOff)
             makeGraphic('barBG', 800, 10, 'f02828')
             screenCenter('barBG', 'x')
@@ -32,13 +39,13 @@ function onEvent(n,v1,v2)
             setObjectCamera('bar', 'other')
             setProperty('bar.alpha', 0)
 
-            makeLuaSprite('barBG2', '', 0, y + 137 - yOff)
+            makeLuaSprite('barBG2', '', 0, y + 137 - yOff + extraY)
             makeGraphic('barBG2', 800, 10, 'f02828')
             screenCenter('barBG2', 'x')
             setObjectCamera('barBG2', 'other')
             setProperty('barBG2.alpha', 0)
         
-            makeLuaSprite('bar2', '', 0, y + 140 - yOff)
+            makeLuaSprite('bar2', '', 0, y + 140 - yOff + extraY)
             makeGraphic('bar2', 790, 4, '000000')
             screenCenter('bar2', 'x')
             setObjectCamera('bar2', 'other')
